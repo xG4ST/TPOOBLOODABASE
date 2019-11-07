@@ -121,7 +121,7 @@
             this.Registrarse_Button.IdleFillColor = System.Drawing.Color.White;
             this.Registrarse_Button.IdleForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(49)))), ((int)(((byte)(89)))));
             this.Registrarse_Button.IdleLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(49)))), ((int)(((byte)(89)))));
-            this.Registrarse_Button.Location = new System.Drawing.Point(118, 577);
+            this.Registrarse_Button.Location = new System.Drawing.Point(106, 578);
             this.Registrarse_Button.Margin = new System.Windows.Forms.Padding(4);
             this.Registrarse_Button.Name = "Registrarse_Button";
             this.Registrarse_Button.Size = new System.Drawing.Size(237, 52);
@@ -132,9 +132,9 @@
             // 
             this.Entrar_Button.ActiveBorderThickness = 1;
             this.Entrar_Button.ActiveCornerRadius = 20;
-            this.Entrar_Button.ActiveFillColor = System.Drawing.Color.Black;
+            this.Entrar_Button.ActiveFillColor = System.Drawing.Color.Red;
             this.Entrar_Button.ActiveForecolor = System.Drawing.Color.White;
-            this.Entrar_Button.ActiveLineColor = System.Drawing.Color.Black;
+            this.Entrar_Button.ActiveLineColor = System.Drawing.Color.Red;
             this.Entrar_Button.BackColor = System.Drawing.Color.White;
             this.Entrar_Button.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Entrar_Button.BackgroundImage")));
             this.Entrar_Button.ButtonText = "Entrar";
@@ -146,7 +146,7 @@
             this.Entrar_Button.IdleFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(49)))), ((int)(((byte)(89)))));
             this.Entrar_Button.IdleForecolor = System.Drawing.Color.White;
             this.Entrar_Button.IdleLineColor = System.Drawing.Color.SeaGreen;
-            this.Entrar_Button.Location = new System.Drawing.Point(118, 503);
+            this.Entrar_Button.Location = new System.Drawing.Point(105, 502);
             this.Entrar_Button.Margin = new System.Windows.Forms.Padding(4);
             this.Entrar_Button.Name = "Entrar_Button";
             this.Entrar_Button.Size = new System.Drawing.Size(238, 52);
