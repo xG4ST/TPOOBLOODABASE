@@ -28,130 +28,223 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.bunifuImageButton1 = new Bunifu.Framework.UI.BunifuImageButton();
-            this.bunifuImageButton2 = new Bunifu.Framework.UI.BunifuImageButton();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.bunifuMetroTextbox1 = new Bunifu.Framework.UI.BunifuMetroTextbox();
-            this.bunifuMetroTextbox2 = new Bunifu.Framework.UI.BunifuMetroTextbox();
-            ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Login));
+            this.Min_Nav = new Bunifu.Framework.UI.BunifuImageButton();
+            this.Max_Nav = new Bunifu.Framework.UI.BunifuImageButton();
+            this.Close_Nav = new Bunifu.Framework.UI.BunifuImageButton();
+            this.Olvidar_Text = new System.Windows.Forms.Label();
+            this.Registrarse_Button = new Bunifu.Framework.UI.BunifuThinButton2();
+            this.Entrar_Button = new Bunifu.Framework.UI.BunifuThinButton2();
+            this.Password_Text = new System.Windows.Forms.Label();
+            this.Password_TextBox = new Bunifu.Framework.UI.BunifuTextbox();
+            this.Usuario_TextBox = new Bunifu.Framework.UI.BunifuTextbox();
+            this.Usuario_Text = new System.Windows.Forms.Label();
+            this.Bloodabase = new System.Windows.Forms.Label();
+            this.Bloodabase_Logo = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.Min_Nav)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Max_Nav)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Close_Nav)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Bloodabase_Logo)).BeginInit();
             this.SuspendLayout();
             // 
-            // bunifuImageButton1
+            // Min_Nav
             // 
-            this.bunifuImageButton1.BackColor = System.Drawing.Color.Transparent;
-            this.bunifuImageButton1.Image = global::LOGIN.Properties.Resources.Botón;
-            this.bunifuImageButton1.ImageActive = null;
-            this.bunifuImageButton1.Location = new System.Drawing.Point(117, 757);
-            this.bunifuImageButton1.Name = "bunifuImageButton1";
-            this.bunifuImageButton1.Size = new System.Drawing.Size(439, 73);
-            this.bunifuImageButton1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.bunifuImageButton1.TabIndex = 2;
-            this.bunifuImageButton1.TabStop = false;
-            this.bunifuImageButton1.Zoom = 10;
+            this.Min_Nav.BackColor = System.Drawing.Color.White;
+            this.Min_Nav.Image = ((System.Drawing.Image)(resources.GetObject("Min_Nav.Image")));
+            this.Min_Nav.ImageActive = null;
+            this.Min_Nav.Location = new System.Drawing.Point(383, 15);
+            this.Min_Nav.Name = "Min_Nav";
+            this.Min_Nav.Size = new System.Drawing.Size(32, 28);
+            this.Min_Nav.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.Min_Nav.TabIndex = 24;
+            this.Min_Nav.TabStop = false;
+            this.Min_Nav.Zoom = 10;
             // 
-            // bunifuImageButton2
+            // Max_Nav
             // 
-            this.bunifuImageButton2.BackColor = System.Drawing.Color.Transparent;
-            this.bunifuImageButton2.Image = global::LOGIN.Properties.Resources.Componente;
-            this.bunifuImageButton2.ImageActive = null;
-            this.bunifuImageButton2.Location = new System.Drawing.Point(117, 648);
-            this.bunifuImageButton2.Name = "bunifuImageButton2";
-            this.bunifuImageButton2.Size = new System.Drawing.Size(439, 75);
-            this.bunifuImageButton2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.bunifuImageButton2.TabIndex = 3;
-            this.bunifuImageButton2.TabStop = false;
-            this.bunifuImageButton2.Zoom = 10;
-            this.bunifuImageButton2.Click += new System.EventHandler(this.BunifuImageButton2_Click);
+            this.Max_Nav.BackColor = System.Drawing.Color.White;
+            this.Max_Nav.Image = ((System.Drawing.Image)(resources.GetObject("Max_Nav.Image")));
+            this.Max_Nav.ImageActive = null;
+            this.Max_Nav.Location = new System.Drawing.Point(421, 15);
+            this.Max_Nav.Name = "Max_Nav";
+            this.Max_Nav.Size = new System.Drawing.Size(24, 28);
+            this.Max_Nav.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.Max_Nav.TabIndex = 23;
+            this.Max_Nav.TabStop = false;
+            this.Max_Nav.Zoom = 10;
             // 
-            // label1
+            // Close_Nav
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(112, 345);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(100, 30);
-            this.label1.TabIndex = 5;
-            this.label1.Text = "USUARIO";
+            this.Close_Nav.BackColor = System.Drawing.Color.White;
+            this.Close_Nav.Image = ((System.Drawing.Image)(resources.GetObject("Close_Nav.Image")));
+            this.Close_Nav.ImageActive = null;
+            this.Close_Nav.Location = new System.Drawing.Point(451, 15);
+            this.Close_Nav.Name = "Close_Nav";
+            this.Close_Nav.Size = new System.Drawing.Size(20, 28);
+            this.Close_Nav.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.Close_Nav.TabIndex = 22;
+            this.Close_Nav.TabStop = false;
+            this.Close_Nav.Zoom = 10;
             // 
-            // label2
+            // Olvidar_Text
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(112, 482);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(147, 30);
-            this.label2.TabIndex = 6;
-            this.label2.Text = "CONTRASEÑA";
+            this.Olvidar_Text.AutoSize = true;
+            this.Olvidar_Text.Font = new System.Drawing.Font("Arial Rounded MT Bold", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Olvidar_Text.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(134)))), ((int)(((byte)(127)))), ((int)(((byte)(140)))));
+            this.Olvidar_Text.Location = new System.Drawing.Point(98, 712);
+            this.Olvidar_Text.Name = "Olvidar_Text";
+            this.Olvidar_Text.Size = new System.Drawing.Size(176, 16);
+            this.Olvidar_Text.TabIndex = 21;
+            this.Olvidar_Text.Text = "Olvidaste la contraseña?";
             // 
-            // pictureBox1
+            // Registrarse_Button
             // 
-            this.pictureBox1.Image = global::LOGIN.Properties.Resources.Logo_BloodabaseVFBuenohd1;
-            this.pictureBox1.Location = new System.Drawing.Point(276, 68);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(176, 244);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
+            this.Registrarse_Button.ActiveBorderThickness = 1;
+            this.Registrarse_Button.ActiveCornerRadius = 20;
+            this.Registrarse_Button.ActiveFillColor = System.Drawing.Color.SeaGreen;
+            this.Registrarse_Button.ActiveForecolor = System.Drawing.Color.White;
+            this.Registrarse_Button.ActiveLineColor = System.Drawing.Color.SeaGreen;
+            this.Registrarse_Button.BackColor = System.Drawing.SystemColors.Control;
+            this.Registrarse_Button.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Registrarse_Button.BackgroundImage")));
+            this.Registrarse_Button.ButtonText = "Registrarse";
+            this.Registrarse_Button.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Registrarse_Button.Font = new System.Drawing.Font("Lato", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Registrarse_Button.ForeColor = System.Drawing.Color.SeaGreen;
+            this.Registrarse_Button.IdleBorderThickness = 1;
+            this.Registrarse_Button.IdleCornerRadius = 10;
+            this.Registrarse_Button.IdleFillColor = System.Drawing.Color.White;
+            this.Registrarse_Button.IdleForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(49)))), ((int)(((byte)(89)))));
+            this.Registrarse_Button.IdleLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(49)))), ((int)(((byte)(89)))));
+            this.Registrarse_Button.Location = new System.Drawing.Point(101, 592);
+            this.Registrarse_Button.Margin = new System.Windows.Forms.Padding(5);
+            this.Registrarse_Button.Name = "Registrarse_Button";
+            this.Registrarse_Button.Size = new System.Drawing.Size(285, 51);
+            this.Registrarse_Button.TabIndex = 20;
+            this.Registrarse_Button.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // bunifuMetroTextbox1
+            // Entrar_Button
             // 
-            this.bunifuMetroTextbox1.BorderColorFocused = System.Drawing.Color.DodgerBlue;
-            this.bunifuMetroTextbox1.BorderColorIdle = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.bunifuMetroTextbox1.BorderColorMouseHover = System.Drawing.Color.DodgerBlue;
-            this.bunifuMetroTextbox1.BorderThickness = 3;
-            this.bunifuMetroTextbox1.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.bunifuMetroTextbox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F);
-            this.bunifuMetroTextbox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.bunifuMetroTextbox1.isPassword = false;
-            this.bunifuMetroTextbox1.Location = new System.Drawing.Point(117, 424);
-            this.bunifuMetroTextbox1.Margin = new System.Windows.Forms.Padding(4);
-            this.bunifuMetroTextbox1.Name = "bunifuMetroTextbox1";
-            this.bunifuMetroTextbox1.Size = new System.Drawing.Size(455, 44);
-            this.bunifuMetroTextbox1.TabIndex = 7;
-            this.bunifuMetroTextbox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.Entrar_Button.ActiveBorderThickness = 1;
+            this.Entrar_Button.ActiveCornerRadius = 20;
+            this.Entrar_Button.ActiveFillColor = System.Drawing.Color.SeaGreen;
+            this.Entrar_Button.ActiveForecolor = System.Drawing.Color.White;
+            this.Entrar_Button.ActiveLineColor = System.Drawing.Color.SeaGreen;
+            this.Entrar_Button.BackColor = System.Drawing.SystemColors.Control;
+            this.Entrar_Button.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Entrar_Button.BackgroundImage")));
+            this.Entrar_Button.ButtonText = "Entrar";
+            this.Entrar_Button.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Entrar_Button.Font = new System.Drawing.Font("Lato", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Entrar_Button.ForeColor = System.Drawing.Color.White;
+            this.Entrar_Button.IdleBorderThickness = 1;
+            this.Entrar_Button.IdleCornerRadius = 10;
+            this.Entrar_Button.IdleFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(49)))), ((int)(((byte)(89)))));
+            this.Entrar_Button.IdleForecolor = System.Drawing.Color.White;
+            this.Entrar_Button.IdleLineColor = System.Drawing.Color.SeaGreen;
+            this.Entrar_Button.Location = new System.Drawing.Point(101, 531);
+            this.Entrar_Button.Margin = new System.Windows.Forms.Padding(5);
+            this.Entrar_Button.Name = "Entrar_Button";
+            this.Entrar_Button.Size = new System.Drawing.Size(287, 51);
+            this.Entrar_Button.TabIndex = 19;
+            this.Entrar_Button.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // bunifuMetroTextbox2
+            // Password_Text
             // 
-            this.bunifuMetroTextbox2.BorderColorFocused = System.Drawing.Color.DodgerBlue;
-            this.bunifuMetroTextbox2.BorderColorIdle = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.bunifuMetroTextbox2.BorderColorMouseHover = System.Drawing.Color.DodgerBlue;
-            this.bunifuMetroTextbox2.BorderThickness = 3;
-            this.bunifuMetroTextbox2.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.bunifuMetroTextbox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F);
-            this.bunifuMetroTextbox2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.bunifuMetroTextbox2.isPassword = false;
-            this.bunifuMetroTextbox2.Location = new System.Drawing.Point(117, 552);
-            this.bunifuMetroTextbox2.Margin = new System.Windows.Forms.Padding(4);
-            this.bunifuMetroTextbox2.Name = "bunifuMetroTextbox2";
-            this.bunifuMetroTextbox2.Size = new System.Drawing.Size(455, 44);
-            this.bunifuMetroTextbox2.TabIndex = 8;
-            this.bunifuMetroTextbox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.bunifuMetroTextbox2.OnValueChanged += new System.EventHandler(this.BunifuMetroTextbox2_OnValueChanged);
+            this.Password_Text.AutoSize = true;
+            this.Password_Text.Font = new System.Drawing.Font("Lato", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Password_Text.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(134)))), ((int)(((byte)(127)))), ((int)(((byte)(140)))));
+            this.Password_Text.Location = new System.Drawing.Point(97, 396);
+            this.Password_Text.Name = "Password_Text";
+            this.Password_Text.Size = new System.Drawing.Size(116, 24);
+            this.Password_Text.TabIndex = 18;
+            this.Password_Text.Text = "Contraseña:";
+            // 
+            // Password_TextBox
+            // 
+            this.Password_TextBox.BackColor = System.Drawing.Color.White;
+            this.Password_TextBox.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Password_TextBox.BackgroundImage")));
+            this.Password_TextBox.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.Password_TextBox.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(194)))), ((int)(((byte)(233)))));
+            this.Password_TextBox.Icon = ((System.Drawing.Image)(resources.GetObject("Password_TextBox.Icon")));
+            this.Password_TextBox.Location = new System.Drawing.Point(101, 433);
+            this.Password_TextBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Password_TextBox.Name = "Password_TextBox";
+            this.Password_TextBox.Size = new System.Drawing.Size(287, 39);
+            this.Password_TextBox.TabIndex = 17;
+            this.Password_TextBox.text = "Contraseña";
+            // 
+            // Usuario_TextBox
+            // 
+            this.Usuario_TextBox.BackColor = System.Drawing.Color.White;
+            this.Usuario_TextBox.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Usuario_TextBox.BackgroundImage")));
+            this.Usuario_TextBox.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.Usuario_TextBox.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(194)))), ((int)(((byte)(233)))));
+            this.Usuario_TextBox.Icon = ((System.Drawing.Image)(resources.GetObject("Usuario_TextBox.Icon")));
+            this.Usuario_TextBox.Location = new System.Drawing.Point(101, 340);
+            this.Usuario_TextBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Usuario_TextBox.Name = "Usuario_TextBox";
+            this.Usuario_TextBox.Size = new System.Drawing.Size(287, 39);
+            this.Usuario_TextBox.TabIndex = 16;
+            this.Usuario_TextBox.text = "Usuario";
+            // 
+            // Usuario_Text
+            // 
+            this.Usuario_Text.AutoSize = true;
+            this.Usuario_Text.Font = new System.Drawing.Font("Lato", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Usuario_Text.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(134)))), ((int)(((byte)(127)))), ((int)(((byte)(140)))));
+            this.Usuario_Text.Location = new System.Drawing.Point(97, 298);
+            this.Usuario_Text.Name = "Usuario_Text";
+            this.Usuario_Text.Size = new System.Drawing.Size(84, 24);
+            this.Usuario_Text.TabIndex = 15;
+            this.Usuario_Text.Text = "Usuario:";
+            // 
+            // Bloodabase
+            // 
+            this.Bloodabase.AutoSize = true;
+            this.Bloodabase.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Bloodabase.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(134)))), ((int)(((byte)(127)))), ((int)(((byte)(140)))));
+            this.Bloodabase.Location = new System.Drawing.Point(184, 233);
+            this.Bloodabase.Name = "Bloodabase";
+            this.Bloodabase.Size = new System.Drawing.Size(126, 23);
+            this.Bloodabase.TabIndex = 14;
+            this.Bloodabase.Text = "Bloodabase";
+            // 
+            // Bloodabase_Logo
+            // 
+            this.Bloodabase_Logo.Image = ((System.Drawing.Image)(resources.GetObject("Bloodabase_Logo.Image")));
+            this.Bloodabase_Logo.Location = new System.Drawing.Point(181, 53);
+            this.Bloodabase_Logo.Name = "Bloodabase_Logo";
+            this.Bloodabase_Logo.Size = new System.Drawing.Size(131, 168);
+            this.Bloodabase_Logo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.Bloodabase_Logo.TabIndex = 13;
+            this.Bloodabase_Logo.TabStop = false;
             // 
             // Login
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(700, 900);
-            this.Controls.Add(this.bunifuMetroTextbox2);
-            this.Controls.Add(this.bunifuMetroTextbox1);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.bunifuImageButton2);
-            this.Controls.Add(this.bunifuImageButton1);
-            this.Controls.Add(this.pictureBox1);
+            this.ClientSize = new System.Drawing.Size(490, 750);
+            this.Controls.Add(this.Min_Nav);
+            this.Controls.Add(this.Max_Nav);
+            this.Controls.Add(this.Close_Nav);
+            this.Controls.Add(this.Olvidar_Text);
+            this.Controls.Add(this.Registrarse_Button);
+            this.Controls.Add(this.Entrar_Button);
+            this.Controls.Add(this.Password_Text);
+            this.Controls.Add(this.Password_TextBox);
+            this.Controls.Add(this.Usuario_TextBox);
+            this.Controls.Add(this.Usuario_Text);
+            this.Controls.Add(this.Bloodabase);
+            this.Controls.Add(this.Bloodabase_Logo);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Login";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Min_Nav)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Max_Nav)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Close_Nav)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Bloodabase_Logo)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -159,13 +252,18 @@
 
         #endregion
 
-        private Bunifu.Framework.UI.BunifuImageButton bunifuImageButton1;
-        private Bunifu.Framework.UI.BunifuImageButton bunifuImageButton2;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private Bunifu.Framework.UI.BunifuMetroTextbox bunifuMetroTextbox1;
-        private Bunifu.Framework.UI.BunifuMetroTextbox bunifuMetroTextbox2;
+        private Bunifu.Framework.UI.BunifuImageButton Min_Nav;
+        private Bunifu.Framework.UI.BunifuImageButton Max_Nav;
+        private Bunifu.Framework.UI.BunifuImageButton Close_Nav;
+        private System.Windows.Forms.Label Olvidar_Text;
+        private Bunifu.Framework.UI.BunifuThinButton2 Registrarse_Button;
+        private Bunifu.Framework.UI.BunifuThinButton2 Entrar_Button;
+        private System.Windows.Forms.Label Password_Text;
+        private Bunifu.Framework.UI.BunifuTextbox Password_TextBox;
+        private Bunifu.Framework.UI.BunifuTextbox Usuario_TextBox;
+        private System.Windows.Forms.Label Usuario_Text;
+        private System.Windows.Forms.Label Bloodabase;
+        private System.Windows.Forms.PictureBox Bloodabase_Logo;
     }
 }
 
