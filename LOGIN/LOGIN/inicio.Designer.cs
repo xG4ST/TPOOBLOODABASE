@@ -1,6 +1,6 @@
 ﻿namespace LOGIN
 {
-    partial class Registro
+    partial class inicio
     {
         /// <summary>
         /// Required designer variable.
@@ -28,18 +28,10 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.SuspendLayout();
-            // 
-            // Registro
-            // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.components = new System.ComponentModel.Container();
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.ClientSize = new System.Drawing.Size(772, 694);
-            this.Name = "Registro";
-            this.Text = "Form2";
-            this.ResumeLayout(false);
-
+            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Text = "inicio";
         }
 
         #endregion

@@ -70,7 +70,7 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = global::LOGIN.Properties.Resources.Logo_BloodabaseVFBuenohd1;
-            this.pictureBox1.Location = new System.Drawing.Point(253, 73);
+            this.pictureBox1.Location = new System.Drawing.Point(325, 62);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(176, 244);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
