@@ -21,5 +21,10 @@ namespace LOGIN
         {
 
         }
+
+        private void BunifuImageButton2_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
