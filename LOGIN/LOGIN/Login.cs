@@ -26,5 +26,10 @@ namespace LOGIN
         {
 
         }
+
+        private void BunifuMetroTextbox2_OnValueChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
