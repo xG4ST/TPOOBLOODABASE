@@ -34,9 +34,11 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1384, 861);
+            this.ClientSize = new System.Drawing.Size(1400, 900);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "inicio";
             this.Text = "inicio";
+            this.Load += new System.EventHandler(this.Inicio_Load);
             this.ResumeLayout(false);
 
         }
