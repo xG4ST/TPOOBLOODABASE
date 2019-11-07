@@ -211,7 +211,7 @@
             // Bloodabase_Logo
             // 
             this.Bloodabase_Logo.Image = ((System.Drawing.Image)(resources.GetObject("Bloodabase_Logo.Image")));
-            this.Bloodabase_Logo.Location = new System.Drawing.Point(181, 53);
+            this.Bloodabase_Logo.Location = new System.Drawing.Point(179, 62);
             this.Bloodabase_Logo.Name = "Bloodabase_Logo";
             this.Bloodabase_Logo.Size = new System.Drawing.Size(131, 168);
             this.Bloodabase_Logo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
