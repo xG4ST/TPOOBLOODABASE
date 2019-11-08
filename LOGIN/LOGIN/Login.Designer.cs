@@ -55,7 +55,7 @@
             this.Min_Nav.Image = ((System.Drawing.Image)(resources.GetObject("Min_Nav.Image")));
             this.Min_Nav.ImageActive = null;
             this.Min_Nav.Location = new System.Drawing.Point(372, 11);
-            this.Min_Nav.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Min_Nav.Margin = new System.Windows.Forms.Padding(2);
             this.Min_Nav.Name = "Min_Nav";
             this.Min_Nav.Size = new System.Drawing.Size(24, 23);
             this.Min_Nav.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -69,7 +69,7 @@
             this.Max_Nav.Image = ((System.Drawing.Image)(resources.GetObject("Max_Nav.Image")));
             this.Max_Nav.ImageActive = null;
             this.Max_Nav.Location = new System.Drawing.Point(401, 11);
-            this.Max_Nav.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Max_Nav.Margin = new System.Windows.Forms.Padding(2);
             this.Max_Nav.Name = "Max_Nav";
             this.Max_Nav.Size = new System.Drawing.Size(18, 23);
             this.Max_Nav.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -83,7 +83,7 @@
             this.Close_Nav.Image = ((System.Drawing.Image)(resources.GetObject("Close_Nav.Image")));
             this.Close_Nav.ImageActive = null;
             this.Close_Nav.Location = new System.Drawing.Point(423, 11);
-            this.Close_Nav.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Close_Nav.Margin = new System.Windows.Forms.Padding(2);
             this.Close_Nav.Name = "Close_Nav";
             this.Close_Nav.Size = new System.Drawing.Size(15, 23);
             this.Close_Nav.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -122,6 +122,7 @@
             this.Registrarse_Button.IdleForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(49)))), ((int)(((byte)(89)))));
             this.Registrarse_Button.IdleLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(49)))), ((int)(((byte)(89)))));
             this.Registrarse_Button.Location = new System.Drawing.Point(89, 513);
+            this.Registrarse_Button.Margin = new System.Windows.Forms.Padding(5);
             this.Registrarse_Button.Name = "Registrarse_Button";
             this.Registrarse_Button.Size = new System.Drawing.Size(237, 52);
             this.Registrarse_Button.TabIndex = 20;
@@ -145,7 +146,8 @@
             this.Entrar_Button.IdleFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(49)))), ((int)(((byte)(89)))));
             this.Entrar_Button.IdleForecolor = System.Drawing.Color.White;
             this.Entrar_Button.IdleLineColor = System.Drawing.Color.SeaGreen;
-            this.Entrar_Button.Location = new System.Drawing.Point(89, 375);
+            this.Entrar_Button.Location = new System.Drawing.Point(106, 383);
+            this.Entrar_Button.Margin = new System.Windows.Forms.Padding(5);
             this.Entrar_Button.Name = "Entrar_Button";
             this.Entrar_Button.Size = new System.Drawing.Size(238, 52);
             this.Entrar_Button.TabIndex = 19;
@@ -172,7 +174,7 @@
             this.Password_TextBox.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(194)))), ((int)(((byte)(233)))));
             this.Password_TextBox.Icon = ((System.Drawing.Image)(resources.GetObject("Password_TextBox.Icon")));
             this.Password_TextBox.Location = new System.Drawing.Point(89, 444);
-            this.Password_TextBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Password_TextBox.Margin = new System.Windows.Forms.Padding(4);
             this.Password_TextBox.Name = "Password_TextBox";
             this.Password_TextBox.Size = new System.Drawing.Size(238, 43);
             this.Password_TextBox.TabIndex = 17;
@@ -185,8 +187,8 @@
             this.Usuario_TextBox.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.Usuario_TextBox.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(194)))), ((int)(((byte)(233)))));
             this.Usuario_TextBox.Icon = ((System.Drawing.Image)(resources.GetObject("Usuario_TextBox.Icon")));
-            this.Usuario_TextBox.Location = new System.Drawing.Point(89, 301);
-            this.Usuario_TextBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Usuario_TextBox.Location = new System.Drawing.Point(138, 302);
+            this.Usuario_TextBox.Margin = new System.Windows.Forms.Padding(2);
             this.Usuario_TextBox.Name = "Usuario_TextBox";
             this.Usuario_TextBox.Size = new System.Drawing.Size(238, 43);
             this.Usuario_TextBox.TabIndex = 16;
@@ -220,7 +222,7 @@
             // 
             this.Bloodabase_Logo.Image = ((System.Drawing.Image)(resources.GetObject("Bloodabase_Logo.Image")));
             this.Bloodabase_Logo.Location = new System.Drawing.Point(172, 78);
-            this.Bloodabase_Logo.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Bloodabase_Logo.Margin = new System.Windows.Forms.Padding(2);
             this.Bloodabase_Logo.Name = "Bloodabase_Logo";
             this.Bloodabase_Logo.Size = new System.Drawing.Size(123, 170);
             this.Bloodabase_Logo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
