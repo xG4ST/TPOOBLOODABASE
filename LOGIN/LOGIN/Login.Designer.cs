@@ -208,7 +208,7 @@
             this.Bloodabase.AutoSize = true;
             this.Bloodabase.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Bloodabase.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(134)))), ((int)(((byte)(127)))), ((int)(((byte)(140)))));
-            this.Bloodabase.Location = new System.Drawing.Point(468, 770);
+            this.Bloodabase.Location = new System.Drawing.Point(253, 334);
             this.Bloodabase.Name = "Bloodabase";
             this.Bloodabase.Size = new System.Drawing.Size(116, 25);
             this.Bloodabase.TabIndex = 14;
