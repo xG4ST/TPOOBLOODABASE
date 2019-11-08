@@ -54,10 +54,10 @@
             this.Min_Nav.BackColor = System.Drawing.Color.White;
             this.Min_Nav.Image = ((System.Drawing.Image)(resources.GetObject("Min_Nav.Image")));
             this.Min_Nav.ImageActive = null;
-            this.Min_Nav.Location = new System.Drawing.Point(372, 11);
-            this.Min_Nav.Margin = new System.Windows.Forms.Padding(2);
+            this.Min_Nav.Location = new System.Drawing.Point(496, 14);
+            this.Min_Nav.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Min_Nav.Name = "Min_Nav";
-            this.Min_Nav.Size = new System.Drawing.Size(24, 23);
+            this.Min_Nav.Size = new System.Drawing.Size(32, 28);
             this.Min_Nav.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.Min_Nav.TabIndex = 24;
             this.Min_Nav.TabStop = false;
@@ -68,10 +68,10 @@
             this.Max_Nav.BackColor = System.Drawing.Color.White;
             this.Max_Nav.Image = ((System.Drawing.Image)(resources.GetObject("Max_Nav.Image")));
             this.Max_Nav.ImageActive = null;
-            this.Max_Nav.Location = new System.Drawing.Point(401, 11);
-            this.Max_Nav.Margin = new System.Windows.Forms.Padding(2);
+            this.Max_Nav.Location = new System.Drawing.Point(535, 14);
+            this.Max_Nav.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Max_Nav.Name = "Max_Nav";
-            this.Max_Nav.Size = new System.Drawing.Size(18, 23);
+            this.Max_Nav.Size = new System.Drawing.Size(24, 28);
             this.Max_Nav.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.Max_Nav.TabIndex = 23;
             this.Max_Nav.TabStop = false;
@@ -82,10 +82,10 @@
             this.Close_Nav.BackColor = System.Drawing.Color.White;
             this.Close_Nav.Image = ((System.Drawing.Image)(resources.GetObject("Close_Nav.Image")));
             this.Close_Nav.ImageActive = null;
-            this.Close_Nav.Location = new System.Drawing.Point(423, 11);
-            this.Close_Nav.Margin = new System.Windows.Forms.Padding(2);
+            this.Close_Nav.Location = new System.Drawing.Point(564, 14);
+            this.Close_Nav.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Close_Nav.Name = "Close_Nav";
-            this.Close_Nav.Size = new System.Drawing.Size(15, 23);
+            this.Close_Nav.Size = new System.Drawing.Size(20, 28);
             this.Close_Nav.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.Close_Nav.TabIndex = 22;
             this.Close_Nav.TabStop = false;
@@ -96,10 +96,9 @@
             this.Olvidar_Text.AutoSize = true;
             this.Olvidar_Text.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Olvidar_Text.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(134)))), ((int)(((byte)(127)))), ((int)(((byte)(140)))));
-            this.Olvidar_Text.Location = new System.Drawing.Point(103, 650);
-            this.Olvidar_Text.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.Olvidar_Text.Location = new System.Drawing.Point(137, 800);
             this.Olvidar_Text.Name = "Olvidar_Text";
-            this.Olvidar_Text.Size = new System.Drawing.Size(124, 13);
+            this.Olvidar_Text.Size = new System.Drawing.Size(165, 17);
             this.Olvidar_Text.TabIndex = 21;
             this.Olvidar_Text.Text = "Olvidaste la contraseña?";
             // 
@@ -121,10 +120,10 @@
             this.Registrarse_Button.IdleFillColor = System.Drawing.Color.White;
             this.Registrarse_Button.IdleForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(49)))), ((int)(((byte)(89)))));
             this.Registrarse_Button.IdleLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(49)))), ((int)(((byte)(89)))));
-            this.Registrarse_Button.Location = new System.Drawing.Point(117, 578);
-            this.Registrarse_Button.Margin = new System.Windows.Forms.Padding(4);
+            this.Registrarse_Button.Location = new System.Drawing.Point(142, 687);
+            this.Registrarse_Button.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             this.Registrarse_Button.Name = "Registrarse_Button";
-            this.Registrarse_Button.Size = new System.Drawing.Size(237, 52);
+            this.Registrarse_Button.Size = new System.Drawing.Size(316, 64);
             this.Registrarse_Button.TabIndex = 20;
             this.Registrarse_Button.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
@@ -146,10 +145,10 @@
             this.Entrar_Button.IdleFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(49)))), ((int)(((byte)(89)))));
             this.Entrar_Button.IdleForecolor = System.Drawing.Color.White;
             this.Entrar_Button.IdleLineColor = System.Drawing.Color.SeaGreen;
-            this.Entrar_Button.Location = new System.Drawing.Point(94, 500);
-            this.Entrar_Button.Margin = new System.Windows.Forms.Padding(4);
+            this.Entrar_Button.Location = new System.Drawing.Point(141, 613);
+            this.Entrar_Button.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             this.Entrar_Button.Name = "Entrar_Button";
-            this.Entrar_Button.Size = new System.Drawing.Size(238, 52);
+            this.Entrar_Button.Size = new System.Drawing.Size(317, 64);
             this.Entrar_Button.TabIndex = 19;
             this.Entrar_Button.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.Entrar_Button.Click += new System.EventHandler(this.Entrar_Button_Click);
@@ -159,10 +158,9 @@
             this.Password_Text.AutoSize = true;
             this.Password_Text.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Password_Text.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(134)))), ((int)(((byte)(127)))), ((int)(((byte)(140)))));
-            this.Password_Text.Location = new System.Drawing.Point(102, 393);
-            this.Password_Text.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.Password_Text.Location = new System.Drawing.Point(136, 484);
             this.Password_Text.Name = "Password_Text";
-            this.Password_Text.Size = new System.Drawing.Size(96, 20);
+            this.Password_Text.Size = new System.Drawing.Size(120, 25);
             this.Password_Text.TabIndex = 18;
             this.Password_Text.Text = "Contraseña:";
             // 
@@ -173,9 +171,10 @@
             this.Password_TextBox.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.Password_TextBox.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(194)))), ((int)(((byte)(233)))));
             this.Password_TextBox.Icon = ((System.Drawing.Image)(resources.GetObject("Password_TextBox.Icon")));
-            this.Password_TextBox.Location = new System.Drawing.Point(105, 436);
+            this.Password_TextBox.Location = new System.Drawing.Point(141, 533);
+            this.Password_TextBox.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             this.Password_TextBox.Name = "Password_TextBox";
-            this.Password_TextBox.Size = new System.Drawing.Size(238, 43);
+            this.Password_TextBox.Size = new System.Drawing.Size(317, 53);
             this.Password_TextBox.TabIndex = 17;
             this.Password_TextBox.text = "Contraseña";
             // 
@@ -186,9 +185,10 @@
             this.Usuario_TextBox.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.Usuario_TextBox.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(194)))), ((int)(((byte)(233)))));
             this.Usuario_TextBox.Icon = ((System.Drawing.Image)(resources.GetObject("Usuario_TextBox.Icon")));
-            this.Usuario_TextBox.Location = new System.Drawing.Point(117, 347);
+            this.Usuario_TextBox.Location = new System.Drawing.Point(141, 426);
+            this.Usuario_TextBox.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             this.Usuario_TextBox.Name = "Usuario_TextBox";
-            this.Usuario_TextBox.Size = new System.Drawing.Size(238, 43);
+            this.Usuario_TextBox.Size = new System.Drawing.Size(317, 53);
             this.Usuario_TextBox.TabIndex = 16;
             this.Usuario_TextBox.text = "Usuario";
             // 
@@ -197,10 +197,9 @@
             this.Usuario_Text.AutoSize = true;
             this.Usuario_Text.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Usuario_Text.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(134)))), ((int)(((byte)(127)))), ((int)(((byte)(140)))));
-            this.Usuario_Text.Location = new System.Drawing.Point(102, 313);
-            this.Usuario_Text.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.Usuario_Text.Location = new System.Drawing.Point(136, 385);
             this.Usuario_Text.Name = "Usuario_Text";
-            this.Usuario_Text.Size = new System.Drawing.Size(68, 20);
+            this.Usuario_Text.Size = new System.Drawing.Size(85, 25);
             this.Usuario_Text.TabIndex = 15;
             this.Usuario_Text.Text = "Usuario:";
             // 
@@ -209,20 +208,19 @@
             this.Bloodabase.AutoSize = true;
             this.Bloodabase.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Bloodabase.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(134)))), ((int)(((byte)(127)))), ((int)(((byte)(140)))));
-            this.Bloodabase.Location = new System.Drawing.Point(186, 263);
-            this.Bloodabase.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.Bloodabase.Location = new System.Drawing.Point(468, 770);
             this.Bloodabase.Name = "Bloodabase";
-            this.Bloodabase.Size = new System.Drawing.Size(94, 20);
+            this.Bloodabase.Size = new System.Drawing.Size(116, 25);
             this.Bloodabase.TabIndex = 14;
             this.Bloodabase.Text = "Bloodabase";
             // 
             // Bloodabase_Logo
             // 
             this.Bloodabase_Logo.Image = ((System.Drawing.Image)(resources.GetObject("Bloodabase_Logo.Image")));
-            this.Bloodabase_Logo.Location = new System.Drawing.Point(181, 79);
-            this.Bloodabase_Logo.Margin = new System.Windows.Forms.Padding(2);
+            this.Bloodabase_Logo.Location = new System.Drawing.Point(229, 96);
+            this.Bloodabase_Logo.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Bloodabase_Logo.Name = "Bloodabase_Logo";
-            this.Bloodabase_Logo.Size = new System.Drawing.Size(123, 170);
+            this.Bloodabase_Logo.Size = new System.Drawing.Size(164, 209);
             this.Bloodabase_Logo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.Bloodabase_Logo.TabIndex = 13;
             this.Bloodabase_Logo.TabStop = false;
@@ -234,10 +232,10 @@
             // 
             // Login
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(462, 762);
+            this.ClientSize = new System.Drawing.Size(616, 938);
             this.Controls.Add(this.Min_Nav);
             this.Controls.Add(this.Max_Nav);
             this.Controls.Add(this.Close_Nav);
@@ -251,6 +249,7 @@
             this.Controls.Add(this.Bloodabase);
             this.Controls.Add(this.Bloodabase_Logo);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Login";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
