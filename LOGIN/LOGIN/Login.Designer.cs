@@ -121,7 +121,7 @@
             this.Registrarse_Button.IdleFillColor = System.Drawing.Color.White;
             this.Registrarse_Button.IdleForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(49)))), ((int)(((byte)(89)))));
             this.Registrarse_Button.IdleLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(49)))), ((int)(((byte)(89)))));
-            this.Registrarse_Button.Location = new System.Drawing.Point(88, 470);
+            this.Registrarse_Button.Location = new System.Drawing.Point(89, 513);
             this.Registrarse_Button.Name = "Registrarse_Button";
             this.Registrarse_Button.Size = new System.Drawing.Size(237, 52);
             this.Registrarse_Button.TabIndex = 20;
@@ -145,7 +145,7 @@
             this.Entrar_Button.IdleFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(49)))), ((int)(((byte)(89)))));
             this.Entrar_Button.IdleForecolor = System.Drawing.Color.White;
             this.Entrar_Button.IdleLineColor = System.Drawing.Color.SeaGreen;
-            this.Entrar_Button.Location = new System.Drawing.Point(106, 361);
+            this.Entrar_Button.Location = new System.Drawing.Point(89, 375);
             this.Entrar_Button.Name = "Entrar_Button";
             this.Entrar_Button.Size = new System.Drawing.Size(238, 52);
             this.Entrar_Button.TabIndex = 19;
@@ -171,7 +171,7 @@
             this.Password_TextBox.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.Password_TextBox.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(194)))), ((int)(((byte)(233)))));
             this.Password_TextBox.Icon = ((System.Drawing.Image)(resources.GetObject("Password_TextBox.Icon")));
-            this.Password_TextBox.Location = new System.Drawing.Point(106, 433);
+            this.Password_TextBox.Location = new System.Drawing.Point(89, 444);
             this.Password_TextBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Password_TextBox.Name = "Password_TextBox";
             this.Password_TextBox.Size = new System.Drawing.Size(238, 43);
@@ -185,7 +185,7 @@
             this.Usuario_TextBox.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.Usuario_TextBox.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(194)))), ((int)(((byte)(233)))));
             this.Usuario_TextBox.Icon = ((System.Drawing.Image)(resources.GetObject("Usuario_TextBox.Icon")));
-            this.Usuario_TextBox.Location = new System.Drawing.Point(88, 282);
+            this.Usuario_TextBox.Location = new System.Drawing.Point(89, 301);
             this.Usuario_TextBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Usuario_TextBox.Name = "Usuario_TextBox";
             this.Usuario_TextBox.Size = new System.Drawing.Size(238, 43);
@@ -197,7 +197,7 @@
             this.Usuario_Text.AutoSize = true;
             this.Usuario_Text.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Usuario_Text.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(134)))), ((int)(((byte)(127)))), ((int)(((byte)(140)))));
-            this.Usuario_Text.Location = new System.Drawing.Point(102, 313);
+            this.Usuario_Text.Location = new System.Drawing.Point(102, 259);
             this.Usuario_Text.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.Usuario_Text.Name = "Usuario_Text";
             this.Usuario_Text.Size = new System.Drawing.Size(68, 20);
