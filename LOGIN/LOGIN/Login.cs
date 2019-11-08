@@ -31,5 +31,10 @@ namespace LOGIN
         {
 
         }
+
+        private void Entrar_Button_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
