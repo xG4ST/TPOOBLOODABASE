@@ -187,7 +187,7 @@
             this.Usuario_TextBox.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.Usuario_TextBox.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(194)))), ((int)(((byte)(233)))));
             this.Usuario_TextBox.Icon = ((System.Drawing.Image)(resources.GetObject("Usuario_TextBox.Icon")));
-            this.Usuario_TextBox.Location = new System.Drawing.Point(138, 302);
+            this.Usuario_TextBox.Location = new System.Drawing.Point(89, 303);
             this.Usuario_TextBox.Margin = new System.Windows.Forms.Padding(2);
             this.Usuario_TextBox.Name = "Usuario_TextBox";
             this.Usuario_TextBox.Size = new System.Drawing.Size(238, 43);
