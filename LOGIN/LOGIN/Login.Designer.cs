@@ -30,25 +30,77 @@
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Login));
+            this.Olvidar_Text = new System.Windows.Forms.Label();
+            this.Password_Text = new System.Windows.Forms.Label();
+            this.Usuario_Text = new System.Windows.Forms.Label();
+            this.Bloodabase = new System.Windows.Forms.Label();
+            this.bunifuElipse1 = new Bunifu.Framework.UI.BunifuElipse(this.components);
             this.Min_Nav = new Bunifu.Framework.UI.BunifuImageButton();
             this.Max_Nav = new Bunifu.Framework.UI.BunifuImageButton();
             this.Close_Nav = new Bunifu.Framework.UI.BunifuImageButton();
-            this.Olvidar_Text = new System.Windows.Forms.Label();
             this.Registrarse_Button = new Bunifu.Framework.UI.BunifuThinButton2();
             this.Entrar_Button = new Bunifu.Framework.UI.BunifuThinButton2();
-            this.Password_Text = new System.Windows.Forms.Label();
             this.Password_TextBox = new Bunifu.Framework.UI.BunifuTextbox();
             this.Usuario_TextBox = new Bunifu.Framework.UI.BunifuTextbox();
-            this.Usuario_Text = new System.Windows.Forms.Label();
-            this.Bloodabase = new System.Windows.Forms.Label();
             this.Bloodabase_Logo = new System.Windows.Forms.PictureBox();
-            this.bunifuElipse1 = new Bunifu.Framework.UI.BunifuElipse(this.components);
-            this.label1 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.Min_Nav)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Max_Nav)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Close_Nav)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Bloodabase_Logo)).BeginInit();
             this.SuspendLayout();
+            // 
+            // Olvidar_Text
+            // 
+            this.Olvidar_Text.AutoSize = true;
+            this.Olvidar_Text.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Olvidar_Text.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(134)))), ((int)(((byte)(127)))), ((int)(((byte)(140)))));
+            this.Olvidar_Text.Location = new System.Drawing.Point(149, 691);
+            this.Olvidar_Text.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.Olvidar_Text.Name = "Olvidar_Text";
+            this.Olvidar_Text.Size = new System.Drawing.Size(124, 13);
+            this.Olvidar_Text.TabIndex = 21;
+            this.Olvidar_Text.Text = "Olvidaste la contraseña?";
+            // 
+            // Password_Text
+            // 
+            this.Password_Text.AutoSize = true;
+            this.Password_Text.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Password_Text.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(134)))), ((int)(((byte)(127)))), ((int)(((byte)(140)))));
+            this.Password_Text.Location = new System.Drawing.Point(92, 388);
+            this.Password_Text.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.Password_Text.Name = "Password_Text";
+            this.Password_Text.Size = new System.Drawing.Size(96, 20);
+            this.Password_Text.TabIndex = 18;
+            this.Password_Text.Text = "Contraseña:";
+            // 
+            // Usuario_Text
+            // 
+            this.Usuario_Text.AutoSize = true;
+            this.Usuario_Text.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Usuario_Text.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(134)))), ((int)(((byte)(127)))), ((int)(((byte)(140)))));
+            this.Usuario_Text.Location = new System.Drawing.Point(91, 288);
+            this.Usuario_Text.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.Usuario_Text.Name = "Usuario_Text";
+            this.Usuario_Text.Size = new System.Drawing.Size(68, 20);
+            this.Usuario_Text.TabIndex = 15;
+            this.Usuario_Text.Text = "Usuario:";
+            // 
+            // Bloodabase
+            // 
+            this.Bloodabase.AutoSize = true;
+            this.Bloodabase.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Bloodabase.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(134)))), ((int)(((byte)(127)))), ((int)(((byte)(140)))));
+            this.Bloodabase.Location = new System.Drawing.Point(179, 255);
+            this.Bloodabase.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.Bloodabase.Name = "Bloodabase";
+            this.Bloodabase.Size = new System.Drawing.Size(94, 20);
+            this.Bloodabase.TabIndex = 14;
+            this.Bloodabase.Text = "Bloodabase";
+            // 
+            // bunifuElipse1
+            // 
+            this.bunifuElipse1.ElipseRadius = 20;
+            this.bunifuElipse1.TargetControl = this;
             // 
             // Min_Nav
             // 
@@ -92,18 +144,6 @@
             this.Close_Nav.TabStop = false;
             this.Close_Nav.Zoom = 10;
             // 
-            // Olvidar_Text
-            // 
-            this.Olvidar_Text.AutoSize = true;
-            this.Olvidar_Text.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Olvidar_Text.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(134)))), ((int)(((byte)(127)))), ((int)(((byte)(140)))));
-            this.Olvidar_Text.Location = new System.Drawing.Point(103, 650);
-            this.Olvidar_Text.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.Olvidar_Text.Name = "Olvidar_Text";
-            this.Olvidar_Text.Size = new System.Drawing.Size(124, 13);
-            this.Olvidar_Text.TabIndex = 21;
-            this.Olvidar_Text.Text = "Olvidaste la contraseña?";
-            // 
             // Registrarse_Button
             // 
             this.Registrarse_Button.ActiveBorderThickness = 1;
@@ -122,7 +162,7 @@
             this.Registrarse_Button.IdleFillColor = System.Drawing.Color.White;
             this.Registrarse_Button.IdleForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(49)))), ((int)(((byte)(89)))));
             this.Registrarse_Button.IdleLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(49)))), ((int)(((byte)(89)))));
-            this.Registrarse_Button.Location = new System.Drawing.Point(89, 513);
+            this.Registrarse_Button.Location = new System.Drawing.Point(96, 575);
             this.Registrarse_Button.Margin = new System.Windows.Forms.Padding(5);
             this.Registrarse_Button.Name = "Registrarse_Button";
             this.Registrarse_Button.Size = new System.Drawing.Size(237, 52);
@@ -147,25 +187,13 @@
             this.Entrar_Button.IdleFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(49)))), ((int)(((byte)(89)))));
             this.Entrar_Button.IdleForecolor = System.Drawing.Color.White;
             this.Entrar_Button.IdleLineColor = System.Drawing.Color.SeaGreen;
-            this.Entrar_Button.Location = new System.Drawing.Point(129, 361);
+            this.Entrar_Button.Location = new System.Drawing.Point(95, 513);
             this.Entrar_Button.Margin = new System.Windows.Forms.Padding(5);
             this.Entrar_Button.Name = "Entrar_Button";
             this.Entrar_Button.Size = new System.Drawing.Size(238, 52);
             this.Entrar_Button.TabIndex = 19;
             this.Entrar_Button.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.Entrar_Button.Click += new System.EventHandler(this.Entrar_Button_Click);
-            // 
-            // Password_Text
-            // 
-            this.Password_Text.AutoSize = true;
-            this.Password_Text.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Password_Text.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(134)))), ((int)(((byte)(127)))), ((int)(((byte)(140)))));
-            this.Password_Text.Location = new System.Drawing.Point(102, 393);
-            this.Password_Text.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.Password_Text.Name = "Password_Text";
-            this.Password_Text.Size = new System.Drawing.Size(96, 20);
-            this.Password_Text.TabIndex = 18;
-            this.Password_Text.Text = "Contraseña:";
             // 
             // Password_TextBox
             // 
@@ -174,7 +202,7 @@
             this.Password_TextBox.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.Password_TextBox.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(194)))), ((int)(((byte)(233)))));
             this.Password_TextBox.Icon = ((System.Drawing.Image)(resources.GetObject("Password_TextBox.Icon")));
-            this.Password_TextBox.Location = new System.Drawing.Point(158, 435);
+            this.Password_TextBox.Location = new System.Drawing.Point(96, 432);
             this.Password_TextBox.Margin = new System.Windows.Forms.Padding(4);
             this.Password_TextBox.Name = "Password_TextBox";
             this.Password_TextBox.Size = new System.Drawing.Size(238, 43);
@@ -188,41 +216,17 @@
             this.Usuario_TextBox.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.Usuario_TextBox.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(194)))), ((int)(((byte)(233)))));
             this.Usuario_TextBox.Icon = ((System.Drawing.Image)(resources.GetObject("Usuario_TextBox.Icon")));
-            this.Usuario_TextBox.Location = new System.Drawing.Point(115, 281);
+            this.Usuario_TextBox.Location = new System.Drawing.Point(95, 326);
             this.Usuario_TextBox.Margin = new System.Windows.Forms.Padding(2);
             this.Usuario_TextBox.Name = "Usuario_TextBox";
             this.Usuario_TextBox.Size = new System.Drawing.Size(238, 43);
             this.Usuario_TextBox.TabIndex = 16;
             this.Usuario_TextBox.text = "Usuario";
             // 
-            // Usuario_Text
-            // 
-            this.Usuario_Text.AutoSize = true;
-            this.Usuario_Text.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Usuario_Text.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(134)))), ((int)(((byte)(127)))), ((int)(((byte)(140)))));
-            this.Usuario_Text.Location = new System.Drawing.Point(102, 259);
-            this.Usuario_Text.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.Usuario_Text.Name = "Usuario_Text";
-            this.Usuario_Text.Size = new System.Drawing.Size(68, 20);
-            this.Usuario_Text.TabIndex = 15;
-            this.Usuario_Text.Text = "Usuario:";
-            // 
-            // Bloodabase
-            // 
-            this.Bloodabase.AutoSize = true;
-            this.Bloodabase.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Bloodabase.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(134)))), ((int)(((byte)(127)))), ((int)(((byte)(140)))));
-            this.Bloodabase.Location = new System.Drawing.Point(351, 626);
-            this.Bloodabase.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.Bloodabase.Name = "Bloodabase";
-            this.Bloodabase.Size = new System.Drawing.Size(94, 20);
-            this.Bloodabase.TabIndex = 14;
-            this.Bloodabase.Text = "Bloodabase";
-            // 
             // Bloodabase_Logo
             // 
             this.Bloodabase_Logo.Image = ((System.Drawing.Image)(resources.GetObject("Bloodabase_Logo.Image")));
-            this.Bloodabase_Logo.Location = new System.Drawing.Point(129, 74);
+            this.Bloodabase_Logo.Location = new System.Drawing.Point(164, 70);
             this.Bloodabase_Logo.Margin = new System.Windows.Forms.Padding(2);
             this.Bloodabase_Logo.Name = "Bloodabase_Logo";
             this.Bloodabase_Logo.Size = new System.Drawing.Size(123, 170);
@@ -230,27 +234,12 @@
             this.Bloodabase_Logo.TabIndex = 13;
             this.Bloodabase_Logo.TabStop = false;
             // 
-            // bunifuElipse1
-            // 
-            this.bunifuElipse1.ElipseRadius = 20;
-            this.bunifuElipse1.TargetControl = this;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(308, 154);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(89, 13);
-            this.label1.TabIndex = 25;
-            this.label1.Text = "Puto el que lo lea";
-            // 
             // Login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(462, 762);
-            this.Controls.Add(this.label1);
             this.Controls.Add(this.Min_Nav);
             this.Controls.Add(this.Max_Nav);
             this.Controls.Add(this.Close_Nav);
@@ -292,7 +281,6 @@
         private System.Windows.Forms.Label Bloodabase;
         private System.Windows.Forms.PictureBox Bloodabase_Logo;
         private Bunifu.Framework.UI.BunifuElipse bunifuElipse1;
-        private System.Windows.Forms.Label label1;
     }
 }
 
