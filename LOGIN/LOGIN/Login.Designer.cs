@@ -43,6 +43,7 @@
             this.Bloodabase = new System.Windows.Forms.Label();
             this.Bloodabase_Logo = new System.Windows.Forms.PictureBox();
             this.bunifuElipse1 = new Bunifu.Framework.UI.BunifuElipse(this.components);
+            this.label1 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.Min_Nav)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Max_Nav)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Close_Nav)).BeginInit();
@@ -146,7 +147,7 @@
             this.Entrar_Button.IdleFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(49)))), ((int)(((byte)(89)))));
             this.Entrar_Button.IdleForecolor = System.Drawing.Color.White;
             this.Entrar_Button.IdleLineColor = System.Drawing.Color.SeaGreen;
-            this.Entrar_Button.Location = new System.Drawing.Point(143, 353);
+            this.Entrar_Button.Location = new System.Drawing.Point(129, 361);
             this.Entrar_Button.Margin = new System.Windows.Forms.Padding(5);
             this.Entrar_Button.Name = "Entrar_Button";
             this.Entrar_Button.Size = new System.Drawing.Size(238, 52);
@@ -187,7 +188,7 @@
             this.Usuario_TextBox.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.Usuario_TextBox.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(194)))), ((int)(((byte)(233)))));
             this.Usuario_TextBox.Icon = ((System.Drawing.Image)(resources.GetObject("Usuario_TextBox.Icon")));
-            this.Usuario_TextBox.Location = new System.Drawing.Point(158, 303);
+            this.Usuario_TextBox.Location = new System.Drawing.Point(115, 281);
             this.Usuario_TextBox.Margin = new System.Windows.Forms.Padding(2);
             this.Usuario_TextBox.Name = "Usuario_TextBox";
             this.Usuario_TextBox.Size = new System.Drawing.Size(238, 43);
@@ -234,12 +235,22 @@
             this.bunifuElipse1.ElipseRadius = 20;
             this.bunifuElipse1.TargetControl = this;
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(308, 154);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(89, 13);
+            this.label1.TabIndex = 25;
+            this.label1.Text = "Puto el que lo lea";
+            // 
             // Login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(462, 762);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.Min_Nav);
             this.Controls.Add(this.Max_Nav);
             this.Controls.Add(this.Close_Nav);
@@ -281,6 +292,7 @@
         private System.Windows.Forms.Label Bloodabase;
         private System.Windows.Forms.PictureBox Bloodabase_Logo;
         private Bunifu.Framework.UI.BunifuElipse bunifuElipse1;
+        private System.Windows.Forms.Label label1;
     }
 }
 
