@@ -64,6 +64,12 @@
     <Compile Include="Login.Designer.cs">
       <DependentUpon>Login.cs</DependentUpon>
     </Compile>
+    <Compile Include="Pantalla que no se para que sea.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pantalla que no se para que sea.Designer.cs">
+      <DependentUpon>Pantalla que no se para que sea.cs</DependentUpon>
+    </Compile>
     <Compile Include="Registro.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -77,6 +83,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pantalla que no se para que sea.resx">
+      <DependentUpon>Pantalla que no se para que sea.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
