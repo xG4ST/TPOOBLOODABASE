@@ -52,11 +52,47 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="inicio.cs">
+    <Compile Include="Alta Donante.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="inicio.Designer.cs">
-      <DependentUpon>inicio.cs</DependentUpon>
+    <Compile Include="Alta Donante.Designer.cs">
+      <DependentUpon>Alta Donante.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Banco de Sangre.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Banco de Sangre.Designer.cs">
+      <DependentUpon>Banco de Sangre.cs</DependentUpon>
+    </Compile>
+    <Compile Include="cita.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="cita.Designer.cs">
+      <DependentUpon>cita.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Condiciones.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Condiciones.Designer.cs">
+      <DependentUpon>Condiciones.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Departamento.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Departamento.Designer.cs">
+      <DependentUpon>Departamento.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Estadistica.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Estadistica.Designer.cs">
+      <DependentUpon>Estadistica.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Examen de sangre.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Examen de sangre.Designer.cs">
+      <DependentUpon>Examen de sangre.cs</DependentUpon>
     </Compile>
     <Compile Include="Login.cs">
       <SubType>Form</SubType>
@@ -64,11 +100,11 @@
     <Compile Include="Login.Designer.cs">
       <DependentUpon>Login.cs</DependentUpon>
     </Compile>
-    <Compile Include="Pantalla que no se para que sea.cs">
+    <Compile Include="Calendario_Citas.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Pantalla que no se para que sea.Designer.cs">
-      <DependentUpon>Pantalla que no se para que sea.cs</DependentUpon>
+    <Compile Include="Calendario_Citas.Designer.cs">
+      <DependentUpon>Calendario_Citas.cs</DependentUpon>
     </Compile>
     <Compile Include="Registro.cs">
       <SubType>Form</SubType>
@@ -78,14 +114,32 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="inicio.resx">
-      <DependentUpon>inicio.cs</DependentUpon>
+    <EmbeddedResource Include="Alta Donante.resx">
+      <DependentUpon>Alta Donante.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Banco de Sangre.resx">
+      <DependentUpon>Banco de Sangre.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="cita.resx">
+      <DependentUpon>cita.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Condiciones.resx">
+      <DependentUpon>Condiciones.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Departamento.resx">
+      <DependentUpon>Departamento.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Estadistica.resx">
+      <DependentUpon>Estadistica.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Examen de sangre.resx">
+      <DependentUpon>Examen de sangre.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Pantalla que no se para que sea.resx">
-      <DependentUpon>Pantalla que no se para que sea.cs</DependentUpon>
+    <EmbeddedResource Include="Calendario_Citas.resx">
+      <DependentUpon>Calendario_Citas.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
