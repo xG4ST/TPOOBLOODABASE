@@ -52,11 +52,55 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
     <Compile Include="Inicio.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Inicio.Designer.cs">
       <DependentUpon>Inicio.cs</DependentUpon>
+=======
+    <Compile Include="Alta Donante.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Alta Donante.Designer.cs">
+      <DependentUpon>Alta Donante.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Banco de Sangre.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Banco de Sangre.Designer.cs">
+      <DependentUpon>Banco de Sangre.cs</DependentUpon>
+    </Compile>
+    <Compile Include="cita.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="cita.Designer.cs">
+      <DependentUpon>cita.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Condiciones.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Condiciones.Designer.cs">
+      <DependentUpon>Condiciones.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Departamento.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Departamento.Designer.cs">
+      <DependentUpon>Departamento.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Estadistica.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Estadistica.Designer.cs">
+      <DependentUpon>Estadistica.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Examen de sangre.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Examen de sangre.Designer.cs">
+      <DependentUpon>Examen de sangre.cs</DependentUpon>
+>>>>>>> 641bbdfc34aafe7dd7a135f49e1affe4fa8a821c
     </Compile>
     <Compile Include="Login.cs">
       <SubType>Form</SubType>
@@ -64,6 +108,15 @@
     <Compile Include="Login.Designer.cs">
       <DependentUpon>Login.cs</DependentUpon>
     </Compile>
+<<<<<<< HEAD
+=======
+    <Compile Include="Calendario_Citas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Calendario_Citas.Designer.cs">
+      <DependentUpon>Calendario_Citas.cs</DependentUpon>
+    </Compile>
+>>>>>>> 641bbdfc34aafe7dd7a135f49e1affe4fa8a821c
     <Compile Include="Registro.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -72,12 +125,41 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+<<<<<<< HEAD
     <EmbeddedResource Include="Inicio.resx">
       <DependentUpon>Inicio.cs</DependentUpon>
+=======
+    <EmbeddedResource Include="Alta Donante.resx">
+      <DependentUpon>Alta Donante.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Banco de Sangre.resx">
+      <DependentUpon>Banco de Sangre.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="cita.resx">
+      <DependentUpon>cita.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Condiciones.resx">
+      <DependentUpon>Condiciones.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Departamento.resx">
+      <DependentUpon>Departamento.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Estadistica.resx">
+      <DependentUpon>Estadistica.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Examen de sangre.resx">
+      <DependentUpon>Examen de sangre.cs</DependentUpon>
+>>>>>>> 641bbdfc34aafe7dd7a135f49e1affe4fa8a821c
     </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
     </EmbeddedResource>
+<<<<<<< HEAD
+=======
+    <EmbeddedResource Include="Calendario_Citas.resx">
+      <DependentUpon>Calendario_Citas.cs</DependentUpon>
+    </EmbeddedResource>
+>>>>>>> 641bbdfc34aafe7dd7a135f49e1affe4fa8a821c
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -142,6 +224,39 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\favorite_border-24px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\person-24px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\warning-24px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\group_add-1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\event_note-24px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\apartment-24px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\insert_chart_outlined-24px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\warning-24px1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\insert_chart_outlined-24px1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\group_add-24px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\favorite_border-24px1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\person-24px1.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
