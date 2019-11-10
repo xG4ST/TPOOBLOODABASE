@@ -34,6 +34,18 @@ namespace LOGIN
 
         private void Entrar_Button_Click(object sender, EventArgs e)
         {
+            Registro registro = new Registro();
+            registro.Show();
+            this.Hide();
+        }
+
+        private void Close_Nav_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void Registrarse_Button_Click(object sender, EventArgs e)
+        {
 
         }
     }
