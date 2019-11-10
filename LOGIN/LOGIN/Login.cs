@@ -34,9 +34,7 @@ namespace LOGIN
 
         private void Entrar_Button_Click(object sender, EventArgs e)
         {
-            Registro registro = new Registro();
-            registro.Show();
-            this.Hide();
+
         }
 
         private void Close_Nav_Click(object sender, EventArgs e)
@@ -46,7 +44,9 @@ namespace LOGIN
 
         private void Registrarse_Button_Click(object sender, EventArgs e)
         {
-
+            Registro Form2 = new Registro();
+            Form2.Show();
+            this.Hide();
         }
     }
 }

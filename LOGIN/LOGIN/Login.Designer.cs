@@ -52,12 +52,13 @@
             // Olvidar_Text
             // 
             this.Olvidar_Text.AutoSize = true;
-            this.Olvidar_Text.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Olvidar_Text.Font = new System.Drawing.Font("Arial Rounded MT Bold", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Olvidar_Text.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(134)))), ((int)(((byte)(127)))), ((int)(((byte)(140)))));
+            this.Olvidar_Text.Location = new System.Drawing.Point(113, 713);
             this.Olvidar_Text.Location = new System.Drawing.Point(168, 651);
             this.Olvidar_Text.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.Olvidar_Text.Name = "Olvidar_Text";
-            this.Olvidar_Text.Size = new System.Drawing.Size(124, 13);
+            this.Olvidar_Text.Size = new System.Drawing.Size(143, 12);
             this.Olvidar_Text.TabIndex = 21;
             this.Olvidar_Text.Text = "Olvidaste la contraseña?";
             // 
@@ -66,6 +67,7 @@
             this.Password_Text.AutoSize = true;
             this.Password_Text.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Password_Text.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(134)))), ((int)(((byte)(127)))), ((int)(((byte)(140)))));
+            this.Password_Text.Location = new System.Drawing.Point(111, 409);
             this.Password_Text.Location = new System.Drawing.Point(102, 353);
             this.Password_Text.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.Password_Text.Name = "Password_Text";
@@ -78,6 +80,7 @@
             this.Usuario_Text.AutoSize = true;
             this.Usuario_Text.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Usuario_Text.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(134)))), ((int)(((byte)(127)))), ((int)(((byte)(140)))));
+            this.Usuario_Text.Location = new System.Drawing.Point(111, 342);
             this.Usuario_Text.Location = new System.Drawing.Point(102, 259);
             this.Usuario_Text.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.Usuario_Text.Name = "Usuario_Text";
@@ -88,12 +91,13 @@
             // Bloodabase
             // 
             this.Bloodabase.AutoSize = true;
-            this.Bloodabase.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Bloodabase.Font = new System.Drawing.Font("Arial Rounded MT Bold", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Bloodabase.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(134)))), ((int)(((byte)(127)))), ((int)(((byte)(140)))));
+            this.Bloodabase.Location = new System.Drawing.Point(173, 251);
             this.Bloodabase.Location = new System.Drawing.Point(184, 219);
             this.Bloodabase.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.Bloodabase.Name = "Bloodabase";
-            this.Bloodabase.Size = new System.Drawing.Size(94, 20);
+            this.Bloodabase.Size = new System.Drawing.Size(126, 23);
             this.Bloodabase.TabIndex = 14;
             this.Bloodabase.Text = "Bloodabase";
             // 
@@ -107,7 +111,7 @@
             this.Min_Nav.BackColor = System.Drawing.Color.White;
             this.Min_Nav.Image = ((System.Drawing.Image)(resources.GetObject("Min_Nav.Image")));
             this.Min_Nav.ImageActive = null;
-            this.Min_Nav.Location = new System.Drawing.Point(363, 20);
+            this.Min_Nav.Location = new System.Drawing.Point(336, 20);
             this.Min_Nav.Margin = new System.Windows.Forms.Padding(2);
             this.Min_Nav.Name = "Min_Nav";
             this.Min_Nav.Size = new System.Drawing.Size(17, 15);
@@ -121,7 +125,7 @@
             this.Max_Nav.BackColor = System.Drawing.Color.White;
             this.Max_Nav.Image = ((System.Drawing.Image)(resources.GetObject("Max_Nav.Image")));
             this.Max_Nav.ImageActive = null;
-            this.Max_Nav.Location = new System.Drawing.Point(393, 20);
+            this.Max_Nav.Location = new System.Drawing.Point(382, 20);
             this.Max_Nav.Margin = new System.Windows.Forms.Padding(2);
             this.Max_Nav.Name = "Max_Nav";
             this.Max_Nav.Size = new System.Drawing.Size(17, 15);
@@ -148,7 +152,7 @@
             // Registrarse_Button
             // 
             this.Registrarse_Button.ActiveBorderThickness = 1;
-            this.Registrarse_Button.ActiveCornerRadius = 20;
+            this.Registrarse_Button.ActiveCornerRadius = 5;
             this.Registrarse_Button.ActiveFillColor = System.Drawing.Color.Black;
             this.Registrarse_Button.ActiveForecolor = System.Drawing.Color.White;
             this.Registrarse_Button.ActiveLineColor = System.Drawing.Color.Black;
@@ -163,6 +167,7 @@
             this.Registrarse_Button.IdleFillColor = System.Drawing.Color.White;
             this.Registrarse_Button.IdleForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(49)))), ((int)(((byte)(89)))));
             this.Registrarse_Button.IdleLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(49)))), ((int)(((byte)(89)))));
+            this.Registrarse_Button.Location = new System.Drawing.Point(115, 590);
             this.Registrarse_Button.Location = new System.Drawing.Point(107, 463);
             this.Registrarse_Button.Margin = new System.Windows.Forms.Padding(5);
             this.Registrarse_Button.Name = "Registrarse_Button";
@@ -174,7 +179,7 @@
             // Entrar_Button
             // 
             this.Entrar_Button.ActiveBorderThickness = 1;
-            this.Entrar_Button.ActiveCornerRadius = 20;
+            this.Entrar_Button.ActiveCornerRadius = 5;
             this.Entrar_Button.ActiveFillColor = System.Drawing.Color.Red;
             this.Entrar_Button.ActiveForecolor = System.Drawing.Color.White;
             this.Entrar_Button.ActiveLineColor = System.Drawing.Color.Red;
@@ -185,10 +190,11 @@
             this.Entrar_Button.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Entrar_Button.ForeColor = System.Drawing.Color.White;
             this.Entrar_Button.IdleBorderThickness = 1;
-            this.Entrar_Button.IdleCornerRadius = 10;
+            this.Entrar_Button.IdleCornerRadius = 5;
             this.Entrar_Button.IdleFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(49)))), ((int)(((byte)(89)))));
             this.Entrar_Button.IdleForecolor = System.Drawing.Color.White;
             this.Entrar_Button.IdleLineColor = System.Drawing.Color.SeaGreen;
+            this.Entrar_Button.Location = new System.Drawing.Point(115, 528);
             this.Entrar_Button.Location = new System.Drawing.Point(107, 537);
             this.Entrar_Button.Margin = new System.Windows.Forms.Padding(5);
             this.Entrar_Button.Name = "Entrar_Button";
@@ -204,6 +210,7 @@
             this.Password_TextBox.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.Password_TextBox.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(194)))), ((int)(((byte)(233)))));
             this.Password_TextBox.Icon = ((System.Drawing.Image)(resources.GetObject("Password_TextBox.Icon")));
+            this.Password_TextBox.Location = new System.Drawing.Point(115, 433);
             this.Password_TextBox.Location = new System.Drawing.Point(106, 391);
             this.Password_TextBox.Margin = new System.Windows.Forms.Padding(4);
             this.Password_TextBox.Name = "Password_TextBox";
@@ -218,6 +225,7 @@
             this.Usuario_TextBox.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.Usuario_TextBox.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(194)))), ((int)(((byte)(233)))));
             this.Usuario_TextBox.Icon = ((System.Drawing.Image)(resources.GetObject("Usuario_TextBox.Icon")));
+            this.Usuario_TextBox.Location = new System.Drawing.Point(114, 364);
             this.Usuario_TextBox.Location = new System.Drawing.Point(106, 281);
             this.Usuario_TextBox.Margin = new System.Windows.Forms.Padding(2);
             this.Usuario_TextBox.Name = "Usuario_TextBox";
@@ -228,6 +236,7 @@
             // Bloodabase_Logo
             // 
             this.Bloodabase_Logo.Image = ((System.Drawing.Image)(resources.GetObject("Bloodabase_Logo.Image")));
+            this.Bloodabase_Logo.Location = new System.Drawing.Point(175, 68);
             this.Bloodabase_Logo.Location = new System.Drawing.Point(169, 47);
             this.Bloodabase_Logo.Margin = new System.Windows.Forms.Padding(2);
             this.Bloodabase_Logo.Name = "Bloodabase_Logo";
