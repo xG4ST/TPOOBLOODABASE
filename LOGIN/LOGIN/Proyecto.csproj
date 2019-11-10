@@ -62,11 +62,11 @@
     <Compile Include="Alta Donante.Designer.cs">
       <DependentUpon>Alta Donante.cs</DependentUpon>
     </Compile>
-    <Compile Include="Banco de Sangre.cs">
+    <Compile Include="Banco_de_Sangre.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Banco de Sangre.Designer.cs">
-      <DependentUpon>Banco de Sangre.cs</DependentUpon>
+    <Compile Include="Banco_de_Sangre.Designer.cs">
+      <DependentUpon>Banco_de_Sangre.cs</DependentUpon>
     </Compile>
     <Compile Include="cita.cs">
       <SubType>Form</SubType>
@@ -124,8 +124,8 @@
     <EmbeddedResource Include="Alta Donante.resx">
       <DependentUpon>Alta Donante.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Banco de Sangre.resx">
-      <DependentUpon>Banco de Sangre.cs</DependentUpon>
+    <EmbeddedResource Include="Banco_de_Sangre.resx">
+      <DependentUpon>Banco_de_Sangre.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="cita.resx">
       <DependentUpon>cita.cs</DependentUpon>
