@@ -52,13 +52,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-<<<<<<< HEAD
-    <Compile Include="Inicio.cs">
-      <SubType>Form</SubType>
-    </Compile>
+    <Compile Include="Inicio.cs" />
     <Compile Include="Inicio.Designer.cs">
       <DependentUpon>Inicio.cs</DependentUpon>
-=======
+    </Compile>
     <Compile Include="Alta Donante.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -100,7 +97,6 @@
     </Compile>
     <Compile Include="Examen de sangre.Designer.cs">
       <DependentUpon>Examen de sangre.cs</DependentUpon>
->>>>>>> 641bbdfc34aafe7dd7a135f49e1affe4fa8a821c
     </Compile>
     <Compile Include="Login.cs">
       <SubType>Form</SubType>
@@ -108,15 +104,12 @@
     <Compile Include="Login.Designer.cs">
       <DependentUpon>Login.cs</DependentUpon>
     </Compile>
-<<<<<<< HEAD
-=======
     <Compile Include="Calendario_Citas.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Calendario_Citas.Designer.cs">
       <DependentUpon>Calendario_Citas.cs</DependentUpon>
     </Compile>
->>>>>>> 641bbdfc34aafe7dd7a135f49e1affe4fa8a821c
     <Compile Include="Registro.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -125,10 +118,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-<<<<<<< HEAD
     <EmbeddedResource Include="Inicio.resx">
       <DependentUpon>Inicio.cs</DependentUpon>
-=======
+    </EmbeddedResource>
     <EmbeddedResource Include="Alta Donante.resx">
       <DependentUpon>Alta Donante.cs</DependentUpon>
     </EmbeddedResource>
@@ -149,17 +141,13 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Examen de sangre.resx">
       <DependentUpon>Examen de sangre.cs</DependentUpon>
->>>>>>> 641bbdfc34aafe7dd7a135f49e1affe4fa8a821c
     </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
     </EmbeddedResource>
-<<<<<<< HEAD
-=======
     <EmbeddedResource Include="Calendario_Citas.resx">
       <DependentUpon>Calendario_Citas.cs</DependentUpon>
     </EmbeddedResource>
->>>>>>> 641bbdfc34aafe7dd7a135f49e1affe4fa8a821c
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -260,7 +248,5 @@
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
-    <PreBuildEvent>if exist "$(TargetPath).locked" del "$(TargetPath).locked"
-if exist "$(TargetPath)" if not exist "$(TargetPath).locked" move "$(TargetPath)" "$(TargetPath).locked"</PreBuildEvent>
   </PropertyGroup>
 </Project>
