@@ -103,6 +103,16 @@ namespace LOGIN.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap favorite_border_24px {
+            get {
+                object obj = ResourceManager.GetObject("favorite_border-24px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap house_24px {
             get {
                 object obj = ResourceManager.GetObject("house-24px", resourceCulture);
@@ -166,6 +176,16 @@ namespace LOGIN.Properties {
         internal static System.Drawing.Bitmap Rectángulo_36 {
             get {
                 object obj = ResourceManager.GetObject("Rectángulo 36", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Rectángulo_46 {
+            get {
+                object obj = ResourceManager.GetObject("Rectángulo 46", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

@@ -46,5 +46,10 @@ namespace LOGIN
         {
 
         }
+
+        private void Min_Nav_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

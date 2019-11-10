@@ -146,5 +146,11 @@
   <ItemGroup>
     <None Include="Resources\house-24px.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Rectángulo 46.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\favorite_border-24px.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
