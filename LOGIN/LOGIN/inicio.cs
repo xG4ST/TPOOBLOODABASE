@@ -51,5 +51,10 @@ namespace LOGIN
         {
 
         }
+
+        private void Label3_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

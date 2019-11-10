@@ -152,5 +152,38 @@
   <ItemGroup>
     <None Include="Resources\favorite_border-24px.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\person-24px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\warning-24px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\group_add-1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\event_note-24px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\apartment-24px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\insert_chart_outlined-24px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\warning-24px1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\insert_chart_outlined-24px1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\group_add-24px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\favorite_border-24px1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\person-24px1.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
