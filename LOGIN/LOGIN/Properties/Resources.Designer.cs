@@ -63,6 +63,16 @@ namespace LOGIN.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap apartment_24px {
+            get {
+                object obj = ResourceManager.GetObject("apartment-24px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Botón {
             get {
                 object obj = ResourceManager.GetObject("Botón", resourceCulture);
@@ -103,6 +113,16 @@ namespace LOGIN.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap event_note_24px {
+            get {
+                object obj = ResourceManager.GetObject("event_note-24px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap favorite_border_24px {
             get {
                 object obj = ResourceManager.GetObject("favorite_border-24px", resourceCulture);
@@ -113,9 +133,59 @@ namespace LOGIN.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap favorite_border_24px1 {
+            get {
+                object obj = ResourceManager.GetObject("favorite_border-24px1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap group_add_1 {
+            get {
+                object obj = ResourceManager.GetObject("group_add-1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap group_add_24px {
+            get {
+                object obj = ResourceManager.GetObject("group_add-24px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap house_24px {
             get {
                 object obj = ResourceManager.GetObject("house-24px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap insert_chart_outlined_24px {
+            get {
+                object obj = ResourceManager.GetObject("insert_chart_outlined-24px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap insert_chart_outlined_24px1 {
+            get {
+                object obj = ResourceManager.GetObject("insert_chart_outlined-24px1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -163,6 +233,26 @@ namespace LOGIN.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap person_24px {
+            get {
+                object obj = ResourceManager.GetObject("person-24px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap person_24px1 {
+            get {
+                object obj = ResourceManager.GetObject("person-24px1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Rectángulo_14 {
             get {
                 object obj = ResourceManager.GetObject("Rectángulo 14", resourceCulture);
@@ -186,6 +276,26 @@ namespace LOGIN.Properties {
         internal static System.Drawing.Bitmap Rectángulo_46 {
             get {
                 object obj = ResourceManager.GetObject("Rectángulo 46", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap warning_24px {
+            get {
+                object obj = ResourceManager.GetObject("warning-24px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap warning_24px1 {
+            get {
+                object obj = ResourceManager.GetObject("warning-24px1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
