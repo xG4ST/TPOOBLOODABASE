@@ -16,5 +16,17 @@ namespace LOGIN
         {
             InitializeComponent();
         }
+
+        private void Close_Nav_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void bunifuImageButton2_Click(object sender, EventArgs e)
+        {
+            Login Form1 = new Login();
+            Form1.Show();
+            this.Hide();
+        }
     }
 }
