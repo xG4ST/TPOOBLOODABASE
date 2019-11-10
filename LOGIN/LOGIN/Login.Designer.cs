@@ -49,7 +49,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.Max_Nav)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Close_Nav)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Bloodabase_Logo)).BeginInit();
-            this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // Olvidar_Text
@@ -287,11 +286,6 @@
             this.Bloodabase_Logo.TabIndex = 13;
             this.Bloodabase_Logo.TabStop = false;
             // 
-            // bunifuElipse1
-            // 
-            this.bunifuElipse1.ElipseRadius = 20;
-            this.bunifuElipse1.TargetControl = this;
-            // 
             // label1
             // 
             this.label1.AutoSize = true;
@@ -329,10 +323,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.Max_Nav)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Close_Nav)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Bloodabase_Logo)).EndInit();
-            this.panel1.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
-
         }
 
         #endregion
