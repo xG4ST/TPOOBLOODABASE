@@ -52,27 +52,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Inicio.cs" />
-    <Compile Include="Inicio.Designer.cs">
-      <DependentUpon>Inicio.cs</DependentUpon>
-    </Compile>
     <Compile Include="Alta Donante.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Alta Donante.Designer.cs">
       <DependentUpon>Alta Donante.cs</DependentUpon>
     </Compile>
-    <Compile Include="Banco_de_Sangre.cs">
+    <Compile Include="Cita.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Banco_de_Sangre.Designer.cs">
-      <DependentUpon>Banco_de_Sangre.cs</DependentUpon>
-    </Compile>
-    <Compile Include="cita.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="cita.Designer.cs">
-      <DependentUpon>cita.cs</DependentUpon>
+    <Compile Include="Cita.Designer.cs">
+      <DependentUpon>Cita.cs</DependentUpon>
     </Compile>
     <Compile Include="Condiciones.cs">
       <SubType>Form</SubType>
@@ -92,11 +82,11 @@
     <Compile Include="Estadistica.Designer.cs">
       <DependentUpon>Estadistica.cs</DependentUpon>
     </Compile>
-    <Compile Include="Examen de sangre.cs">
+    <Compile Include="Examen_de_sangre.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Examen de sangre.Designer.cs">
-      <DependentUpon>Examen de sangre.cs</DependentUpon>
+    <Compile Include="Examen_de_sangre.Designer.cs">
+      <DependentUpon>Examen_de_sangre.cs</DependentUpon>
     </Compile>
     <Compile Include="Login.cs">
       <SubType>Form</SubType>
@@ -118,17 +108,11 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Inicio.resx">
-      <DependentUpon>Inicio.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Alta Donante.resx">
       <DependentUpon>Alta Donante.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Banco_de_Sangre.resx">
-      <DependentUpon>Banco_de_Sangre.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="cita.resx">
-      <DependentUpon>cita.cs</DependentUpon>
+    <EmbeddedResource Include="Cita.resx">
+      <DependentUpon>Cita.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Condiciones.resx">
       <DependentUpon>Condiciones.cs</DependentUpon>
@@ -139,8 +123,8 @@
     <EmbeddedResource Include="Estadistica.resx">
       <DependentUpon>Estadistica.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Examen de sangre.resx">
-      <DependentUpon>Examen de sangre.cs</DependentUpon>
+    <EmbeddedResource Include="Examen_de_sangre.resx">
+      <DependentUpon>Examen_de_sangre.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
