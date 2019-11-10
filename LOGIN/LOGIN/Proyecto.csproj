@@ -134,5 +134,23 @@
   <ItemGroup>
     <None Include="Resources\Botón.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ChristusLogo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Rectángulo 14.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Rectángulo 36.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\house-24px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Rectángulo 46.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\favorite_border-24px.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

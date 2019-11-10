@@ -73,6 +73,16 @@ namespace LOGIN.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap ChristusLogo {
+            get {
+                object obj = ResourceManager.GetObject("ChristusLogo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Componente {
             get {
                 object obj = ResourceManager.GetObject("Componente", resourceCulture);
@@ -86,6 +96,26 @@ namespace LOGIN.Properties {
         internal static System.Drawing.Bitmap Componente_1 {
             get {
                 object obj = ResourceManager.GetObject("Componente-1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap favorite_border_24px {
+            get {
+                object obj = ResourceManager.GetObject("favorite_border-24px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap house_24px {
+            get {
+                object obj = ResourceManager.GetObject("house-24px", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -126,6 +156,36 @@ namespace LOGIN.Properties {
         internal static System.Drawing.Bitmap navigate_before_24px {
             get {
                 object obj = ResourceManager.GetObject("navigate_before-24px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Rectángulo_14 {
+            get {
+                object obj = ResourceManager.GetObject("Rectángulo 14", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Rectángulo_36 {
+            get {
+                object obj = ResourceManager.GetObject("Rectángulo 36", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Rectángulo_46 {
+            get {
+                object obj = ResourceManager.GetObject("Rectángulo 46", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
