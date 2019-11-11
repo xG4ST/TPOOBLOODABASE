@@ -10,22 +10,11 @@ using System.Windows.Forms;
 
 namespace LOGIN
 {
-    public partial class Registro : Form
+    public partial class Log : Form
     {
-        public Registro()
+        public Log()
         {
             InitializeComponent();
-        }
-
-        private void Close_Nav_Click(object sender, EventArgs e)
-        {
-            this.Close();
-        }
-
- 
-        private void BunifuImageButton1_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }

@@ -129,7 +129,7 @@
             this.bunifuMaterialTextbox1.LineMouseHoverColor = System.Drawing.Color.DodgerBlue;
             this.bunifuMaterialTextbox1.LineThickness = 3;
             this.bunifuMaterialTextbox1.Location = new System.Drawing.Point(81, 194);
-            this.bunifuMaterialTextbox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuMaterialTextbox1.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuMaterialTextbox1.Name = "bunifuMaterialTextbox1";
             this.bunifuMaterialTextbox1.Size = new System.Drawing.Size(272, 33);
             this.bunifuMaterialTextbox1.TabIndex = 12;
@@ -148,7 +148,7 @@
             this.bunifuMaterialTextbox2.LineMouseHoverColor = System.Drawing.Color.DodgerBlue;
             this.bunifuMaterialTextbox2.LineThickness = 3;
             this.bunifuMaterialTextbox2.Location = new System.Drawing.Point(86, 291);
-            this.bunifuMaterialTextbox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuMaterialTextbox2.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuMaterialTextbox2.Name = "bunifuMaterialTextbox2";
             this.bunifuMaterialTextbox2.Size = new System.Drawing.Size(272, 33);
             this.bunifuMaterialTextbox2.TabIndex = 13;
@@ -167,7 +167,7 @@
             this.bunifuMaterialTextbox3.LineMouseHoverColor = System.Drawing.Color.DodgerBlue;
             this.bunifuMaterialTextbox3.LineThickness = 3;
             this.bunifuMaterialTextbox3.Location = new System.Drawing.Point(81, 395);
-            this.bunifuMaterialTextbox3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuMaterialTextbox3.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuMaterialTextbox3.Name = "bunifuMaterialTextbox3";
             this.bunifuMaterialTextbox3.Size = new System.Drawing.Size(272, 33);
             this.bunifuMaterialTextbox3.TabIndex = 14;
@@ -186,7 +186,7 @@
             this.bunifuMaterialTextbox4.LineMouseHoverColor = System.Drawing.Color.DodgerBlue;
             this.bunifuMaterialTextbox4.LineThickness = 3;
             this.bunifuMaterialTextbox4.Location = new System.Drawing.Point(81, 487);
-            this.bunifuMaterialTextbox4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuMaterialTextbox4.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuMaterialTextbox4.Name = "bunifuMaterialTextbox4";
             this.bunifuMaterialTextbox4.Size = new System.Drawing.Size(272, 33);
             this.bunifuMaterialTextbox4.TabIndex = 15;
@@ -205,7 +205,7 @@
             this.bunifuMaterialTextbox5.LineMouseHoverColor = System.Drawing.Color.DodgerBlue;
             this.bunifuMaterialTextbox5.LineThickness = 3;
             this.bunifuMaterialTextbox5.Location = new System.Drawing.Point(81, 568);
-            this.bunifuMaterialTextbox5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuMaterialTextbox5.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuMaterialTextbox5.Name = "bunifuMaterialTextbox5";
             this.bunifuMaterialTextbox5.Size = new System.Drawing.Size(292, 28);
             this.bunifuMaterialTextbox5.TabIndex = 16;
@@ -223,6 +223,7 @@
             this.bunifuImageButton1.TabIndex = 17;
             this.bunifuImageButton1.TabStop = false;
             this.bunifuImageButton1.Zoom = 10;
+            this.bunifuImageButton1.Click += new System.EventHandler(this.BunifuImageButton1_Click);
             // 
             // Min_Nav
             // 
@@ -230,7 +231,7 @@
             this.Min_Nav.Image = ((System.Drawing.Image)(resources.GetObject("Min_Nav.Image")));
             this.Min_Nav.ImageActive = null;
             this.Min_Nav.Location = new System.Drawing.Point(336, 20);
-            this.Min_Nav.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Min_Nav.Margin = new System.Windows.Forms.Padding(2);
             this.Min_Nav.Name = "Min_Nav";
             this.Min_Nav.Size = new System.Drawing.Size(17, 15);
             this.Min_Nav.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -244,7 +245,7 @@
             this.Max_Nav.Image = ((System.Drawing.Image)(resources.GetObject("Max_Nav.Image")));
             this.Max_Nav.ImageActive = null;
             this.Max_Nav.Location = new System.Drawing.Point(382, 20);
-            this.Max_Nav.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Max_Nav.Margin = new System.Windows.Forms.Padding(2);
             this.Max_Nav.Name = "Max_Nav";
             this.Max_Nav.Size = new System.Drawing.Size(17, 15);
             this.Max_Nav.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -258,7 +259,7 @@
             this.Close_Nav.Image = ((System.Drawing.Image)(resources.GetObject("Close_Nav.Image")));
             this.Close_Nav.ImageActive = null;
             this.Close_Nav.Location = new System.Drawing.Point(424, 20);
-            this.Close_Nav.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Close_Nav.Margin = new System.Windows.Forms.Padding(2);
             this.Close_Nav.Name = "Close_Nav";
             this.Close_Nav.Size = new System.Drawing.Size(17, 15);
             this.Close_Nav.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -284,7 +285,7 @@
             this.bunifuImageButton2.TabIndex = 28;
             this.bunifuImageButton2.TabStop = false;
             this.bunifuImageButton2.Zoom = 10;
-            this.bunifuImageButton2.Click += new System.EventHandler(this.bunifuImageButton2_Click);
+         
             // 
             // Registro
             // 
