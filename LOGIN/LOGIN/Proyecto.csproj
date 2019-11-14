@@ -60,11 +60,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Alta Donante.cs">
+    <Compile Include="Banco de Sangre.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Alta Donante.Designer.cs">
-      <DependentUpon>Alta Donante.cs</DependentUpon>
+    <Compile Include="Banco de Sangre.Designer.cs">
+      <DependentUpon>Banco de Sangre.cs</DependentUpon>
     </Compile>
     <Compile Include="Cita.cs">
       <SubType>Form</SubType>
@@ -116,8 +116,8 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Alta Donante.resx">
-      <DependentUpon>Alta Donante.cs</DependentUpon>
+    <EmbeddedResource Include="Banco de Sangre.resx">
+      <DependentUpon>Banco de Sangre.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Cita.resx">
       <DependentUpon>Cita.cs</DependentUpon>
@@ -237,6 +237,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\person-24px1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\apartment-24px1.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
