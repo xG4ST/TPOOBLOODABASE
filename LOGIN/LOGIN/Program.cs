@@ -16,7 +16,7 @@ namespace LOGIN
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new cita());
+            Application.Run(new Log());
         }
     }
 }

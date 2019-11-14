@@ -16,5 +16,10 @@ namespace LOGIN
         {
             InitializeComponent();
         }
+
+        private void Label8_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
