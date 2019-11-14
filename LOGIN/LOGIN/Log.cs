@@ -16,5 +16,10 @@ namespace LOGIN
         {
             InitializeComponent();
         }
+
+        private void Log_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

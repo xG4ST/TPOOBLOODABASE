@@ -230,7 +230,7 @@
             this.Min_Nav.BackColor = System.Drawing.Color.White;
             this.Min_Nav.Image = ((System.Drawing.Image)(resources.GetObject("Min_Nav.Image")));
             this.Min_Nav.ImageActive = null;
-            this.Min_Nav.Location = new System.Drawing.Point(336, 20);
+            this.Min_Nav.Location = new System.Drawing.Point(346, 11);
             this.Min_Nav.Margin = new System.Windows.Forms.Padding(2);
             this.Min_Nav.Name = "Min_Nav";
             this.Min_Nav.Size = new System.Drawing.Size(17, 15);
@@ -244,7 +244,7 @@
             this.Max_Nav.BackColor = System.Drawing.Color.White;
             this.Max_Nav.Image = ((System.Drawing.Image)(resources.GetObject("Max_Nav.Image")));
             this.Max_Nav.ImageActive = null;
-            this.Max_Nav.Location = new System.Drawing.Point(382, 20);
+            this.Max_Nav.Location = new System.Drawing.Point(392, 11);
             this.Max_Nav.Margin = new System.Windows.Forms.Padding(2);
             this.Max_Nav.Name = "Max_Nav";
             this.Max_Nav.Size = new System.Drawing.Size(17, 15);
@@ -258,7 +258,7 @@
             this.Close_Nav.BackColor = System.Drawing.Color.White;
             this.Close_Nav.Image = ((System.Drawing.Image)(resources.GetObject("Close_Nav.Image")));
             this.Close_Nav.ImageActive = null;
-            this.Close_Nav.Location = new System.Drawing.Point(424, 20);
+            this.Close_Nav.Location = new System.Drawing.Point(434, 11);
             this.Close_Nav.Margin = new System.Windows.Forms.Padding(2);
             this.Close_Nav.Name = "Close_Nav";
             this.Close_Nav.Size = new System.Drawing.Size(17, 15);
@@ -285,14 +285,13 @@
             this.bunifuImageButton2.TabIndex = 28;
             this.bunifuImageButton2.TabStop = false;
             this.bunifuImageButton2.Zoom = 10;
-         
             // 
             // Registro
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(462, 718);
+            this.ClientSize = new System.Drawing.Size(462, 762);
             this.Controls.Add(this.bunifuImageButton2);
             this.Controls.Add(this.Min_Nav);
             this.Controls.Add(this.Max_Nav);
