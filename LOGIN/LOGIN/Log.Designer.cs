@@ -41,11 +41,9 @@
             this.Bloodabase_Logo = new System.Windows.Forms.PictureBox();
             this.bunifuElipse1 = new Bunifu.Framework.UI.BunifuElipse(this.components);
             this.Min_Nav = new Bunifu.Framework.UI.BunifuImageButton();
-            this.Max_Nav = new Bunifu.Framework.UI.BunifuImageButton();
             this.Close_Nav = new Bunifu.Framework.UI.BunifuImageButton();
             ((System.ComponentModel.ISupportInitialize)(this.Bloodabase_Logo)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Min_Nav)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Max_Nav)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Close_Nav)).BeginInit();
             this.SuspendLayout();
             // 
@@ -85,6 +83,7 @@
             this.Registrarse_Button.Size = new System.Drawing.Size(237, 52);
             this.Registrarse_Button.TabIndex = 29;
             this.Registrarse_Button.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Registrarse_Button.Click += new System.EventHandler(this.Registrarse_Button_Click);
             // 
             // Entrar_Button
             // 
@@ -110,6 +109,7 @@
             this.Entrar_Button.Size = new System.Drawing.Size(238, 52);
             this.Entrar_Button.TabIndex = 28;
             this.Entrar_Button.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Entrar_Button.Click += new System.EventHandler(this.Entrar_Button_Click);
             // 
             // Password_Text
             // 
@@ -196,7 +196,7 @@
             this.Min_Nav.BackColor = System.Drawing.Color.White;
             this.Min_Nav.Image = ((System.Drawing.Image)(resources.GetObject("Min_Nav.Image")));
             this.Min_Nav.ImageActive = null;
-            this.Min_Nav.Location = new System.Drawing.Point(346, 11);
+            this.Min_Nav.Location = new System.Drawing.Point(386, 18);
             this.Min_Nav.Margin = new System.Windows.Forms.Padding(2);
             this.Min_Nav.Name = "Min_Nav";
             this.Min_Nav.Size = new System.Drawing.Size(17, 15);
@@ -204,27 +204,14 @@
             this.Min_Nav.TabIndex = 33;
             this.Min_Nav.TabStop = false;
             this.Min_Nav.Zoom = 10;
-            // 
-            // Max_Nav
-            // 
-            this.Max_Nav.BackColor = System.Drawing.Color.White;
-            this.Max_Nav.Image = ((System.Drawing.Image)(resources.GetObject("Max_Nav.Image")));
-            this.Max_Nav.ImageActive = null;
-            this.Max_Nav.Location = new System.Drawing.Point(392, 11);
-            this.Max_Nav.Margin = new System.Windows.Forms.Padding(2);
-            this.Max_Nav.Name = "Max_Nav";
-            this.Max_Nav.Size = new System.Drawing.Size(17, 15);
-            this.Max_Nav.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.Max_Nav.TabIndex = 32;
-            this.Max_Nav.TabStop = false;
-            this.Max_Nav.Zoom = 10;
+            this.Min_Nav.Click += new System.EventHandler(this.Min_Nav_Click);
             // 
             // Close_Nav
             // 
             this.Close_Nav.BackColor = System.Drawing.Color.White;
             this.Close_Nav.Image = ((System.Drawing.Image)(resources.GetObject("Close_Nav.Image")));
             this.Close_Nav.ImageActive = null;
-            this.Close_Nav.Location = new System.Drawing.Point(434, 11);
+            this.Close_Nav.Location = new System.Drawing.Point(428, 18);
             this.Close_Nav.Margin = new System.Windows.Forms.Padding(2);
             this.Close_Nav.Name = "Close_Nav";
             this.Close_Nav.Size = new System.Drawing.Size(17, 15);
@@ -232,6 +219,7 @@
             this.Close_Nav.TabIndex = 31;
             this.Close_Nav.TabStop = false;
             this.Close_Nav.Zoom = 10;
+            this.Close_Nav.Click += new System.EventHandler(this.Close_Nav_Click);
             // 
             // Log
             // 
@@ -240,7 +228,6 @@
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(462, 762);
             this.Controls.Add(this.Min_Nav);
-            this.Controls.Add(this.Max_Nav);
             this.Controls.Add(this.Close_Nav);
             this.Controls.Add(this.Olvidar_Text);
             this.Controls.Add(this.Registrarse_Button);
@@ -258,7 +245,6 @@
             this.Load += new System.EventHandler(this.Log_Load);
             ((System.ComponentModel.ISupportInitialize)(this.Bloodabase_Logo)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Min_Nav)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Max_Nav)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Close_Nav)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -278,7 +264,6 @@
         private System.Windows.Forms.PictureBox Bloodabase_Logo;
         private Bunifu.Framework.UI.BunifuElipse bunifuElipse1;
         private Bunifu.Framework.UI.BunifuImageButton Min_Nav;
-        private Bunifu.Framework.UI.BunifuImageButton Max_Nav;
         private Bunifu.Framework.UI.BunifuImageButton Close_Nav;
     }
 }

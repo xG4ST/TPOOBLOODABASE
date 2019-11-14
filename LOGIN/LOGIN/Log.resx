@@ -121,28 +121,27 @@
   <data name="Registrarse_Button.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAO0AAAA0CAYAAABmfL9oAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAHzSURBVHhe7d0xa1NhGIZh/5KTUyc3F50UQRw6dbGgiF0c
-        HOxQBMHNwYq4CqJORaVbu7SEElsIxaCljcG0TYIokqK88iUhEPwBOS9cFzwQzpf15nDOcs71+/0wszwT
-        rVmyidYs2URrlmyiNUs20Zol23/RHr7+GI3FlahfuhXb56+b2YxWGmwsLMfBy3dTjU6i7R61h39oLj2J
-        3vpWDFqdAGanNNjf2ImD5dXYu3E/ThrN6WhLsKdrm+O/A1Xys74fu1fvRbdzPIq23H6/Pnw2Pgaq6Nvq
-        m2g+ejGKttxly20YqK7fX1pRv3x7FG1tbj7+/Pg1PgKqqrygGkZbfgDVJ1pIRrSQjGghGdFCMqKFZEQL
-        yYgWkhEtJCNaSEa0kIxoIRnRQjKihWREC8mIFpIRLSQjWkhGtJCMaCEZ0UIyooVkRAvJiBaSES0kI1pI
-        RrSQjGghGdFCMpNoaxduxt/B2fgyUFWTaMun4cuXpoHqOjvpxc7FhVG05evS7edvx0dAFZ2ubcb+3cej
-        aLud4/h05U4MWp3xMVAl5fG1NHrSaI6iLfu+vTu82Hn1wVfhoSJKrL31rdi7thSt9xvDVifRlnWP2vH5
-        wdOozc0PH3jNbLYrL4kbiyvRqTcmnU5Fa2bVn2jNkk20ZskmWrNkE61ZqvXjH4Mpio9YUdnTAAAAAElF
-        TkSuQmCC
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAHJSURBVHhe7d0/axRhEMBhv5KVXSo7K7vYpEklgkVsrrIL
+        2KS5PrYWqewCgXRJEzHxD1E0JAY8hMNwQQzhgjIye8ci+gHuHXgeGDh2r/3x7m4ztwIoRbRQjGihGNFC
+        MaKFYkQLxfwX7cX2fpysbcS7e4/j1e0HxpgFTTb4+dGzGG/tzOuc6aP99eOq+8PpYBiT3YOYjsbzO8Ai
+        ZIOXe0dxvr4ZH1ae9k320WawecoC7fn59lMcLw/i9/RmFm0ev1kz0K5vz1/G1+GLWbR5yuYxDLTr+mwU
+        7+8/mUV7uLTavdMCbcsPVF20+QNon2ihGNFCMaKFYkQLxYgWihEtFCNaKEa0UIxooRjRQjGihWJEC8WI
+        FooRLRQjWihGtFCMaKEY0UIxooViRAvFiBaKES0UI1ooRrRQjGihGNFCMaKFYkQLxfTRvr6z0i2rBdrW
+        R5ur4XPTNNCum++TeHP34Sza3C6dW6aBdl1s78fpYDiLNh+Nc8P0dDTubgJt+bvRLtp09fFLd3G8tWMr
+        PDQiY53sHsTx8iAu9466a320KWM9X9+Mw6XV7oXXGLPYyY/EJ2sbcX02mlf6T7RA+0QLxYgWihEtFCNa
+        KCXiD+6XYUHU5Ni0AAAAAElFTkSuQmCC
 </value>
   </data>
   <data name="Entrar_Button.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAO4AAAA0CAYAAACNSwRrAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFSSURBVHhe7dUxK8RxAMZxr0iJkjLJYLS5SxdSlisTZlkM
-        7jJYTlkMVzYRRbFILLd5FWK4d/DT39Xdci/g/9Rn+GzP+u2ZGQ6HBcgiXAgkXAgkXAgkXAgkXAg0Dvf5
-        6720egdl9mwDqKGqz/7HwyTcu8FLaRzvlP5aswzmgDqq+tw72i6XrzejcNcv2uV2pTF1DNTH22KjLHVa
-        o3CrG542Auqn6lW4EEa4EEi4EEi4EEi4EEi4EEi4EEi4EEi4EEi4EEi4EEi4EEi4EEi4EEi4EEi4EEi4
-        EEi4EEi4EEi4EEi4EEi4EEi4EEi4EEi4EEi4EEi4EEi4EEi4EEi4EEi4EEi4EEi4EEi4EGgc7ur5bnla
-        nj4C6uNzvlkWOs1RuN3Hq3LY3po6BOqj29ws+9cno3Arp/e9/wsG6quK9vv3ZxIukEO4EEi4EEi4EEi4
-        EGdY/gCh0pJfX2YOpAAAAABJRU5ErkJggg==
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFaSURBVHhe7dW/K8RxHMdxf5ESpWQyyGxxR/IjZWFSZ7ZY
+        HBmYlJJYb6XOIrpF3Wb0d4jho+9dneX7B3xf9XjVY3uvz95TxcziJlyzwAnXLHDCNQuccM0CJ1yzwE3C
+        ffsalu2bTpk+WwMaqOqzN3wZ9ToKt/85KO2T3fKw0i4fM0ATVX3uH++Uu/feONzV68PSW2rVHgPN8Trf
+        KgvdzXG41RuuOwKap+pVuBBGuBBIuBBIuBBIuBBIuBBIuBBIuBBIuBBIuBBIuBBIuBBIuBBIuBBIuBBI
+        uBBIuBBIuBBIuBBIuBBIuBBIuBBIuBBIuBBIuBBIuBBIuBBIuBBIuBBIuBBIuBBIuBBIuBBIuBBoEu7y
+        5V55Wqw/AppjMNsuc931cbhX/fvSOdiqPQSa47y9UY4eT8fhVrt4vh29YKC5qmi/f3/+wzWznAnXLHDC
+        NQuccM0CJ1yzuJXyB1W+Z3VbXGuZAAAAAElFTkSuQmCC
 </value>
   </data>
   <data name="Password_TextBox.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
@@ -318,13 +317,6 @@
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABYAAAACCAYAAABc8yy2AAAABGdBTUEAALGPC/xhBQAAABRJREFUGFdj
         aKvv+U8LTCODe/4DABVrcMGz89D1AAAAAElFTkSuQmCC
-</value>
-  </data>
-  <data name="Max_Nav.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAABgAAAAUCAYAAACXtf2DAAAABGdBTUEAALGPC/xhBQAAADFJREFUSEtj
-        aKvv+U9LTD8LGKgMRi0gCEYtIAhGLSAIRi0gCEYtIAgwLKAVprEFPf8BcROaEEj55swAAAAASUVORK5C
-        YII=
 </value>
   </data>
   <data name="Close_Nav.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
