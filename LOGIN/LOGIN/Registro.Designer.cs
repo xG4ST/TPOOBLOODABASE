@@ -43,13 +43,11 @@
             this.bunifuMaterialTextbox5 = new Bunifu.Framework.UI.BunifuMaterialTextbox();
             this.bunifuImageButton1 = new Bunifu.Framework.UI.BunifuImageButton();
             this.Min_Nav = new Bunifu.Framework.UI.BunifuImageButton();
-            this.Max_Nav = new Bunifu.Framework.UI.BunifuImageButton();
             this.Close_Nav = new Bunifu.Framework.UI.BunifuImageButton();
             this.bunifuElipse1 = new Bunifu.Framework.UI.BunifuElipse(this.components);
             this.bunifuImageButton2 = new Bunifu.Framework.UI.BunifuImageButton();
             ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Min_Nav)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Max_Nav)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Close_Nav)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton2)).BeginInit();
             this.SuspendLayout();
@@ -60,7 +58,7 @@
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Segoe UI", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(134)))), ((int)(((byte)(127)))), ((int)(((byte)(140)))));
-            this.label1.Location = new System.Drawing.Point(87, 75);
+            this.label1.Location = new System.Drawing.Point(100, 68);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(277, 50);
             this.label1.TabIndex = 6;
@@ -230,7 +228,7 @@
             this.Min_Nav.BackColor = System.Drawing.Color.White;
             this.Min_Nav.Image = ((System.Drawing.Image)(resources.GetObject("Min_Nav.Image")));
             this.Min_Nav.ImageActive = null;
-            this.Min_Nav.Location = new System.Drawing.Point(346, 11);
+            this.Min_Nav.Location = new System.Drawing.Point(386, 18);
             this.Min_Nav.Margin = new System.Windows.Forms.Padding(2);
             this.Min_Nav.Name = "Min_Nav";
             this.Min_Nav.Size = new System.Drawing.Size(17, 15);
@@ -238,27 +236,14 @@
             this.Min_Nav.TabIndex = 27;
             this.Min_Nav.TabStop = false;
             this.Min_Nav.Zoom = 10;
-            // 
-            // Max_Nav
-            // 
-            this.Max_Nav.BackColor = System.Drawing.Color.White;
-            this.Max_Nav.Image = ((System.Drawing.Image)(resources.GetObject("Max_Nav.Image")));
-            this.Max_Nav.ImageActive = null;
-            this.Max_Nav.Location = new System.Drawing.Point(392, 11);
-            this.Max_Nav.Margin = new System.Windows.Forms.Padding(2);
-            this.Max_Nav.Name = "Max_Nav";
-            this.Max_Nav.Size = new System.Drawing.Size(17, 15);
-            this.Max_Nav.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.Max_Nav.TabIndex = 26;
-            this.Max_Nav.TabStop = false;
-            this.Max_Nav.Zoom = 10;
+            this.Min_Nav.Click += new System.EventHandler(this.Min_Nav_Click);
             // 
             // Close_Nav
             // 
             this.Close_Nav.BackColor = System.Drawing.Color.White;
             this.Close_Nav.Image = ((System.Drawing.Image)(resources.GetObject("Close_Nav.Image")));
             this.Close_Nav.ImageActive = null;
-            this.Close_Nav.Location = new System.Drawing.Point(434, 11);
+            this.Close_Nav.Location = new System.Drawing.Point(428, 18);
             this.Close_Nav.Margin = new System.Windows.Forms.Padding(2);
             this.Close_Nav.Name = "Close_Nav";
             this.Close_Nav.Size = new System.Drawing.Size(17, 15);
@@ -278,13 +263,14 @@
             this.bunifuImageButton2.BackColor = System.Drawing.Color.White;
             this.bunifuImageButton2.Image = global::LOGIN.Properties.Resources.navigate_before_24px;
             this.bunifuImageButton2.ImageActive = null;
-            this.bunifuImageButton2.Location = new System.Drawing.Point(50, 84);
+            this.bunifuImageButton2.Location = new System.Drawing.Point(43, 76);
             this.bunifuImageButton2.Name = "bunifuImageButton2";
             this.bunifuImageButton2.Size = new System.Drawing.Size(32, 34);
             this.bunifuImageButton2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.bunifuImageButton2.TabIndex = 28;
             this.bunifuImageButton2.TabStop = false;
             this.bunifuImageButton2.Zoom = 10;
+            this.bunifuImageButton2.Click += new System.EventHandler(this.bunifuImageButton2_Click);
             // 
             // Registro
             // 
@@ -294,7 +280,6 @@
             this.ClientSize = new System.Drawing.Size(462, 762);
             this.Controls.Add(this.bunifuImageButton2);
             this.Controls.Add(this.Min_Nav);
-            this.Controls.Add(this.Max_Nav);
             this.Controls.Add(this.Close_Nav);
             this.Controls.Add(this.bunifuImageButton1);
             this.Controls.Add(this.bunifuMaterialTextbox5);
@@ -314,7 +299,6 @@
             this.Text = "Registro";
             ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Min_Nav)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Max_Nav)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Close_Nav)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton2)).EndInit();
             this.ResumeLayout(false);
@@ -336,7 +320,6 @@
         private Bunifu.Framework.UI.BunifuMaterialTextbox bunifuMaterialTextbox5;
         private Bunifu.Framework.UI.BunifuImageButton bunifuImageButton1;
         private Bunifu.Framework.UI.BunifuImageButton Min_Nav;
-        private Bunifu.Framework.UI.BunifuImageButton Max_Nav;
         private Bunifu.Framework.UI.BunifuImageButton Close_Nav;
         private Bunifu.Framework.UI.BunifuElipse bunifuElipse1;
         private Bunifu.Framework.UI.BunifuImageButton bunifuImageButton2;
