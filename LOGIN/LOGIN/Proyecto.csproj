@@ -90,11 +90,11 @@
     <Compile Include="Estadistica.Designer.cs">
       <DependentUpon>Estadistica.cs</DependentUpon>
     </Compile>
-    <Compile Include="Examen_de_sangre.cs">
+    <Compile Include="Examen de sangre.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Examen_de_sangre.Designer.cs">
-      <DependentUpon>Examen_de_sangre.cs</DependentUpon>
+    <Compile Include="Examen de sangre.Designer.cs">
+      <DependentUpon>Examen de sangre.cs</DependentUpon>
     </Compile>
     <Compile Include="Calendario_Citas.cs">
       <SubType>Form</SubType>
@@ -131,8 +131,8 @@
     <EmbeddedResource Include="Estadistica.resx">
       <DependentUpon>Estadistica.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Examen_de_sangre.resx">
-      <DependentUpon>Examen_de_sangre.cs</DependentUpon>
+    <EmbeddedResource Include="Examen de sangre.resx">
+      <DependentUpon>Examen de sangre.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Calendario_Citas.resx">
       <DependentUpon>Calendario_Citas.cs</DependentUpon>

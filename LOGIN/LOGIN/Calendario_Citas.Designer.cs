@@ -34,8 +34,9 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(943, 677);
+            this.ClientSize = new System.Drawing.Size(879, 677);
             this.Name = "Pantalla_que_no_se_para_que_sea";
+            this.Text = "Pantalla_que_no_se_para_que_sea";
             this.ResumeLayout(false);
 
         }

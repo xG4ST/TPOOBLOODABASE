@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace LOGIN
 {
-    public partial class cita : Form
+    public partial class Cita : Form
     {
-        public cita()
+        public Cita()
         {
             InitializeComponent();
         }
