@@ -44,5 +44,10 @@ namespace LOGIN
             this.Hide();
             Form1.Show();
         }
+
+        private void label6_Click(object sender, EventArgs e)
+        {
+            label6.Font = new Font("Lato", 15, FontStyle.Regular);
+        }
     }
 }
