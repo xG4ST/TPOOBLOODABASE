@@ -285,7 +285,7 @@
             this.Contraseña_TextBox.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.Contraseña_TextBox.HintForeColor = System.Drawing.Color.Empty;
             this.Contraseña_TextBox.HintText = "";
-            this.Contraseña_TextBox.isPassword = false;
+            this.Contraseña_TextBox.isPassword = true;
             this.Contraseña_TextBox.LineFocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(194)))), ((int)(((byte)(233)))));
             this.Contraseña_TextBox.LineIdleColor = System.Drawing.Color.Gray;
             this.Contraseña_TextBox.LineMouseHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(194)))), ((int)(((byte)(233)))));
@@ -347,8 +347,8 @@
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label8;
         private Bunifu.Framework.UI.BunifuMaterialTextbox Nombre_TextBox;
-        private Bunifu.Framework.UI.BunifuMaterialTextbox Contraseña_TextBox;
         private Bunifu.Framework.UI.BunifuMaterialTextbox Correo_TextBox;
         private Bunifu.Framework.UI.BunifuMaterialTextbox Especialidad_TextBox;
+        private Bunifu.Framework.UI.BunifuMaterialTextbox Contraseña_TextBox;
     }
 }
