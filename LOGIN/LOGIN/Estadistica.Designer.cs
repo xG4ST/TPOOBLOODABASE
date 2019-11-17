@@ -85,6 +85,7 @@
             this.bunifuFlatButton6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.bunifuFlatButton6.Textcolor = System.Drawing.Color.FromArgb(((int)(((byte)(90)))), ((int)(((byte)(42)))), ((int)(((byte)(128)))));
             this.bunifuFlatButton6.TextFont = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuFlatButton6.Click += new System.EventHandler(this.BunifuFlatButton6_Click);
             // 
             // bunifuFlatButton4
             // 
@@ -121,6 +122,7 @@
             this.bunifuFlatButton4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.bunifuFlatButton4.Textcolor = System.Drawing.Color.FromArgb(((int)(((byte)(90)))), ((int)(((byte)(42)))), ((int)(((byte)(128)))));
             this.bunifuFlatButton4.TextFont = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuFlatButton4.Click += new System.EventHandler(this.BunifuFlatButton4_Click);
             // 
             // bunifuFlatButton5
             // 
@@ -157,6 +159,7 @@
             this.bunifuFlatButton5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.bunifuFlatButton5.Textcolor = System.Drawing.Color.FromArgb(((int)(((byte)(90)))), ((int)(((byte)(42)))), ((int)(((byte)(128)))));
             this.bunifuFlatButton5.TextFont = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuFlatButton5.Click += new System.EventHandler(this.BunifuFlatButton5_Click);
             // 
             // bunifuFlatButton3
             // 
@@ -193,6 +196,7 @@
             this.bunifuFlatButton3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.bunifuFlatButton3.Textcolor = System.Drawing.Color.FromArgb(((int)(((byte)(90)))), ((int)(((byte)(42)))), ((int)(((byte)(128)))));
             this.bunifuFlatButton3.TextFont = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuFlatButton3.Click += new System.EventHandler(this.BunifuFlatButton3_Click);
             // 
             // bunifuFlatButton1
             // 
@@ -229,6 +233,7 @@
             this.bunifuFlatButton1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.bunifuFlatButton1.Textcolor = System.Drawing.Color.FromArgb(((int)(((byte)(90)))), ((int)(((byte)(42)))), ((int)(((byte)(128)))));
             this.bunifuFlatButton1.TextFont = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuFlatButton1.Click += new System.EventHandler(this.BunifuFlatButton1_Click);
             // 
             // bunifuFlatButton2
             // 
@@ -265,6 +270,7 @@
             this.bunifuFlatButton2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.bunifuFlatButton2.Textcolor = System.Drawing.Color.FromArgb(((int)(((byte)(90)))), ((int)(((byte)(42)))), ((int)(((byte)(128)))));
             this.bunifuFlatButton2.TextFont = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuFlatButton2.Click += new System.EventHandler(this.BunifuFlatButton2_Click);
             // 
             // Min_Nav
             // 
@@ -379,6 +385,7 @@
             this.bunifuFlatButton7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.bunifuFlatButton7.Textcolor = System.Drawing.Color.FromArgb(((int)(((byte)(90)))), ((int)(((byte)(42)))), ((int)(((byte)(128)))));
             this.bunifuFlatButton7.TextFont = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuFlatButton7.Click += new System.EventHandler(this.BunifuFlatButton7_Click);
             // 
             // Estadistica
             // 
@@ -402,6 +409,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Estadistica";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Estadistica";
             this.Load += new System.EventHandler(this.Estadistica_Load);
             ((System.ComponentModel.ISupportInitialize)(this.Min_Nav)).EndInit();
