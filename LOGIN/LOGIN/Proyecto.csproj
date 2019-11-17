@@ -111,6 +111,8 @@
       <DependentUpon>Log.cs</DependentUpon>
     </Compile>
     <Compile Include="Mysql\Conexion.cs" />
+    <Compile Include="Mysql\CuentaMed.cs" />
+    <Compile Include="Mysql\RegistrarCuentaMed.cs" />
     <Compile Include="Registro.cs">
       <SubType>Form</SubType>
     </Compile>

@@ -49,5 +49,10 @@ namespace LOGIN
         {
             label6.Font = new Font("Lato", 15, FontStyle.Regular);
         }
+
+        private void Registrarse_Button_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

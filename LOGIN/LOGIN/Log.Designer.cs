@@ -34,14 +34,14 @@
             this.Registrarse_Button = new Bunifu.Framework.UI.BunifuThinButton2();
             this.Entrar_Button = new Bunifu.Framework.UI.BunifuThinButton2();
             this.Password_Text = new System.Windows.Forms.Label();
-            this.Contraseña_TextBox = new Bunifu.Framework.UI.BunifuTextbox();
-            this.Usuario_TextBox = new Bunifu.Framework.UI.BunifuTextbox();
             this.Usuario_Text = new System.Windows.Forms.Label();
             this.Bloodabase = new System.Windows.Forms.Label();
             this.Bloodabase_Logo = new System.Windows.Forms.PictureBox();
             this.bunifuElipse1 = new Bunifu.Framework.UI.BunifuElipse(this.components);
             this.Min_Nav = new Bunifu.Framework.UI.BunifuImageButton();
             this.Close_Nav = new Bunifu.Framework.UI.BunifuImageButton();
+            this.Usuario_TextBox = new Bunifu.Framework.UI.BunifuMaterialTextbox();
+            this.Contraseña_TextBox = new Bunifu.Framework.UI.BunifuMaterialTextbox();
             ((System.ComponentModel.ISupportInitialize)(this.Bloodabase_Logo)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Min_Nav)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Close_Nav)).BeginInit();
@@ -123,34 +123,6 @@
             this.Password_Text.TabIndex = 27;
             this.Password_Text.Text = "Contraseña:";
             // 
-            // Contraseña_TextBox
-            // 
-            this.Contraseña_TextBox.BackColor = System.Drawing.Color.White;
-            this.Contraseña_TextBox.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Contraseña_TextBox.BackgroundImage")));
-            this.Contraseña_TextBox.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.Contraseña_TextBox.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(194)))), ((int)(((byte)(233)))));
-            this.Contraseña_TextBox.Icon = ((System.Drawing.Image)(resources.GetObject("Contraseña_TextBox.Icon")));
-            this.Contraseña_TextBox.Location = new System.Drawing.Point(90, 407);
-            this.Contraseña_TextBox.Margin = new System.Windows.Forms.Padding(4);
-            this.Contraseña_TextBox.Name = "Contraseña_TextBox";
-            this.Contraseña_TextBox.Size = new System.Drawing.Size(282, 43);
-            this.Contraseña_TextBox.TabIndex = 26;
-            this.Contraseña_TextBox.text = "";
-            // 
-            // Usuario_TextBox
-            // 
-            this.Usuario_TextBox.BackColor = System.Drawing.Color.White;
-            this.Usuario_TextBox.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Usuario_TextBox.BackgroundImage")));
-            this.Usuario_TextBox.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.Usuario_TextBox.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(194)))), ((int)(((byte)(233)))));
-            this.Usuario_TextBox.Icon = ((System.Drawing.Image)(resources.GetObject("Usuario_TextBox.Icon")));
-            this.Usuario_TextBox.Location = new System.Drawing.Point(90, 323);
-            this.Usuario_TextBox.Margin = new System.Windows.Forms.Padding(2);
-            this.Usuario_TextBox.Name = "Usuario_TextBox";
-            this.Usuario_TextBox.Size = new System.Drawing.Size(282, 43);
-            this.Usuario_TextBox.TabIndex = 25;
-            this.Usuario_TextBox.text = "";
-            // 
             // Usuario_Text
             // 
             this.Usuario_Text.AutoSize = true;
@@ -221,20 +193,58 @@
             this.Close_Nav.Zoom = 10;
             this.Close_Nav.Click += new System.EventHandler(this.Close_Nav_Click);
             // 
+            // Usuario_TextBox
+            // 
+            this.Usuario_TextBox.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.Usuario_TextBox.Font = new System.Drawing.Font("Century Gothic", 9.75F);
+            this.Usuario_TextBox.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.Usuario_TextBox.HintForeColor = System.Drawing.Color.Empty;
+            this.Usuario_TextBox.HintText = "";
+            this.Usuario_TextBox.isPassword = false;
+            this.Usuario_TextBox.LineFocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(194)))), ((int)(((byte)(233)))));
+            this.Usuario_TextBox.LineIdleColor = System.Drawing.Color.Gray;
+            this.Usuario_TextBox.LineMouseHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(194)))), ((int)(((byte)(233)))));
+            this.Usuario_TextBox.LineThickness = 1;
+            this.Usuario_TextBox.Location = new System.Drawing.Point(89, 325);
+            this.Usuario_TextBox.Margin = new System.Windows.Forms.Padding(4);
+            this.Usuario_TextBox.Name = "Usuario_TextBox";
+            this.Usuario_TextBox.Size = new System.Drawing.Size(283, 33);
+            this.Usuario_TextBox.TabIndex = 41;
+            this.Usuario_TextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            // 
+            // Contraseña_TextBox
+            // 
+            this.Contraseña_TextBox.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.Contraseña_TextBox.Font = new System.Drawing.Font("Century Gothic", 9.75F);
+            this.Contraseña_TextBox.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.Contraseña_TextBox.HintForeColor = System.Drawing.Color.Empty;
+            this.Contraseña_TextBox.HintText = "";
+            this.Contraseña_TextBox.isPassword = true;
+            this.Contraseña_TextBox.LineFocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(194)))), ((int)(((byte)(233)))));
+            this.Contraseña_TextBox.LineIdleColor = System.Drawing.Color.Gray;
+            this.Contraseña_TextBox.LineMouseHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(194)))), ((int)(((byte)(233)))));
+            this.Contraseña_TextBox.LineThickness = 1;
+            this.Contraseña_TextBox.Location = new System.Drawing.Point(89, 407);
+            this.Contraseña_TextBox.Margin = new System.Windows.Forms.Padding(4);
+            this.Contraseña_TextBox.Name = "Contraseña_TextBox";
+            this.Contraseña_TextBox.Size = new System.Drawing.Size(283, 33);
+            this.Contraseña_TextBox.TabIndex = 42;
+            this.Contraseña_TextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            // 
             // Log
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(462, 762);
+            this.Controls.Add(this.Contraseña_TextBox);
+            this.Controls.Add(this.Usuario_TextBox);
             this.Controls.Add(this.Min_Nav);
             this.Controls.Add(this.Close_Nav);
             this.Controls.Add(this.Olvidar_Text);
             this.Controls.Add(this.Registrarse_Button);
             this.Controls.Add(this.Entrar_Button);
             this.Controls.Add(this.Password_Text);
-            this.Controls.Add(this.Contraseña_TextBox);
-            this.Controls.Add(this.Usuario_TextBox);
             this.Controls.Add(this.Usuario_Text);
             this.Controls.Add(this.Bloodabase);
             this.Controls.Add(this.Bloodabase_Logo);
@@ -257,13 +267,13 @@
         private Bunifu.Framework.UI.BunifuThinButton2 Registrarse_Button;
         private Bunifu.Framework.UI.BunifuThinButton2 Entrar_Button;
         private System.Windows.Forms.Label Password_Text;
-        private Bunifu.Framework.UI.BunifuTextbox Contraseña_TextBox;
-        private Bunifu.Framework.UI.BunifuTextbox Usuario_TextBox;
         private System.Windows.Forms.Label Usuario_Text;
         private System.Windows.Forms.Label Bloodabase;
         private System.Windows.Forms.PictureBox Bloodabase_Logo;
         private Bunifu.Framework.UI.BunifuElipse bunifuElipse1;
         private Bunifu.Framework.UI.BunifuImageButton Min_Nav;
         private Bunifu.Framework.UI.BunifuImageButton Close_Nav;
+        private Bunifu.Framework.UI.BunifuMaterialTextbox Contraseña_TextBox;
+        private Bunifu.Framework.UI.BunifuMaterialTextbox Usuario_TextBox;
     }
 }
