@@ -7,7 +7,7 @@ using MySql.Data.MySqlClient;
 
 namespace LOGIN.Mysql
 {
-    class Conexion
+    class conexion
     {
         public static MySqlConnection obtainConexion()
         {
