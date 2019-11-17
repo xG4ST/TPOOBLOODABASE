@@ -97,7 +97,6 @@
             this.label6.Size = new System.Drawing.Size(69, 20);
             this.label6.TabIndex = 11;
             this.label6.Text = "Nombre:";
-            this.label6.Click += new System.EventHandler(this.label6_Click);
             // 
             // Min_Nav
             // 

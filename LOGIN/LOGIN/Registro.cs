@@ -1,4 +1,5 @@
-﻿using System;
+﻿using LOGIN.Mysql;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -45,14 +46,26 @@ namespace LOGIN
             Form1.Show();
         }
 
-        private void label6_Click(object sender, EventArgs e)
-        {
-            label6.Font = new Font("Lato", 15, FontStyle.Regular);
-        }
-
         private void Registrarse_Button_Click(object sender, EventArgs e)
         {
+            CuentaMed nuevaCuenta = new CuentaMed();
+            nuevaCuenta.nom_med = Nombre_TextBox.Text.Trim();
+            nuevaCuenta.especialidad_med = Especialidad_TextBox.Text.Trim();
+            nuevaCuenta.correo_med = Correo_TextBox.Text.Trim();
+            nuevaCuenta.contraseña_med = Contraseña_TextBox.Text.Trim();
 
+            int resultado = RegistrarCuentaMed.agregar(nuevaCuenta);
+            if (resultado > 0)
+            {
+                MessageBox.Show("Usuario Registrado con Exito!", "Registro", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                Log Form1 = new Log();
+                this.Hide();
+                Form1.Show();
+            }
+            else
+            {
+                MessageBox.Show("No se pudo guardar el Usuario", "Registro", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
     }
 }

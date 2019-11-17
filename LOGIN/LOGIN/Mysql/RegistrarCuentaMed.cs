@@ -12,7 +12,7 @@ namespace LOGIN.Mysql
         public static int agregar(CuentaMed add)
         {
             int retorno = 0;
-            MySqlCommand comando = new MySqlCommand(String.Format("insert into Médico(Nombre, Especialidad, Contraseña, Correo) values('{0}','{1}','{2}','{3}')",
+            MySqlCommand comando = new MySqlCommand(String.Format("insert into Médico(nom_med, especialidad_med, contraseña_med, correo_med) values('{0}','{1}','{2}','{3}')",
                 add.nom_med, add.especialidad_med, add.contraseña_med, add.correo_med), Conexion.obtainConexion());
             retorno = comando.ExecuteNonQuery();
             return retorno;
