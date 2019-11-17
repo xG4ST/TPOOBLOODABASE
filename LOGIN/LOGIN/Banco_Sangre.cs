@@ -16,5 +16,12 @@ namespace LOGIN
         {
             InitializeComponent();
         }
+
+        private void BunifuFlatButton2_Click(object sender, EventArgs e)
+        {
+            Banco_Sangre Form3 = new Condiciones();
+            this.Hide();
+            Form3.Show();
+        }
     }
 }

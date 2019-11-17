@@ -139,11 +139,17 @@
     <EmbeddedResource Include="Alta_Donante.resx">
       <DependentUpon>Alta_Donante.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Banco_Sangre.resx">
+      <DependentUpon>Banco_Sangre.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Cita.resx">
       <DependentUpon>Cita.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Condiciones.resx">
       <DependentUpon>Condiciones.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dar de alta donante.resx">
+      <DependentUpon>Dar de alta donante.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Departamento.resx">
       <DependentUpon>Departamento.cs</DependentUpon>
