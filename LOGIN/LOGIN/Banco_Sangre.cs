@@ -10,31 +10,11 @@ using System.Windows.Forms;
 
 namespace LOGIN
 {
-    public partial class Alta_Donante : Form
+    public partial class Banco_Sangre : Form
     {
-        public Alta_Donante()
+        public Banco_Sangre()
         {
             InitializeComponent();
-        }
-
-        private void Label2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void BunifuFlatButton1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void PictureBox3_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Alta_Donante_Load(object sender, EventArgs e)
-        {
-
         }
     }
 }
