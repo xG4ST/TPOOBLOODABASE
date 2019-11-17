@@ -398,6 +398,7 @@
             this.Controls.Add(this.pictureBox2);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Examen_de_sangre";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Examen_de_sangre";
             ((System.ComponentModel.ISupportInitialize)(this.Min_Nav)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Max_Nav)).EndInit();
