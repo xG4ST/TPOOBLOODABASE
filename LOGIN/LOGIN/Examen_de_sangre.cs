@@ -43,7 +43,7 @@ namespace LOGIN
 
         private void BunifuFlatButton3_Click(object sender, EventArgs e)
         {
-            Dar_de_alta_donante  Form7 = new Dar_de_alta_donante ();
+            Alta_Donante  Form7 = new Alta_Donante ();
             this.Hide();
             Form7.Show();
         }
@@ -69,7 +69,7 @@ namespace LOGIN
 
         private void BunifuFlatButton7_Click(object sender, EventArgs e)
         {
-            Estadistica Form10 = new Estadistica();
+            Estadisticas Form10 = new Estadisticas();
             this.Hide();
             Form10.Show();
         }

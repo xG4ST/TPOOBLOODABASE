@@ -10,16 +10,16 @@ using System.Windows.Forms;
 
 namespace LOGIN
 {
-    public partial class Estadistica : Form
+    public partial class Estadisticas : Form
     {
-        public Estadistica()
+        public Estadisticas()
         {
             InitializeComponent();
         }
 
         private void BunifuFlatButton1_Click(object sender, EventArgs e)
         {
-            Condiciones Form4 = new Condiciones();
+            Banco_Sangre Form4 = new Banco_Sangre();
             this.Hide();
             Form4.Show();
         }
@@ -33,7 +33,7 @@ namespace LOGIN
 
         private void BunifuFlatButton3_Click(object sender, EventArgs e)
         {
-            Dar_de_alta_donante Form6 = new Dar_de_alta_donante();
+            Alta_Donante Form6 = new Alta_Donante();
             this.Hide();
             Form6.Show();
         }

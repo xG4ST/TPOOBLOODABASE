@@ -17,24 +17,51 @@ namespace LOGIN
             InitializeComponent();
         }
 
-        private void Label2_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void BunifuFlatButton1_Click(object sender, EventArgs e)
         {
-
+            Banco_Sangre Form4 = new Banco_Sangre();
+            this.Hide();
+            Form4.Show();
         }
 
-        private void PictureBox3_Click(object sender, EventArgs e)
+        private void BunifuFlatButton2_Click(object sender, EventArgs e)
         {
-
+            Condiciones Form5 = new Condiciones();
+            this.Hide();
+            Form5.Show();
         }
 
-        private void Alta_Donante_Load(object sender, EventArgs e)
+        private void BunifuFlatButton3_Click(object sender, EventArgs e)
         {
+            //nada
+        }
 
+        private void BunifuFlatButton5_Click(object sender, EventArgs e)
+        {
+            Cita Form7 = new Cita();
+            this.Hide();
+            Form7.Show();
+        }
+
+        private void BunifuFlatButton4_Click(object sender, EventArgs e)
+        {
+            Examen_de_sangre Form8 = new Examen_de_sangre();
+            this.Hide();
+            Form8.Show();
+        }
+
+        private void BunifuFlatButton6_Click(object sender, EventArgs e)
+        {
+            Departamento Form9 = new Departamento();
+            this.Hide();
+            Form9.Show();
+        }
+
+        private void BunifuFlatButton7_Click(object sender, EventArgs e)
+        {
+            Estadisticas Form10 = new Estadisticas();
+            this.Hide();
+            Form10.Show();
         }
     }
 }

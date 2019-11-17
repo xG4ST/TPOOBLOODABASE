@@ -30,7 +30,7 @@ namespace LOGIN
 
         private void BunifuFlatButton3_Click(object sender, EventArgs e)
         {
-            Dar_de_alta_donante Form6 = new Dar_de_alta_donante();
+            Alta_Donante Form6 = new Alta_Donante();
             this.Hide();
             Form6.Show();
         }
@@ -58,7 +58,7 @@ namespace LOGIN
 
         private void BunifuFlatButton7_Click(object sender, EventArgs e)
         {
-            Estadistica Form10 = new Estadistica();
+            Estadisticas Form10 = new Estadisticas();
             this.Hide();
             Form10.Show();
         }
@@ -66,6 +66,28 @@ namespace LOGIN
         private void Banco_Sangre_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void Close_Nav_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void Min_Nav_Click(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Minimized;
+        }
+
+        private void pictureBox4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void bunifuFlatButton8_Click(object sender, EventArgs e)
+        {
+            Administrador Form3 = new Administrador();
+            this.Hide();
+            Form3.Show();
         }
     }
 }
