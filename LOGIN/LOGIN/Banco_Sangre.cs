@@ -62,5 +62,10 @@ namespace LOGIN
             this.Hide();
             Form10.Show();
         }
+
+        private void Banco_Sangre_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

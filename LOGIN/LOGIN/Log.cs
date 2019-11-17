@@ -43,6 +43,9 @@ namespace LOGIN
             if (leer.Read())
             {
                 MessageBox.Show("Bienvenido", "Log In", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                Banco_Sangre Form3 = new Banco_Sangre();
+                this.Hide();
+                Form3.Show();
                 conexion.Close();
             }
             else

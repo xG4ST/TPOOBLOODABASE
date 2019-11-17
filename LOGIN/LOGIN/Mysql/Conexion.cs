@@ -11,7 +11,7 @@ namespace LOGIN.Mysql
     {
         public static MySqlConnection obtainConexion()
         {
-            MySqlConnection conexion = new MySqlConnection("server = 127.0.0.1; database = sistemabloodabase; Uid = root; pwd = olakasegus64;");
+            MySqlConnection conexion = new MySqlConnection("server = 127.0.0.1; database = sistemabloodabase; Uid = root; pwd = 2000;");
             conexion.Open();
             return conexion;
         }

@@ -16,5 +16,10 @@ namespace LOGIN
         {
             InitializeComponent();
         }
+
+        private void Estadistica_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
