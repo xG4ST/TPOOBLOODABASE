@@ -1,6 +1,6 @@
 ﻿namespace LOGIN
 {
-    partial class Pantalla_que_no_se_para_que_sea
+    partial class Dar_de_alta_donante
     {
         /// <summary>
         /// Required designer variable.
@@ -28,17 +28,10 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.SuspendLayout();
-            // 
-            // Pantalla_que_no_se_para_que_sea
-            // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.components = new System.ComponentModel.Container();
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(879, 677);
-            this.Name = "Pantalla_que_no_se_para_que_sea";
-            this.Text = "Pantalla_que_no_se_para_que_sea";
-            this.ResumeLayout(false);
-
+            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Text = "Dar_de_alta_donante";
         }
 
         #endregion

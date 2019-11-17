@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace LOGIN
 {
-    public partial class Pantalla_que_no_se_para_que_sea : Form
+    public partial class Dar_de_alta_donante : Form
     {
-        public Pantalla_que_no_se_para_que_sea()
+        public Dar_de_alta_donante()
         {
             InitializeComponent();
         }

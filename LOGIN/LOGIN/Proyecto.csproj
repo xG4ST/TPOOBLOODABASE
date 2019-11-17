@@ -71,6 +71,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Alta_Donante.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Alta_Donante.Designer.cs">
+      <DependentUpon>Alta_Donante.cs</DependentUpon>
+    </Compile>
     <Compile Include="Banco_Sangre.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -88,6 +94,12 @@
     </Compile>
     <Compile Include="Condiciones.Designer.cs">
       <DependentUpon>Condiciones.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dar de alta donante.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dar de alta donante.Designer.cs">
+      <DependentUpon>Dar de alta donante.cs</DependentUpon>
     </Compile>
     <Compile Include="Departamento.cs">
       <SubType>Form</SubType>
@@ -107,12 +119,6 @@
     <Compile Include="Examen de sangre.Designer.cs">
       <DependentUpon>Examen de sangre.cs</DependentUpon>
     </Compile>
-    <Compile Include="Calendario_Citas.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Calendario_Citas.Designer.cs">
-      <DependentUpon>Calendario_Citas.cs</DependentUpon>
-    </Compile>
     <Compile Include="Log.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -130,8 +136,8 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Banco_Sangre.resx">
-      <DependentUpon>Banco_Sangre.cs</DependentUpon>
+    <EmbeddedResource Include="Alta_Donante.resx">
+      <DependentUpon>Alta_Donante.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Cita.resx">
       <DependentUpon>Cita.cs</DependentUpon>
@@ -147,9 +153,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Examen de sangre.resx">
       <DependentUpon>Examen de sangre.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Calendario_Citas.resx">
-      <DependentUpon>Calendario_Citas.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Log.resx">
       <DependentUpon>Log.cs</DependentUpon>
