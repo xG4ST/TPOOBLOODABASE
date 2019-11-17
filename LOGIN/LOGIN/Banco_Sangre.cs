@@ -21,5 +21,20 @@ namespace LOGIN
         {
 
         }
+
+        private void BunifuFlatButton1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void PictureBox3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Alta_Donante_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

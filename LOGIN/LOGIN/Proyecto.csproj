@@ -62,11 +62,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Banco de Sangre.cs">
+    <Compile Include="Banco_Sangre.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Banco de Sangre.Designer.cs">
-      <DependentUpon>Banco de Sangre.cs</DependentUpon>
+    <Compile Include="Banco_Sangre.Designer.cs">
+      <DependentUpon>Banco_Sangre.cs</DependentUpon>
     </Compile>
     <Compile Include="Cita.cs">
       <SubType>Form</SubType>
@@ -121,8 +121,8 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Banco de Sangre.resx">
-      <DependentUpon>Banco de Sangre.cs</DependentUpon>
+    <EmbeddedResource Include="Banco_Sangre.resx">
+      <DependentUpon>Banco_Sangre.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Cita.resx">
       <DependentUpon>Cita.cs</DependentUpon>
