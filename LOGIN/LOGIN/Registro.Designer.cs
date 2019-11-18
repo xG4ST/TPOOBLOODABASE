@@ -192,9 +192,9 @@
             this.Olvidar_Text.Location = new System.Drawing.Point(87, 680);
             this.Olvidar_Text.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.Olvidar_Text.Name = "Olvidar_Text";
-            this.Olvidar_Text.Size = new System.Drawing.Size(124, 13);
+            this.Olvidar_Text.Size = new System.Drawing.Size(130, 13);
             this.Olvidar_Text.TabIndex = 36;
-            this.Olvidar_Text.Text = "Olvidaste la contraseña?";
+            this.Olvidar_Text.Text = "¿Olvidaste la contraseña?";
             // 
             // label7
             // 
@@ -213,7 +213,7 @@
             this.label8.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(194)))), ((int)(((byte)(233)))));
-            this.label8.Location = new System.Drawing.Point(215, 680);
+            this.label8.Location = new System.Drawing.Point(221, 680);
             this.label8.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(45, 13);

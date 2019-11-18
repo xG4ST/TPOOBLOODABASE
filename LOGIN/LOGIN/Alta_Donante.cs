@@ -1,11 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using LOGIN.Mysql;
+using MySql.Data.MySqlClient;
+using System;
 using System.Windows.Forms;
 
 namespace LOGIN
@@ -83,19 +78,20 @@ namespace LOGIN
 
         private void bunifuThinButton22_Click(object sender, EventArgs e)
         {
+            int Id = 0;
             string Nombre = Nombre_TextBox.Text;
             string Sexo = ""; //Radio Button If
             if (Hombre_RadioButton.Checked)
             {
-                Sexo = "Hombre";
+                Sexo = "H";
             }
             else
             {
 
             }
-            if(Mujer_RadioButton.Checked)
+            if (Mujer_RadioButton.Checked)
             {
-                Sexo = "Mujer";
+                Sexo = "M";
             }
             else
             {
@@ -103,7 +99,7 @@ namespace LOGIN
             }
             if (Otro_RadioButton.Checked)
             {
-                Sexo = "Otro";
+                Sexo = "O";
             }
             else
             {
@@ -111,6 +107,7 @@ namespace LOGIN
             }
             string Edad = Edad_TextBox.Text;
             string Teléfono = Teléfono_TextBox.Text;
+            string Sangre = "";
             if (TipoSangre_ComboBox.SelectedItem == null)
             {
                 MessageBox.Show("Los campos no pueden quedar vacios", "Registrar Donante", MessageBoxButtons.OK, MessageBoxIcon.Error);
@@ -118,19 +115,91 @@ namespace LOGIN
             }
             else
             {
-                string Sangre = TipoSangre_ComboBox.SelectedItem.ToString();
+                Sangre = TipoSangre_ComboBox.SelectedItem.ToString();
             }
+
+            /*
             string Fecha = Fecha_TimePicker.Text;
             Fecha_TimePicker.Format = DateTimePickerFormat.Custom;
+            */
+
+            string Fecha = Fecha_TimePicker.Value.ToString("yyyy-MM-dd");
+
             //MessageBox.Show("Bienvenido" + Fecha, "Log In", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
             string Dirección = Dirección_TextBox.Text;
+            string Estado = "Nada";
+            string Ciudad = "Nada";
             string Correo = Correo_TextBox.Text;
 
             if (string.IsNullOrEmpty(Nombre_TextBox.Text) || string.IsNullOrEmpty(Sexo) || string.IsNullOrEmpty(Edad_TextBox.Text) || string.IsNullOrEmpty(Teléfono_TextBox.Text) || string.IsNullOrEmpty(Fecha) || string.IsNullOrEmpty(Dirección_TextBox.Text) || string.IsNullOrEmpty(Correo_TextBox.Text))
             {
-                MessageBox.Show("Los campos no pueden quedar vacios", "Registro", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Los campos no pueden quedar vacios", "Registro del Donante", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            /*else
+            {
+                MySqlConnection conexion = new MySqlConnection("server = 127.0.0.1; database = sistemabloodabase; Uid = root; pwd = 2000;");
+                conexion.Open();
+            }
+            */
+            else
+            {
+                MySqlConnection conexion = new MySqlConnection("server = 127.0.0.1; database = sistemabloodabase; Uid = root; pwd = 2000;");
+                conexion.Open();
+
+                string query = @"insert into donador(id_don, nom_don, sexo_don, edad_don, tel_don, tiposangre_don, fechanac_don, dir_don, estado_don, ciudad_don, correo_don) values(@Id, @Nombre, @Sexo, @Edad, @Teléfono, @Sangre, @Fecha, @Dirección, @Estado, @Ciudad, @Correo)";
+
+                MySqlCommand registrodonante = new MySqlCommand(query, conexion);
+                registrodonante.Parameters.AddWithValue("@Id", Id);
+                registrodonante.Parameters.AddWithValue("@Nombre", Nombre);
+                registrodonante.Parameters.AddWithValue("@Sexo", Sexo);
+                registrodonante.Parameters.AddWithValue("@Edad", Edad);
+                registrodonante.Parameters.AddWithValue("@Teléfono", Teléfono);
+                registrodonante.Parameters.AddWithValue("@Sangre", Sangre);
+                registrodonante.Parameters.AddWithValue("@Fecha", Fecha);
+                registrodonante.Parameters.AddWithValue("@Dirección", Dirección);
+                registrodonante.Parameters.AddWithValue("@Estado", Estado);
+                registrodonante.Parameters.AddWithValue("@Ciudad", Ciudad);
+                registrodonante.Parameters.AddWithValue("@Correo", Correo);
+
+                registrodonante.ExecuteNonQuery();
+                MessageBox.Show("Registro Exitoso");
+                conexion.Close();
+
+
+
+
+
+
+                /*int resultado = RegistrarDonante.agregar(nuevaCuentaDon);
+                if (resultado > 0)
+                {
+                    MessageBox.Show("Donante Registrado con Exito!", "Registro del Donante", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    Alta_Donante Form6 = new Alta_Donante();
+                    this.Hide();
+                    Form6.Show();
+                }
+                else
+                {
+                    MessageBox.Show("No se pudo guardar el Usuario", "Registro", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+                */
             }
 
+
+            /*CuentaDon nuevaCuentaDon = new CuentaDon();
+            nuevaCuentaDon.nom_don = Nombre;
+            nuevaCuentaDon.sexo_don = Sexo;
+            nuevaCuentaDon.edad_don = Edad;
+            nuevaCuentaDon.tel_don = Teléfono;
+            nuevaCuentaDon.fechanac_don = Fecha;
+            nuevaCuentaDon.dir_don = Dirección;
+            nuevaCuentaDon.estado_don = Estado;
+            nuevaCuentaDon.ciudad_don = Ciudad;
+            nuevaCuentaDon.correo_don = Correo;
+            */
+
         }
+
     }
 }

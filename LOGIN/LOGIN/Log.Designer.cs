@@ -52,12 +52,12 @@
             this.Olvidar_Text.AutoSize = true;
             this.Olvidar_Text.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Olvidar_Text.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(134)))), ((int)(((byte)(127)))), ((int)(((byte)(140)))));
-            this.Olvidar_Text.Location = new System.Drawing.Point(88, 710);
+            this.Olvidar_Text.Location = new System.Drawing.Point(88, 711);
             this.Olvidar_Text.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.Olvidar_Text.Name = "Olvidar_Text";
-            this.Olvidar_Text.Size = new System.Drawing.Size(124, 13);
+            this.Olvidar_Text.Size = new System.Drawing.Size(130, 13);
             this.Olvidar_Text.TabIndex = 30;
-            this.Olvidar_Text.Text = "Olvidaste la contraseña?";
+            this.Olvidar_Text.Text = "¿Olvidaste la contraseña?";
             // 
             // Registrarse_Button
             // 
