@@ -17,7 +17,7 @@ namespace LOGIN
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Alta_Donante());
+            Application.Run(new Log());
         }
     }
 }

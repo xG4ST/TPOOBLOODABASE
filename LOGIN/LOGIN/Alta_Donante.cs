@@ -73,5 +73,12 @@ namespace LOGIN
         {
             this.WindowState = FormWindowState.Minimized;
         }
+
+        private void bunifuThinButton21_Click(object sender, EventArgs e)
+        {
+            Alta_Donante Form6 = new Alta_Donante();
+            this.Hide();
+            Form6.Show();
+        }
     }
 }
