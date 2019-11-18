@@ -80,5 +80,57 @@ namespace LOGIN
             this.Hide();
             Form6.Show();
         }
+
+        private void bunifuThinButton22_Click(object sender, EventArgs e)
+        {
+            string Nombre = Nombre_TextBox.Text;
+            string Sexo = ""; //Radio Button If
+            if (Hombre_RadioButton.Checked)
+            {
+                Sexo = "Hombre";
+            }
+            else
+            {
+
+            }
+            if(Mujer_RadioButton.Checked)
+            {
+                Sexo = "Mujer";
+            }
+            else
+            {
+
+            }
+            if (Otro_RadioButton.Checked)
+            {
+                Sexo = "Otro";
+            }
+            else
+            {
+
+            }
+            string Edad = Edad_TextBox.Text;
+            string Teléfono = Teléfono_TextBox.Text;
+            if (TipoSangre_ComboBox.SelectedItem == null)
+            {
+                MessageBox.Show("Los campos no pueden quedar vacios", "Registrar Donante", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
+            else
+            {
+                string Sangre = TipoSangre_ComboBox.SelectedItem.ToString();
+            }
+            string Fecha = Fecha_TimePicker.Text;
+            Fecha_TimePicker.Format = DateTimePickerFormat.Custom;
+            //MessageBox.Show("Bienvenido" + Fecha, "Log In", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            string Dirección = Dirección_TextBox.Text;
+            string Correo = Correo_TextBox.Text;
+
+            if (string.IsNullOrEmpty(Nombre_TextBox.Text) || string.IsNullOrEmpty(Sexo) || string.IsNullOrEmpty(Edad_TextBox.Text) || string.IsNullOrEmpty(Teléfono_TextBox.Text) || string.IsNullOrEmpty(Fecha) || string.IsNullOrEmpty(Dirección_TextBox.Text) || string.IsNullOrEmpty(Correo_TextBox.Text))
+            {
+                MessageBox.Show("Los campos no pueden quedar vacios", "Registro", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+
+        }
     }
 }

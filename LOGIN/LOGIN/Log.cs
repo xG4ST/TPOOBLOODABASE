@@ -81,10 +81,5 @@ namespace LOGIN
             this.Hide();
             Form2.Show();
         }
-
-        private void Usuario_TextBox_OnValueChanged(object sender, EventArgs e)
-        {
-
-        }
     }
 }

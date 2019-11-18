@@ -209,7 +209,6 @@
             this.Usuario_TextBox.Size = new System.Drawing.Size(282, 33);
             this.Usuario_TextBox.TabIndex = 43;
             this.Usuario_TextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.Usuario_TextBox.OnValueChanged += new System.EventHandler(this.Usuario_TextBox_OnValueChanged);
             // 
             // Contraseña_TextBox
             // 

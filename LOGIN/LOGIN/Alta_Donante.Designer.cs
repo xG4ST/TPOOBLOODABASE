@@ -47,24 +47,24 @@
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.Administrador_Button = new Bunifu.Framework.UI.BunifuFlatButton();
             this.Registro_del_donante = new System.Windows.Forms.Label();
-            this.Contraseña_TextBox = new Bunifu.Framework.UI.BunifuMaterialTextbox();
-            this.Correo_TextBox = new Bunifu.Framework.UI.BunifuMaterialTextbox();
+            this.Teléfono_TextBox = new Bunifu.Framework.UI.BunifuMaterialTextbox();
+            this.Edad_TextBox = new Bunifu.Framework.UI.BunifuMaterialTextbox();
             this.Nombre_TextBox = new Bunifu.Framework.UI.BunifuMaterialTextbox();
             this.label7 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.bunifuMaterialTextbox1 = new Bunifu.Framework.UI.BunifuMaterialTextbox();
-            this.bunifuMaterialTextbox2 = new Bunifu.Framework.UI.BunifuMaterialTextbox();
+            this.Correo_TextBox = new Bunifu.Framework.UI.BunifuMaterialTextbox();
+            this.Dirección_TextBox = new Bunifu.Framework.UI.BunifuMaterialTextbox();
             this.label1 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
-            this.radioButton1 = new System.Windows.Forms.RadioButton();
-            this.radioButton2 = new System.Windows.Forms.RadioButton();
-            this.radioButton3 = new System.Windows.Forms.RadioButton();
+            this.Fecha_TimePicker = new System.Windows.Forms.DateTimePicker();
+            this.TipoSangre_ComboBox = new System.Windows.Forms.ComboBox();
+            this.Hombre_RadioButton = new System.Windows.Forms.RadioButton();
+            this.Mujer_RadioButton = new System.Windows.Forms.RadioButton();
+            this.Otro_RadioButton = new System.Windows.Forms.RadioButton();
             this.bunifuThinButton21 = new Bunifu.Framework.UI.BunifuThinButton2();
             this.bunifuThinButton22 = new Bunifu.Framework.UI.BunifuThinButton2();
             ((System.ComponentModel.ISupportInitialize)(this.Min_Nav)).BeginInit();
@@ -493,43 +493,43 @@
             this.Registro_del_donante.TabIndex = 106;
             this.Registro_del_donante.Text = "Registro del Donante";
             // 
-            // Contraseña_TextBox
+            // Teléfono_TextBox
             // 
-            this.Contraseña_TextBox.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.Contraseña_TextBox.Font = new System.Drawing.Font("Century Gothic", 9.75F);
-            this.Contraseña_TextBox.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.Contraseña_TextBox.HintForeColor = System.Drawing.Color.Empty;
-            this.Contraseña_TextBox.HintText = "";
-            this.Contraseña_TextBox.isPassword = false;
-            this.Contraseña_TextBox.LineFocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(194)))), ((int)(((byte)(233)))));
-            this.Contraseña_TextBox.LineIdleColor = System.Drawing.Color.Gray;
-            this.Contraseña_TextBox.LineMouseHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(194)))), ((int)(((byte)(233)))));
-            this.Contraseña_TextBox.LineThickness = 1;
-            this.Contraseña_TextBox.Location = new System.Drawing.Point(335, 308);
-            this.Contraseña_TextBox.Margin = new System.Windows.Forms.Padding(4);
-            this.Contraseña_TextBox.Name = "Contraseña_TextBox";
-            this.Contraseña_TextBox.Size = new System.Drawing.Size(454, 33);
-            this.Contraseña_TextBox.TabIndex = 114;
-            this.Contraseña_TextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.Teléfono_TextBox.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.Teléfono_TextBox.Font = new System.Drawing.Font("Century Gothic", 9.75F);
+            this.Teléfono_TextBox.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.Teléfono_TextBox.HintForeColor = System.Drawing.Color.Empty;
+            this.Teléfono_TextBox.HintText = "";
+            this.Teléfono_TextBox.isPassword = false;
+            this.Teléfono_TextBox.LineFocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(194)))), ((int)(((byte)(233)))));
+            this.Teléfono_TextBox.LineIdleColor = System.Drawing.Color.Gray;
+            this.Teléfono_TextBox.LineMouseHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(194)))), ((int)(((byte)(233)))));
+            this.Teléfono_TextBox.LineThickness = 1;
+            this.Teléfono_TextBox.Location = new System.Drawing.Point(335, 308);
+            this.Teléfono_TextBox.Margin = new System.Windows.Forms.Padding(4);
+            this.Teléfono_TextBox.Name = "Teléfono_TextBox";
+            this.Teléfono_TextBox.Size = new System.Drawing.Size(454, 33);
+            this.Teléfono_TextBox.TabIndex = 114;
+            this.Teléfono_TextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             // 
-            // Correo_TextBox
+            // Edad_TextBox
             // 
-            this.Correo_TextBox.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.Correo_TextBox.Font = new System.Drawing.Font("Century Gothic", 9.75F);
-            this.Correo_TextBox.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.Correo_TextBox.HintForeColor = System.Drawing.Color.Empty;
-            this.Correo_TextBox.HintText = "";
-            this.Correo_TextBox.isPassword = false;
-            this.Correo_TextBox.LineFocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(194)))), ((int)(((byte)(233)))));
-            this.Correo_TextBox.LineIdleColor = System.Drawing.Color.Gray;
-            this.Correo_TextBox.LineMouseHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(194)))), ((int)(((byte)(233)))));
-            this.Correo_TextBox.LineThickness = 1;
-            this.Correo_TextBox.Location = new System.Drawing.Point(335, 232);
-            this.Correo_TextBox.Margin = new System.Windows.Forms.Padding(4);
-            this.Correo_TextBox.Name = "Correo_TextBox";
-            this.Correo_TextBox.Size = new System.Drawing.Size(454, 33);
-            this.Correo_TextBox.TabIndex = 113;
-            this.Correo_TextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.Edad_TextBox.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.Edad_TextBox.Font = new System.Drawing.Font("Century Gothic", 9.75F);
+            this.Edad_TextBox.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.Edad_TextBox.HintForeColor = System.Drawing.Color.Empty;
+            this.Edad_TextBox.HintText = "";
+            this.Edad_TextBox.isPassword = false;
+            this.Edad_TextBox.LineFocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(194)))), ((int)(((byte)(233)))));
+            this.Edad_TextBox.LineIdleColor = System.Drawing.Color.Gray;
+            this.Edad_TextBox.LineMouseHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(194)))), ((int)(((byte)(233)))));
+            this.Edad_TextBox.LineThickness = 1;
+            this.Edad_TextBox.Location = new System.Drawing.Point(335, 232);
+            this.Edad_TextBox.Margin = new System.Windows.Forms.Padding(4);
+            this.Edad_TextBox.Name = "Edad_TextBox";
+            this.Edad_TextBox.Size = new System.Drawing.Size(454, 33);
+            this.Edad_TextBox.TabIndex = 113;
+            this.Edad_TextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             // 
             // Nombre_TextBox
             // 
@@ -594,43 +594,43 @@
             this.label2.TabIndex = 107;
             this.label2.Text = "Sexo:";
             // 
-            // bunifuMaterialTextbox1
+            // Correo_TextBox
             // 
-            this.bunifuMaterialTextbox1.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.bunifuMaterialTextbox1.Font = new System.Drawing.Font("Century Gothic", 9.75F);
-            this.bunifuMaterialTextbox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.bunifuMaterialTextbox1.HintForeColor = System.Drawing.Color.Empty;
-            this.bunifuMaterialTextbox1.HintText = "";
-            this.bunifuMaterialTextbox1.isPassword = false;
-            this.bunifuMaterialTextbox1.LineFocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(194)))), ((int)(((byte)(233)))));
-            this.bunifuMaterialTextbox1.LineIdleColor = System.Drawing.Color.Gray;
-            this.bunifuMaterialTextbox1.LineMouseHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(194)))), ((int)(((byte)(233)))));
-            this.bunifuMaterialTextbox1.LineThickness = 1;
-            this.bunifuMaterialTextbox1.Location = new System.Drawing.Point(335, 583);
-            this.bunifuMaterialTextbox1.Margin = new System.Windows.Forms.Padding(4);
-            this.bunifuMaterialTextbox1.Name = "bunifuMaterialTextbox1";
-            this.bunifuMaterialTextbox1.Size = new System.Drawing.Size(454, 33);
-            this.bunifuMaterialTextbox1.TabIndex = 122;
-            this.bunifuMaterialTextbox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.Correo_TextBox.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.Correo_TextBox.Font = new System.Drawing.Font("Century Gothic", 9.75F);
+            this.Correo_TextBox.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.Correo_TextBox.HintForeColor = System.Drawing.Color.Empty;
+            this.Correo_TextBox.HintText = "";
+            this.Correo_TextBox.isPassword = false;
+            this.Correo_TextBox.LineFocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(194)))), ((int)(((byte)(233)))));
+            this.Correo_TextBox.LineIdleColor = System.Drawing.Color.Gray;
+            this.Correo_TextBox.LineMouseHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(194)))), ((int)(((byte)(233)))));
+            this.Correo_TextBox.LineThickness = 1;
+            this.Correo_TextBox.Location = new System.Drawing.Point(335, 583);
+            this.Correo_TextBox.Margin = new System.Windows.Forms.Padding(4);
+            this.Correo_TextBox.Name = "Correo_TextBox";
+            this.Correo_TextBox.Size = new System.Drawing.Size(454, 33);
+            this.Correo_TextBox.TabIndex = 122;
+            this.Correo_TextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             // 
-            // bunifuMaterialTextbox2
+            // Dirección_TextBox
             // 
-            this.bunifuMaterialTextbox2.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.bunifuMaterialTextbox2.Font = new System.Drawing.Font("Century Gothic", 9.75F);
-            this.bunifuMaterialTextbox2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.bunifuMaterialTextbox2.HintForeColor = System.Drawing.Color.Empty;
-            this.bunifuMaterialTextbox2.HintText = "";
-            this.bunifuMaterialTextbox2.isPassword = false;
-            this.bunifuMaterialTextbox2.LineFocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(194)))), ((int)(((byte)(233)))));
-            this.bunifuMaterialTextbox2.LineIdleColor = System.Drawing.Color.Gray;
-            this.bunifuMaterialTextbox2.LineMouseHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(194)))), ((int)(((byte)(233)))));
-            this.bunifuMaterialTextbox2.LineThickness = 1;
-            this.bunifuMaterialTextbox2.Location = new System.Drawing.Point(335, 514);
-            this.bunifuMaterialTextbox2.Margin = new System.Windows.Forms.Padding(4);
-            this.bunifuMaterialTextbox2.Name = "bunifuMaterialTextbox2";
-            this.bunifuMaterialTextbox2.Size = new System.Drawing.Size(454, 33);
-            this.bunifuMaterialTextbox2.TabIndex = 121;
-            this.bunifuMaterialTextbox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.Dirección_TextBox.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.Dirección_TextBox.Font = new System.Drawing.Font("Century Gothic", 9.75F);
+            this.Dirección_TextBox.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.Dirección_TextBox.HintForeColor = System.Drawing.Color.Empty;
+            this.Dirección_TextBox.HintText = "";
+            this.Dirección_TextBox.isPassword = false;
+            this.Dirección_TextBox.LineFocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(194)))), ((int)(((byte)(233)))));
+            this.Dirección_TextBox.LineIdleColor = System.Drawing.Color.Gray;
+            this.Dirección_TextBox.LineMouseHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(194)))), ((int)(((byte)(233)))));
+            this.Dirección_TextBox.LineThickness = 1;
+            this.Dirección_TextBox.Location = new System.Drawing.Point(335, 514);
+            this.Dirección_TextBox.Margin = new System.Windows.Forms.Padding(4);
+            this.Dirección_TextBox.Name = "Dirección_TextBox";
+            this.Dirección_TextBox.Size = new System.Drawing.Size(454, 33);
+            this.Dirección_TextBox.TabIndex = 121;
+            this.Dirección_TextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             // 
             // label1
             // 
@@ -676,17 +676,17 @@
             this.label8.TabIndex = 115;
             this.label8.Text = "Fecha de Nacimiento";
             // 
-            // dateTimePicker1
+            // Fecha_TimePicker
             // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(335, 457);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(456, 20);
-            this.dateTimePicker1.TabIndex = 125;
+            this.Fecha_TimePicker.Location = new System.Drawing.Point(335, 457);
+            this.Fecha_TimePicker.Name = "Fecha_TimePicker";
+            this.Fecha_TimePicker.Size = new System.Drawing.Size(456, 20);
+            this.Fecha_TimePicker.TabIndex = 125;
             // 
-            // comboBox2
+            // TipoSangre_ComboBox
             // 
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Items.AddRange(new object[] {
+            this.TipoSangre_ComboBox.FormattingEnabled = true;
+            this.TipoSangre_ComboBox.Items.AddRange(new object[] {
             "O+",
             "O-",
             "A+",
@@ -695,43 +695,43 @@
             "B-",
             "AB+",
             "AB-"});
-            this.comboBox2.Location = new System.Drawing.Point(335, 381);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(454, 21);
-            this.comboBox2.TabIndex = 127;
+            this.TipoSangre_ComboBox.Location = new System.Drawing.Point(335, 381);
+            this.TipoSangre_ComboBox.Name = "TipoSangre_ComboBox";
+            this.TipoSangre_ComboBox.Size = new System.Drawing.Size(454, 21);
+            this.TipoSangre_ComboBox.TabIndex = 127;
             // 
-            // radioButton1
+            // Hombre_RadioButton
             // 
-            this.radioButton1.AutoSize = true;
-            this.radioButton1.Location = new System.Drawing.Point(335, 175);
-            this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(62, 17);
-            this.radioButton1.TabIndex = 128;
-            this.radioButton1.TabStop = true;
-            this.radioButton1.Text = "Hombre";
-            this.radioButton1.UseVisualStyleBackColor = true;
+            this.Hombre_RadioButton.AutoSize = true;
+            this.Hombre_RadioButton.Location = new System.Drawing.Point(335, 175);
+            this.Hombre_RadioButton.Name = "Hombre_RadioButton";
+            this.Hombre_RadioButton.Size = new System.Drawing.Size(62, 17);
+            this.Hombre_RadioButton.TabIndex = 128;
+            this.Hombre_RadioButton.TabStop = true;
+            this.Hombre_RadioButton.Text = "Hombre";
+            this.Hombre_RadioButton.UseVisualStyleBackColor = true;
             // 
-            // radioButton2
+            // Mujer_RadioButton
             // 
-            this.radioButton2.AutoSize = true;
-            this.radioButton2.Location = new System.Drawing.Point(424, 175);
-            this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(51, 17);
-            this.radioButton2.TabIndex = 129;
-            this.radioButton2.TabStop = true;
-            this.radioButton2.Text = "Mujer";
-            this.radioButton2.UseVisualStyleBackColor = true;
+            this.Mujer_RadioButton.AutoSize = true;
+            this.Mujer_RadioButton.Location = new System.Drawing.Point(424, 175);
+            this.Mujer_RadioButton.Name = "Mujer_RadioButton";
+            this.Mujer_RadioButton.Size = new System.Drawing.Size(51, 17);
+            this.Mujer_RadioButton.TabIndex = 129;
+            this.Mujer_RadioButton.TabStop = true;
+            this.Mujer_RadioButton.Text = "Mujer";
+            this.Mujer_RadioButton.UseVisualStyleBackColor = true;
             // 
-            // radioButton3
+            // Otro_RadioButton
             // 
-            this.radioButton3.AutoSize = true;
-            this.radioButton3.Location = new System.Drawing.Point(497, 175);
-            this.radioButton3.Name = "radioButton3";
-            this.radioButton3.Size = new System.Drawing.Size(45, 17);
-            this.radioButton3.TabIndex = 130;
-            this.radioButton3.TabStop = true;
-            this.radioButton3.Text = "Otro";
-            this.radioButton3.UseVisualStyleBackColor = true;
+            this.Otro_RadioButton.AutoSize = true;
+            this.Otro_RadioButton.Location = new System.Drawing.Point(497, 175);
+            this.Otro_RadioButton.Name = "Otro_RadioButton";
+            this.Otro_RadioButton.Size = new System.Drawing.Size(45, 17);
+            this.Otro_RadioButton.TabIndex = 130;
+            this.Otro_RadioButton.TabStop = true;
+            this.Otro_RadioButton.Text = "Otro";
+            this.Otro_RadioButton.UseVisualStyleBackColor = true;
             // 
             // bunifuThinButton21
             // 
@@ -783,6 +783,7 @@
             this.bunifuThinButton22.Size = new System.Drawing.Size(89, 32);
             this.bunifuThinButton22.TabIndex = 132;
             this.bunifuThinButton22.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.bunifuThinButton22.Click += new System.EventHandler(this.bunifuThinButton22_Click);
             // 
             // Alta_Donante
             // 
@@ -792,19 +793,19 @@
             this.ClientSize = new System.Drawing.Size(1120, 707);
             this.Controls.Add(this.bunifuThinButton22);
             this.Controls.Add(this.bunifuThinButton21);
-            this.Controls.Add(this.radioButton3);
-            this.Controls.Add(this.radioButton2);
-            this.Controls.Add(this.radioButton1);
-            this.Controls.Add(this.comboBox2);
-            this.Controls.Add(this.dateTimePicker1);
-            this.Controls.Add(this.bunifuMaterialTextbox1);
-            this.Controls.Add(this.bunifuMaterialTextbox2);
+            this.Controls.Add(this.Otro_RadioButton);
+            this.Controls.Add(this.Mujer_RadioButton);
+            this.Controls.Add(this.Hombre_RadioButton);
+            this.Controls.Add(this.TipoSangre_ComboBox);
+            this.Controls.Add(this.Fecha_TimePicker);
+            this.Controls.Add(this.Correo_TextBox);
+            this.Controls.Add(this.Dirección_TextBox);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label8);
-            this.Controls.Add(this.Contraseña_TextBox);
-            this.Controls.Add(this.Correo_TextBox);
+            this.Controls.Add(this.Teléfono_TextBox);
+            this.Controls.Add(this.Edad_TextBox);
             this.Controls.Add(this.Nombre_TextBox);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label6);
@@ -866,24 +867,24 @@
         private System.Windows.Forms.PictureBox pictureBox5;
         private Bunifu.Framework.UI.BunifuFlatButton Administrador_Button;
         private System.Windows.Forms.Label Registro_del_donante;
-        private Bunifu.Framework.UI.BunifuMaterialTextbox Contraseña_TextBox;
-        private Bunifu.Framework.UI.BunifuMaterialTextbox Correo_TextBox;
+        private Bunifu.Framework.UI.BunifuMaterialTextbox Teléfono_TextBox;
+        private Bunifu.Framework.UI.BunifuMaterialTextbox Edad_TextBox;
         private Bunifu.Framework.UI.BunifuMaterialTextbox Nombre_TextBox;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
-        private Bunifu.Framework.UI.BunifuMaterialTextbox bunifuMaterialTextbox1;
-        private Bunifu.Framework.UI.BunifuMaterialTextbox bunifuMaterialTextbox2;
+        private Bunifu.Framework.UI.BunifuMaterialTextbox Correo_TextBox;
+        private Bunifu.Framework.UI.BunifuMaterialTextbox Dirección_TextBox;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
-        private System.Windows.Forms.ComboBox comboBox2;
-        private System.Windows.Forms.RadioButton radioButton1;
-        private System.Windows.Forms.RadioButton radioButton2;
-        private System.Windows.Forms.RadioButton radioButton3;
+        private System.Windows.Forms.DateTimePicker Fecha_TimePicker;
+        private System.Windows.Forms.ComboBox TipoSangre_ComboBox;
+        private System.Windows.Forms.RadioButton Hombre_RadioButton;
+        private System.Windows.Forms.RadioButton Mujer_RadioButton;
+        private System.Windows.Forms.RadioButton Otro_RadioButton;
         private Bunifu.Framework.UI.BunifuThinButton2 bunifuThinButton21;
         private Bunifu.Framework.UI.BunifuThinButton2 bunifuThinButton22;
     }
