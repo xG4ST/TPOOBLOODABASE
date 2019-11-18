@@ -63,5 +63,15 @@ namespace LOGIN
             this.Hide();
             Form10.Show();
         }
+
+        private void Cerrar_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void Minimizar_Click(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Minimized;
+        }
     }
 }

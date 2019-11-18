@@ -43,6 +43,7 @@
             this.Condiciones_Button = new Bunifu.Framework.UI.BunifuFlatButton();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.Banco_de_Sangre = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.Min_Nav)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Close_Nav)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -413,12 +414,25 @@
             this.pictureBox2.TabIndex = 84;
             this.pictureBox2.TabStop = false;
             // 
+            // Banco_de_Sangre
+            // 
+            this.Banco_de_Sangre.AutoSize = true;
+            this.Banco_de_Sangre.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.Banco_de_Sangre.Font = new System.Drawing.Font("Arial Rounded MT Bold", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Banco_de_Sangre.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(90)))), ((int)(((byte)(42)))), ((int)(((byte)(128)))));
+            this.Banco_de_Sangre.Location = new System.Drawing.Point(489, 54);
+            this.Banco_de_Sangre.Name = "Banco_de_Sangre";
+            this.Banco_de_Sangre.Size = new System.Drawing.Size(156, 24);
+            this.Banco_de_Sangre.TabIndex = 101;
+            this.Banco_de_Sangre.Text = "Administrador";
+            // 
             // Administrador
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.ClientSize = new System.Drawing.Size(1120, 707);
+            this.Controls.Add(this.Banco_de_Sangre);
             this.Controls.Add(this.Min_Nav);
             this.Controls.Add(this.Close_Nav);
             this.Controls.Add(this.pictureBox3);
@@ -444,6 +458,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -462,5 +477,6 @@
         private Bunifu.Framework.UI.BunifuImageButton Min_Nav;
         private Bunifu.Framework.UI.BunifuImageButton Close_Nav;
         private System.Windows.Forms.PictureBox pictureBox3;
+        private System.Windows.Forms.Label Banco_de_Sangre;
     }
 }
