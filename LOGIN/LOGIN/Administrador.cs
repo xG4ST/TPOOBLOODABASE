@@ -1,11 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
+﻿using MySql.Data.MySqlClient;
+using System;
 using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace LOGIN
@@ -79,6 +74,98 @@ namespace LOGIN
         private void pictureBox3_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void Buscar_TextBox_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if ((int)e.KeyChar == (int)Keys.Enter)
+            {
+                string Busqueda = Buscar_TextBox.Text;
+
+                MySqlConnection conexion = new MySqlConnection("server = 127.0.0.1; database = sistemabloodabase; Uid = root; pwd = 2000;");
+                conexion.Open();
+
+                string query = "SELECT * FROM donador WHERE nom_don LIKE '%" + Busqueda + "%' OR id_don LIKE '%" + Busqueda + "%'";
+                //WHERE nom_don = @Nombre"
+
+                MySqlCommand cmdBus = new MySqlCommand(query, conexion);
+                //cmdBus.CommandText = "SELECT * FROM donador WHERE nom_don = @Nombre";
+                //cmdBus.Parameters.AddWithValue("@Nombre", Busqueda);
+                //cmdBus.Connection = conexion;
+
+                if (String.IsNullOrWhiteSpace(Buscar_TextBox.Text))
+                {
+                    MessageBox.Show("Hay datos vacio");
+                }
+                else
+                {
+                    MySqlDataAdapter sda = new MySqlDataAdapter(cmdBus);
+                    DataSet ds;
+                    ds = new DataSet();
+                    sda.Fill(ds);
+
+                    Buscar_DataGrid.DataSource = ds.Tables[0];
+                    conexion.Close();
+
+                    /*
+                    DataTable dt = new DataTable();
+                    sda.Fill(dt);
+                    Buscar_DataGrid.DataSource = dt;
+                    */
+                    MessageBox.Show("El Donador elegido es: " + Buscar_TextBox.Text);
+                    MessageBox.Show("Si se encontro usuario", "Log In", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                }
+                
+                /*
+                MySqlDataReader read = cmdBus.ExecuteReader();
+                read.Read();
+                if(read.Read())
+                {
+                    Busqueda.Add(read["Nombre"].ToString());
+                }
+                */
+
+
+                /*
+                while (read.Read())
+                {
+                    //Busqueda = read.GetString(0);
+                    MySqlDataAdapter sda = new MySqlDataAdapter(cmdBus);
+
+                    DataTable dt = new DataTable();
+                    sda.Fill(dt);
+                    Buscar_DataGrid.DataSource = dt;
+                    MessageBox.Show("El Donador elegido es: " + Buscar_TextBox.Text);
+                    MessageBox.Show("Si se encontro usuario", "Log In", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                }
+                */
+
+
+                //conexion.Close();
+
+
+                //string selec = @"SELECT * FROM donador";
+
+                //MySqlCommand cmdSel = new MySqlCommand(selec, conexion);
+                //cmdSel.Parameters.AddWithValue("@Data", Buscar_TextBox.Text);
+
+
+
+
+                /*DataSet ds;
+                DataTable dat;
+                string selec = @"SELECT * FROM donador WHERE nom_don = 'Buscar_TextBox'";
+
+
+                MySqlDataAdapter sda = new MySqlDataAdapter(selec, conexion);
+                ds = new DataSet("Donador");
+                sda.FillSchema(ds, SchemaType, "Donador");
+                sda.Fill(ds, "Donador");
+
+                dat = ds.Tables["Donador"];
+                Buscar_DataGrid.DataSource = dat;
+                */
+            }
         }
     }
 }

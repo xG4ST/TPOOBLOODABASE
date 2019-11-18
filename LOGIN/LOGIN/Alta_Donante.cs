@@ -187,7 +187,9 @@ namespace LOGIN
             nuevaCuentaDon.ciudad_don = Ciudad;
             nuevaCuentaDon.correo_don = Correo;
             */
-
+            Alta_Donante Form6 = new Alta_Donante();
+            this.Hide();
+            Form6.Show();
         }
 
         private void Edad_TextBox_KeyPress(object sender, KeyPressEventArgs e)
