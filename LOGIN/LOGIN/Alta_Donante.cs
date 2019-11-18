@@ -78,7 +78,6 @@ namespace LOGIN
 
         private void bunifuThinButton22_Click(object sender, EventArgs e)
         {
-            int Id = 0;
             string Nombre = Nombre_TextBox.Text;
             string Sexo = ""; //Radio Button If
             if (Hombre_RadioButton.Checked)
@@ -128,8 +127,6 @@ namespace LOGIN
             //MessageBox.Show("Bienvenido" + Fecha, "Log In", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
             string Dirección = Dirección_TextBox.Text;
-            string Estado = "Nada";
-            string Ciudad = "Nada";
             string Correo = Correo_TextBox.Text;
 
             if (string.IsNullOrEmpty(Nombre_TextBox.Text) || string.IsNullOrEmpty(Sexo) || string.IsNullOrEmpty(Edad_TextBox.Text) || string.IsNullOrEmpty(Teléfono_TextBox.Text) || string.IsNullOrEmpty(Fecha) || string.IsNullOrEmpty(Dirección_TextBox.Text) || string.IsNullOrEmpty(Correo_TextBox.Text))
@@ -147,10 +144,9 @@ namespace LOGIN
                 MySqlConnection conexion = new MySqlConnection("server = 127.0.0.1; database = sistemabloodabase; Uid = root; pwd = 2000;");
                 conexion.Open();
 
-                string query = @"insert into donador(id_don, nom_don, sexo_don, edad_don, tel_don, tiposangre_don, fechanac_don, dir_don, estado_don, ciudad_don, correo_don) values(@Id, @Nombre, @Sexo, @Edad, @Teléfono, @Sangre, @Fecha, @Dirección, @Estado, @Ciudad, @Correo)";
+                string query = @"insert into donador(nom_don, sexo_don, edad_don, tel_don, tiposangre_don, fechanac_don, dir_don, correo_don) values(@Nombre, @Sexo, @Edad, @Teléfono, @Sangre, @Fecha, @Dirección, @Correo)";
 
                 MySqlCommand registrodonante = new MySqlCommand(query, conexion);
-                registrodonante.Parameters.AddWithValue("@Id", Id);
                 registrodonante.Parameters.AddWithValue("@Nombre", Nombre);
                 registrodonante.Parameters.AddWithValue("@Sexo", Sexo);
                 registrodonante.Parameters.AddWithValue("@Edad", Edad);
@@ -158,18 +154,11 @@ namespace LOGIN
                 registrodonante.Parameters.AddWithValue("@Sangre", Sangre);
                 registrodonante.Parameters.AddWithValue("@Fecha", Fecha);
                 registrodonante.Parameters.AddWithValue("@Dirección", Dirección);
-                registrodonante.Parameters.AddWithValue("@Estado", Estado);
-                registrodonante.Parameters.AddWithValue("@Ciudad", Ciudad);
                 registrodonante.Parameters.AddWithValue("@Correo", Correo);
 
                 registrodonante.ExecuteNonQuery();
-                MessageBox.Show("Registro Exitoso");
+                MessageBox.Show("Donante Registrado con Exito!", "Registro del Donante", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 conexion.Close();
-
-
-
-
-
 
                 /*int resultado = RegistrarDonante.agregar(nuevaCuentaDon);
                 if (resultado > 0)
@@ -201,5 +190,22 @@ namespace LOGIN
 
         }
 
+        private void Edad_TextBox_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            Char chr = e.KeyChar;
+            if(!Char.IsDigit(chr) && chr != 8)
+            {
+                e.Handled = true;
+            }
+        }
+
+        private void Teléfono_TextBox_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            Char chr = e.KeyChar;
+            if (!Char.IsDigit(chr) && chr != 8)
+            {
+                e.Handled = true;
+            }
+        }
     }
 }

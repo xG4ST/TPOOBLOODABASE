@@ -511,6 +511,7 @@
             this.Teléfono_TextBox.Size = new System.Drawing.Size(454, 33);
             this.Teléfono_TextBox.TabIndex = 114;
             this.Teléfono_TextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.Teléfono_TextBox.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Teléfono_TextBox_KeyPress);
             // 
             // Edad_TextBox
             // 
@@ -530,6 +531,7 @@
             this.Edad_TextBox.Size = new System.Drawing.Size(454, 33);
             this.Edad_TextBox.TabIndex = 113;
             this.Edad_TextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.Edad_TextBox.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Edad_TextBox_KeyPress);
             // 
             // Nombre_TextBox
             // 
@@ -679,6 +681,8 @@
             // Fecha_TimePicker
             // 
             this.Fecha_TimePicker.Location = new System.Drawing.Point(335, 457);
+            this.Fecha_TimePicker.MaxDate = new System.DateTime(2200, 12, 31, 0, 0, 0, 0);
+            this.Fecha_TimePicker.MinDate = new System.DateTime(1955, 1, 1, 0, 0, 0, 0);
             this.Fecha_TimePicker.Name = "Fecha_TimePicker";
             this.Fecha_TimePicker.Size = new System.Drawing.Size(456, 20);
             this.Fecha_TimePicker.TabIndex = 125;
