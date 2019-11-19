@@ -439,7 +439,7 @@
             this.RegistrarIngreso_Button.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("RegistrarIngreso_Button.BackgroundImage")));
             this.RegistrarIngreso_Button.ButtonText = "Registrar Ingreso";
             this.RegistrarIngreso_Button.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.RegistrarIngreso_Button.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.RegistrarIngreso_Button.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.RegistrarIngreso_Button.ForeColor = System.Drawing.Color.SeaGreen;
             this.RegistrarIngreso_Button.IdleBorderThickness = 1;
             this.RegistrarIngreso_Button.IdleCornerRadius = 20;
@@ -465,7 +465,7 @@
             this.RegistrarSalida_Button.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("RegistrarSalida_Button.BackgroundImage")));
             this.RegistrarSalida_Button.ButtonText = "Registrar Salida";
             this.RegistrarSalida_Button.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.RegistrarSalida_Button.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.RegistrarSalida_Button.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.RegistrarSalida_Button.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(90)))), ((int)(((byte)(42)))), ((int)(((byte)(128)))));
             this.RegistrarSalida_Button.IdleBorderThickness = 1;
             this.RegistrarSalida_Button.IdleCornerRadius = 20;

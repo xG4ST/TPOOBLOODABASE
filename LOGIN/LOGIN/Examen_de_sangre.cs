@@ -125,5 +125,20 @@ namespace LOGIN
             this.Hide();
             Form10.Show();
         }
+
+        private void BunifuImageButton1_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void BunifuImageButton2_Click(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Minimized;
+        }
+
+        private void PictureBox3_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
