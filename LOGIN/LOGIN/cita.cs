@@ -1,11 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace LOGIN
@@ -86,9 +79,9 @@ namespace LOGIN
 
         private void Administrador_Button_Click(object sender, EventArgs e)
         {
-            Administrador Form11 = new Administrador
-                this.Hide();
-                Form11.Show()
+            Administrador Form11 = new Administrador();
+            this.Hide();
+            Form11.Show();
         }
     }
 }

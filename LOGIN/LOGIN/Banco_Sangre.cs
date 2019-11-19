@@ -89,5 +89,17 @@ namespace LOGIN
             this.Hide();
             Form3.Show();
         }
+
+        private void RegistrarIngreso_Button_Click(object sender, EventArgs e)
+        {
+            RegistrarIngreso_Banco Form1 = new RegistrarIngreso_Banco();
+            Form1.ShowDialog();
+        }
+
+        private void RegistrarSalida_Button_Click(object sender, EventArgs e)
+        {
+            RegistrarSalida_Banco Form2 = new RegistrarSalida_Banco();
+            Form2.ShowDialog();
+        }
     }
 }

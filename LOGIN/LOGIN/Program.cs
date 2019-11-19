@@ -17,7 +17,7 @@ namespace LOGIN
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Administrador());
+            Application.Run(new Banco_Sangre());
         }
     }
 }

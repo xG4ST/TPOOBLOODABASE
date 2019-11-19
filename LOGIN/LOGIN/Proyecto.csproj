@@ -128,6 +128,18 @@
     <Compile Include="Mysql\Conexion.cs" />
     <Compile Include="Mysql\CuentaMed.cs" />
     <Compile Include="Mysql\RegistrarCuentaMed.cs" />
+    <Compile Include="RegistrarIngreso_Banco.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RegistrarIngreso_Banco.Designer.cs">
+      <DependentUpon>RegistrarIngreso_Banco.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RegistrarSalida_Banco.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RegistrarSalida_Banco.Designer.cs">
+      <DependentUpon>RegistrarSalida_Banco.cs</DependentUpon>
+    </Compile>
     <Compile Include="Registro.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -173,6 +185,12 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="RegistrarIngreso_Banco.resx">
+      <DependentUpon>RegistrarIngreso_Banco.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RegistrarSalida_Banco.resx">
+      <DependentUpon>RegistrarSalida_Banco.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Registro.resx">
       <DependentUpon>Registro.cs</DependentUpon>
     </EmbeddedResource>
