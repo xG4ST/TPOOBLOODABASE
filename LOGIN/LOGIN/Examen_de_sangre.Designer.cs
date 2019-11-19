@@ -70,6 +70,7 @@
             this.bunifuImageButton2.TabIndex = 139;
             this.bunifuImageButton2.TabStop = false;
             this.bunifuImageButton2.Zoom = 10;
+            this.bunifuImageButton2.Click += new System.EventHandler(this.BunifuImageButton2_Click);
             // 
             // bunifuImageButton1
             // 
@@ -84,6 +85,7 @@
             this.bunifuImageButton1.TabIndex = 138;
             this.bunifuImageButton1.TabStop = false;
             this.bunifuImageButton1.Zoom = 10;
+            this.bunifuImageButton1.Click += new System.EventHandler(this.BunifuImageButton1_Click);
             // 
             // pictureBox3
             // 
@@ -95,6 +97,7 @@
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox3.TabIndex = 137;
             this.pictureBox3.TabStop = false;
+            this.pictureBox3.Click += new System.EventHandler(this.PictureBox3_Click);
             // 
             // pictureBox1
             // 
