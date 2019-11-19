@@ -86,9 +86,9 @@ namespace LOGIN
 
         private void Administrador_Button_Click(object sender, EventArgs e)
         {
-            Administrador Form11 = new Administrador
-                this.Hide();
-                Form11.Show()
+            Administrador Form11 = new Administrador();
+            this.Hide();
+            Form11.Show();
         }
     }
 }

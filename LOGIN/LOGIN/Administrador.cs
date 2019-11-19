@@ -71,10 +71,7 @@ namespace LOGIN
             Form10.Show();
         }
 
-        private void pictureBox3_Click(object sender, EventArgs e)
-        {
 
-        }
 
         private void Buscar_TextBox_KeyPress(object sender, KeyPressEventArgs e)
         {

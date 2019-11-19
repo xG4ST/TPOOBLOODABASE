@@ -78,5 +78,22 @@ namespace LOGIN
         {
 
         }
+
+        private void BunifuFlatButton4_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void BunifuFlatButton6_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Administrador_Button_Click(object sender, EventArgs e)
+        {
+            Administrador Form10 = new Administrador();
+            this.Hide();
+            Form10.Show();
+        }
     }
 }

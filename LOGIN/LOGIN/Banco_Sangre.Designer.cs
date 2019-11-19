@@ -1,4 +1,6 @@
-﻿namespace LOGIN
+﻿using System;
+
+namespace LOGIN
 {
     partial class Banco_Sangre
     {
@@ -118,18 +120,7 @@
             this.Administrador_Button.TextFont = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Administrador_Button.Click += new System.EventHandler(this.bunifuFlatButton8_Click);
             // 
-            // pictureBox4
-            // 
-            this.pictureBox4.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
-            this.pictureBox4.Location = new System.Drawing.Point(854, -11);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(285, 1009);
-            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox4.TabIndex = 82;
-            this.pictureBox4.TabStop = false;
-            this.pictureBox4.Click += new System.EventHandler(this.pictureBox4_Click);
-            // 
+          
             // Banco_Sangre_Button
             // 
             this.Banco_Sangre_Button.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(157)))), ((int)(((byte)(221)))), ((int)(((byte)(243)))));
@@ -419,11 +410,11 @@
             // 
             this.Banco_de_Sangre.AutoSize = true;
             this.Banco_de_Sangre.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.Banco_de_Sangre.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Banco_de_Sangre.Font = new System.Drawing.Font("Arial Rounded MT Bold", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Banco_de_Sangre.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(90)))), ((int)(((byte)(42)))), ((int)(((byte)(128)))));
             this.Banco_de_Sangre.Location = new System.Drawing.Point(476, 54);
             this.Banco_de_Sangre.Name = "Banco_de_Sangre";
-            this.Banco_de_Sangre.Size = new System.Drawing.Size(178, 25);
+            this.Banco_de_Sangre.Size = new System.Drawing.Size(183, 24);
             this.Banco_de_Sangre.TabIndex = 88;
             this.Banco_de_Sangre.Text = "Banco de Sangre";
             // 
@@ -452,7 +443,7 @@
             this.Name = "Banco_Sangre";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Banco_Sangre";
-            this.Load += new System.EventHandler(this.Banco_Sangre_Load);
+          
             ((System.ComponentModel.ISupportInitialize)(this.Min_Nav)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Close_Nav)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
@@ -463,6 +454,8 @@
             this.PerformLayout();
 
         }
+
+   
 
         #endregion
 
@@ -481,5 +474,9 @@
         private Bunifu.Framework.UI.BunifuImageButton Close_Nav;
         private Bunifu.Framework.UI.BunifuImageButton Min_Nav;
         private System.Windows.Forms.Label Banco_de_Sangre;
+        private EventHandler pictureBox4_Click;
+        private EventHandler Banco_Sangre_Load;
+
+        public EventHandler PictureBox4_Click { get => pictureBox4_Click; set => pictureBox4_Click = value; }
     }
 }

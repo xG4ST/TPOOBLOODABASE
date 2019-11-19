@@ -63,10 +63,6 @@ namespace LOGIN
             Form10.Show();
         }
 
-        private void Banco_Sangre_Load(object sender, EventArgs e)
-        {
-
-        }
 
         private void Close_Nav_Click(object sender, EventArgs e)
         {
@@ -78,10 +74,7 @@ namespace LOGIN
             this.WindowState = FormWindowState.Minimized;
         }
 
-        private void pictureBox4_Click(object sender, EventArgs e)
-        {
 
-        }
 
         private void bunifuFlatButton8_Click(object sender, EventArgs e)
         {
