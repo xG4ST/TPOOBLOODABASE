@@ -22,17 +22,7 @@ namespace LOGIN
 
         }
 
-        private void Close_Nav_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void Max_Nav_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Min_Nav_Click(object sender, EventArgs e)
         {
 
         }
@@ -82,6 +72,23 @@ namespace LOGIN
             Estadisticas Form10 = new Estadisticas();
             this.Hide();
             Form10.Show();
+        }
+
+        private void BunifuImageButton4_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void BunifuImageButton3_Click(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Minimized;
+        }
+
+        private void Administrador_Button_Click(object sender, EventArgs e)
+        {
+            Administrador Form11 = new Administrador
+                this.Hide();
+                Form11.Show()
         }
     }
 }
