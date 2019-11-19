@@ -209,5 +209,12 @@ namespace LOGIN
                 e.Handled = true;
             }
         }
+
+        private void Administrador_Button_Click(object sender, EventArgs e)
+        {
+            Administrador Form3 = new Administrador();
+            this.Hide();
+            Form3.Show();
+        }
     }
 }

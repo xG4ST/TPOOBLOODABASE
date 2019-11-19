@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace LOGIN
+﻿namespace LOGIN
 {
     partial class Banco_Sangre
     {
@@ -46,6 +44,8 @@ namespace LOGIN
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.Banco_de_Sangre = new System.Windows.Forms.Label();
+            this.RegistrarIngreso_Button = new Bunifu.Framework.UI.BunifuThinButton2();
+            this.RegistrarSalida_Button = new Bunifu.Framework.UI.BunifuThinButton2();
             ((System.ComponentModel.ISupportInitialize)(this.Min_Nav)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Close_Nav)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
@@ -120,7 +120,17 @@ namespace LOGIN
             this.Administrador_Button.TextFont = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Administrador_Button.Click += new System.EventHandler(this.bunifuFlatButton8_Click);
             // 
-          
+            // pictureBox4
+            // 
+            this.pictureBox4.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
+            this.pictureBox4.Location = new System.Drawing.Point(854, -11);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(285, 1009);
+            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox4.TabIndex = 82;
+            this.pictureBox4.TabStop = false;
+            // 
             // Banco_Sangre_Button
             // 
             this.Banco_Sangre_Button.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(157)))), ((int)(((byte)(221)))), ((int)(((byte)(243)))));
@@ -410,13 +420,65 @@ namespace LOGIN
             // 
             this.Banco_de_Sangre.AutoSize = true;
             this.Banco_de_Sangre.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.Banco_de_Sangre.Font = new System.Drawing.Font("Arial Rounded MT Bold", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Banco_de_Sangre.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Banco_de_Sangre.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(90)))), ((int)(((byte)(42)))), ((int)(((byte)(128)))));
             this.Banco_de_Sangre.Location = new System.Drawing.Point(476, 54);
             this.Banco_de_Sangre.Name = "Banco_de_Sangre";
-            this.Banco_de_Sangre.Size = new System.Drawing.Size(183, 24);
+            this.Banco_de_Sangre.Size = new System.Drawing.Size(178, 25);
             this.Banco_de_Sangre.TabIndex = 88;
             this.Banco_de_Sangre.Text = "Banco de Sangre";
+            // 
+            // RegistrarIngreso_Button
+            // 
+            this.RegistrarIngreso_Button.ActiveBorderThickness = 1;
+            this.RegistrarIngreso_Button.ActiveCornerRadius = 20;
+            this.RegistrarIngreso_Button.ActiveFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(102)))), ((int)(((byte)(239)))), ((int)(((byte)(198)))));
+            this.RegistrarIngreso_Button.ActiveForecolor = System.Drawing.Color.White;
+            this.RegistrarIngreso_Button.ActiveLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(102)))), ((int)(((byte)(239)))), ((int)(((byte)(198)))));
+            this.RegistrarIngreso_Button.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.RegistrarIngreso_Button.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("RegistrarIngreso_Button.BackgroundImage")));
+            this.RegistrarIngreso_Button.ButtonText = "Registrar Ingreso";
+            this.RegistrarIngreso_Button.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.RegistrarIngreso_Button.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.RegistrarIngreso_Button.ForeColor = System.Drawing.Color.SeaGreen;
+            this.RegistrarIngreso_Button.IdleBorderThickness = 1;
+            this.RegistrarIngreso_Button.IdleCornerRadius = 20;
+            this.RegistrarIngreso_Button.IdleFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(87)))), ((int)(((byte)(255)))), ((int)(((byte)(205)))));
+            this.RegistrarIngreso_Button.IdleForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(90)))), ((int)(((byte)(42)))), ((int)(((byte)(128)))));
+            this.RegistrarIngreso_Button.IdleLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(87)))), ((int)(((byte)(255)))), ((int)(((byte)(205)))));
+            this.RegistrarIngreso_Button.Location = new System.Drawing.Point(355, 599);
+            this.RegistrarIngreso_Button.Margin = new System.Windows.Forms.Padding(5);
+            this.RegistrarIngreso_Button.Name = "RegistrarIngreso_Button";
+            this.RegistrarIngreso_Button.Size = new System.Drawing.Size(176, 41);
+            this.RegistrarIngreso_Button.TabIndex = 89;
+            this.RegistrarIngreso_Button.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.RegistrarIngreso_Button.Click += new System.EventHandler(this.RegistrarIngreso_Button_Click);
+            // 
+            // RegistrarSalida_Button
+            // 
+            this.RegistrarSalida_Button.ActiveBorderThickness = 1;
+            this.RegistrarSalida_Button.ActiveCornerRadius = 20;
+            this.RegistrarSalida_Button.ActiveFillColor = System.Drawing.Color.WhiteSmoke;
+            this.RegistrarSalida_Button.ActiveForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(90)))), ((int)(((byte)(42)))), ((int)(((byte)(128)))));
+            this.RegistrarSalida_Button.ActiveLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(90)))), ((int)(((byte)(42)))), ((int)(((byte)(128)))));
+            this.RegistrarSalida_Button.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.RegistrarSalida_Button.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("RegistrarSalida_Button.BackgroundImage")));
+            this.RegistrarSalida_Button.ButtonText = "Registrar Salida";
+            this.RegistrarSalida_Button.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.RegistrarSalida_Button.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.RegistrarSalida_Button.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(90)))), ((int)(((byte)(42)))), ((int)(((byte)(128)))));
+            this.RegistrarSalida_Button.IdleBorderThickness = 1;
+            this.RegistrarSalida_Button.IdleCornerRadius = 20;
+            this.RegistrarSalida_Button.IdleFillColor = System.Drawing.Color.White;
+            this.RegistrarSalida_Button.IdleForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(90)))), ((int)(((byte)(42)))), ((int)(((byte)(128)))));
+            this.RegistrarSalida_Button.IdleLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(90)))), ((int)(((byte)(42)))), ((int)(((byte)(128)))));
+            this.RegistrarSalida_Button.Location = new System.Drawing.Point(600, 599);
+            this.RegistrarSalida_Button.Margin = new System.Windows.Forms.Padding(5);
+            this.RegistrarSalida_Button.Name = "RegistrarSalida_Button";
+            this.RegistrarSalida_Button.Size = new System.Drawing.Size(176, 41);
+            this.RegistrarSalida_Button.TabIndex = 90;
+            this.RegistrarSalida_Button.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.RegistrarSalida_Button.Click += new System.EventHandler(this.RegistrarSalida_Button_Click);
             // 
             // Banco_Sangre
             // 
@@ -424,6 +486,8 @@ namespace LOGIN
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.ClientSize = new System.Drawing.Size(1120, 707);
+            this.Controls.Add(this.RegistrarSalida_Button);
+            this.Controls.Add(this.RegistrarIngreso_Button);
             this.Controls.Add(this.Banco_de_Sangre);
             this.Controls.Add(this.Min_Nav);
             this.Controls.Add(this.Close_Nav);
@@ -443,7 +507,6 @@ namespace LOGIN
             this.Name = "Banco_Sangre";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Banco_Sangre";
-          
             ((System.ComponentModel.ISupportInitialize)(this.Min_Nav)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Close_Nav)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
@@ -454,8 +517,6 @@ namespace LOGIN
             this.PerformLayout();
 
         }
-
-   
 
         #endregion
 
@@ -474,9 +535,7 @@ namespace LOGIN
         private Bunifu.Framework.UI.BunifuImageButton Close_Nav;
         private Bunifu.Framework.UI.BunifuImageButton Min_Nav;
         private System.Windows.Forms.Label Banco_de_Sangre;
-        private EventHandler pictureBox4_Click;
-        private EventHandler Banco_Sangre_Load;
-
-        public EventHandler PictureBox4_Click { get => pictureBox4_Click; set => pictureBox4_Click = value; }
+        private Bunifu.Framework.UI.BunifuThinButton2 RegistrarIngreso_Button;
+        private Bunifu.Framework.UI.BunifuThinButton2 RegistrarSalida_Button;
     }
 }

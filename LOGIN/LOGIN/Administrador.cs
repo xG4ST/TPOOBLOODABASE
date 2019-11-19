@@ -109,9 +109,11 @@ namespace LOGIN
                     sda.Fill(dt);
                     Buscar_DataGrid.DataSource = dt;
                     */
-                    MessageBox.Show("El Donador elegido es: " + Buscar_TextBox.Text);
-                    MessageBox.Show("Si se encontro usuario", "Log In", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    //MessageBox.Show("El Donador elegido es: " + Buscar_TextBox.Text);
+
+                    //MessageBox.Show("Donante encontrado", "Administrador", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 }
+                //MessageBox.Show("Donante no encontrado", "Administrador", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 
                 /*
                 MySqlDataReader read = cmdBus.ExecuteReader();
@@ -121,7 +123,6 @@ namespace LOGIN
                     Busqueda.Add(read["Nombre"].ToString());
                 }
                 */
-
 
                 /*
                 while (read.Read())
@@ -137,22 +138,16 @@ namespace LOGIN
                 }
                 */
 
-
                 //conexion.Close();
-
 
                 //string selec = @"SELECT * FROM donador";
 
                 //MySqlCommand cmdSel = new MySqlCommand(selec, conexion);
                 //cmdSel.Parameters.AddWithValue("@Data", Buscar_TextBox.Text);
 
-
-
-
                 /*DataSet ds;
                 DataTable dat;
                 string selec = @"SELECT * FROM donador WHERE nom_don = 'Buscar_TextBox'";
-
 
                 MySqlDataAdapter sda = new MySqlDataAdapter(selec, conexion);
                 ds = new DataSet("Donador");

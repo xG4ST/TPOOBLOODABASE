@@ -746,4 +746,34 @@
         fgLUl9e4Q020kgAAAABJRU5ErkJggg==
 </value>
   </data>
+  <data name="RegistrarIngreso_Button.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAALAAAAApCAYAAACV3qPVAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAIMSURBVHhe7Zw7S1xBHEf9lAqi0fiAQLATu0CwkBTBjxAI
+        6QJ+hECaNLJ5rG8Wk0aTIg8kIgRD5Of85q6L6x3tzM4fzoFT7exuc7jMHWZmTACBIWAIDQFDaAgYQkPA
+        EBoChtDcGfBfXeidfumZDrWifS2oqwm9R7xX3Zl7W1VPb/VTZ/rXL7LNrQF/1G/N65Nmc7Sd1p8g/g9n
+        UokPU4dv9KNf5jCtgF37c33WXPpS6QcRR6EjfqIDnaR5wXWGAna8j7WtSX0o/gjiKB1Pus/vOu8XeyNg
+        P3mJF2vX8+MrBgF7zsu0ASP4IHX6Wl9ztzlgrzb4ha00GLFG59VNCf9pAvZShd/2SgMRa9RT3Zc6bgL2
+        eltpEGK9drSknSbgR9oqDECsWz+Fc8DTTB8wqDng0geIESRgDC0BY2gJGENLwBhaAsbQEjCGloAxtDlg
+        tlBiVHPAnHXDqOaAfVTDu91LAxBr1Xt4csAb+qYp9kNgMNf1pQnYZ4x8aK40CLFG3eumTpqAzSsda4aI
+        MYBedFjTYe52ELCPFS1rr/gFxJpcVHdw2ckgYOMzRgtsbseK9Vm4XZ32i70RsOmltn32fpq1YaxITxv8
+        5L0er2kFbDydeKGjNFFmfRhHbSdfb/Y0P1rbd6QVA77CtXupghUKHIU+6uaLJX3B5G3cGTBA7RAwhIaA
+        ITQEDKEhYAiMdAlmSjUWxVD6IgAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="RegistrarSalida_Button.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAALAAAAApCAYAAACV3qPVAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAIgSURBVHhe7dy9S1tRGIDx/j1unbq5derm1i46iEOhuLi0
+        Q+ngoCAiNIPQDh0cMghth25CKQEHHQwIZhCsoCLoIFhKSzuc8hxzLoZ8bGnuC88PLoT4MT0c3tx7Th4k
+        KTADVmgGrNAMWKEZsEIzYIU2MuA/v/+m3S+H6e3Sdlqe+5AWH2+kZ1NvvLzGetEZva2/aKZvHw/Sz9tf
+        3SL7DQ243TrO/4h4ifho73u6Or/p/lQaHzqjt/2dTtp89Sl3SMiD9AVM7fzR6sJWurn+0X1XmpxRTfYE
+        zC++nNkcWrs0SUwFr5++75kEegKmcuNVnTFaMB8XVcDUzRIt1V1zfSd9ftfKr3PA3G1gUHbmVQT0yqh7
+        cXJ9FzBjA+ODFAUrMCtxDpj7bdyykKI47VzmVTgHvPSkkZdjKQrGiNmHy3cBzz9aGfm0Q6ojntrlgHkh
+        RWPACs2AFZoBKzQDVmgGrNAMWKEZsEKrAuaJBk82pEiqgNmJ5nEhRVMFzD5g9gNLUbB3hz08OeCyNU2K
+        omwBzgEzPlCzc7CiKFuAc8DYbnzNl1R35btKUAXM6sthueP2WfcdqX449sa0ULb/VgGDwbicNZLqhnhZ
+        ZDmZXPQEDFZgIi6nPqU6YN5l5b0fL/oCBuMEdyWonU97nlbWJDAmlHmXD22DTg0NDLigdm5VPJ9eyzeN
+        vbz+58VRt/LdfMOMDFiqOwNWaAas0AxYoRmwAkvpHxoxY2IQlRJiAAAAAElFTkSuQmCC
+</value>
+  </data>
 </root>
