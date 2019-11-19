@@ -50,6 +50,9 @@
   <PropertyGroup>
     <ApplicationManifest>Properties\app.manifest</ApplicationManifest>
   </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Logo_BloodabaseVFBuenohd.ico</ApplicationIcon>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="Bunifu_UI_v1.5.3, Version=1.5.3.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
@@ -285,6 +288,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\description-24px1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Logo_BloodabaseVFBuenohd.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
