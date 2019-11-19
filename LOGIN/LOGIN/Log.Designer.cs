@@ -245,9 +245,10 @@
             this.Controls.Add(this.Bloodabase);
             this.Controls.Add(this.Bloodabase_Logo);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Log";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "s?";
+            this.Text = "Login";
             this.Load += new System.EventHandler(this.Log_Load);
             ((System.ComponentModel.ISupportInitialize)(this.Bloodabase_Logo)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Min_Nav)).EndInit();

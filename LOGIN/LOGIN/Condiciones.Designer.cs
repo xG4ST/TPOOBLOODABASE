@@ -132,7 +132,7 @@
             this.Estadisticas_Button.IconZoom = 90D;
             this.Estadisticas_Button.IsTab = false;
             this.Estadisticas_Button.Location = new System.Drawing.Point(5, 464);
-            this.Estadisticas_Button.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Estadisticas_Button.Margin = new System.Windows.Forms.Padding(4);
             this.Estadisticas_Button.Name = "Estadisticas_Button";
             this.Estadisticas_Button.Normalcolor = System.Drawing.Color.Transparent;
             this.Estadisticas_Button.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(157)))), ((int)(((byte)(221)))), ((int)(((byte)(243)))));
@@ -169,7 +169,7 @@
             this.Departamento_Button.IconZoom = 90D;
             this.Departamento_Button.IsTab = false;
             this.Departamento_Button.Location = new System.Drawing.Point(5, 421);
-            this.Departamento_Button.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Departamento_Button.Margin = new System.Windows.Forms.Padding(4);
             this.Departamento_Button.Name = "Departamento_Button";
             this.Departamento_Button.Normalcolor = System.Drawing.Color.Transparent;
             this.Departamento_Button.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(157)))), ((int)(((byte)(221)))), ((int)(((byte)(243)))));
@@ -206,7 +206,7 @@
             this.Cita_Button.IconZoom = 90D;
             this.Cita_Button.IsTab = false;
             this.Cita_Button.Location = new System.Drawing.Point(5, 335);
-            this.Cita_Button.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Cita_Button.Margin = new System.Windows.Forms.Padding(4);
             this.Cita_Button.Name = "Cita_Button";
             this.Cita_Button.Normalcolor = System.Drawing.Color.Transparent;
             this.Cita_Button.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(157)))), ((int)(((byte)(221)))), ((int)(((byte)(243)))));
@@ -243,7 +243,7 @@
             this.Examen_Sangre_Button.IconZoom = 90D;
             this.Examen_Sangre_Button.IsTab = false;
             this.Examen_Sangre_Button.Location = new System.Drawing.Point(5, 378);
-            this.Examen_Sangre_Button.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Examen_Sangre_Button.Margin = new System.Windows.Forms.Padding(4);
             this.Examen_Sangre_Button.Name = "Examen_Sangre_Button";
             this.Examen_Sangre_Button.Normalcolor = System.Drawing.Color.Transparent;
             this.Examen_Sangre_Button.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(157)))), ((int)(((byte)(221)))), ((int)(((byte)(243)))));
@@ -280,7 +280,7 @@
             this.Alta_Donante_Button.IconZoom = 90D;
             this.Alta_Donante_Button.IsTab = false;
             this.Alta_Donante_Button.Location = new System.Drawing.Point(5, 292);
-            this.Alta_Donante_Button.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Alta_Donante_Button.Margin = new System.Windows.Forms.Padding(4);
             this.Alta_Donante_Button.Name = "Alta_Donante_Button";
             this.Alta_Donante_Button.Normalcolor = System.Drawing.Color.Transparent;
             this.Alta_Donante_Button.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(157)))), ((int)(((byte)(221)))), ((int)(((byte)(243)))));
@@ -317,7 +317,7 @@
             this.Banco_Sangre_Button.IconZoom = 90D;
             this.Banco_Sangre_Button.IsTab = false;
             this.Banco_Sangre_Button.Location = new System.Drawing.Point(5, 163);
-            this.Banco_Sangre_Button.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Banco_Sangre_Button.Margin = new System.Windows.Forms.Padding(4);
             this.Banco_Sangre_Button.Name = "Banco_Sangre_Button";
             this.Banco_Sangre_Button.Normalcolor = System.Drawing.Color.Transparent;
             this.Banco_Sangre_Button.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(157)))), ((int)(((byte)(221)))), ((int)(((byte)(243)))));
@@ -354,7 +354,7 @@
             this.Condiciones_Button.IconZoom = 90D;
             this.Condiciones_Button.IsTab = false;
             this.Condiciones_Button.Location = new System.Drawing.Point(5, 249);
-            this.Condiciones_Button.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Condiciones_Button.Margin = new System.Windows.Forms.Padding(4);
             this.Condiciones_Button.Name = "Condiciones_Button";
             this.Condiciones_Button.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(157)))), ((int)(((byte)(221)))), ((int)(((byte)(243)))));
             this.Condiciones_Button.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(157)))), ((int)(((byte)(221)))), ((int)(((byte)(243)))));
@@ -374,7 +374,7 @@
             this.Min_Nav.Image = ((System.Drawing.Image)(resources.GetObject("Min_Nav.Image")));
             this.Min_Nav.ImageActive = null;
             this.Min_Nav.Location = new System.Drawing.Point(1306, 8);
-            this.Min_Nav.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Min_Nav.Margin = new System.Windows.Forms.Padding(2);
             this.Min_Nav.Name = "Min_Nav";
             this.Min_Nav.Size = new System.Drawing.Size(24, 23);
             this.Min_Nav.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -388,7 +388,7 @@
             this.Max_Nav.Image = ((System.Drawing.Image)(resources.GetObject("Max_Nav.Image")));
             this.Max_Nav.ImageActive = null;
             this.Max_Nav.Location = new System.Drawing.Point(1335, 8);
-            this.Max_Nav.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Max_Nav.Margin = new System.Windows.Forms.Padding(2);
             this.Max_Nav.Name = "Max_Nav";
             this.Max_Nav.Size = new System.Drawing.Size(18, 23);
             this.Max_Nav.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -402,7 +402,7 @@
             this.Close_Nav.Image = ((System.Drawing.Image)(resources.GetObject("Close_Nav.Image")));
             this.Close_Nav.ImageActive = null;
             this.Close_Nav.Location = new System.Drawing.Point(1357, 8);
-            this.Close_Nav.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Close_Nav.Margin = new System.Windows.Forms.Padding(2);
             this.Close_Nav.Name = "Close_Nav";
             this.Close_Nav.Size = new System.Drawing.Size(15, 23);
             this.Close_Nav.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -466,7 +466,7 @@
             this.Administrador_Button.IconZoom = 90D;
             this.Administrador_Button.IsTab = false;
             this.Administrador_Button.Location = new System.Drawing.Point(5, 206);
-            this.Administrador_Button.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Administrador_Button.Margin = new System.Windows.Forms.Padding(4);
             this.Administrador_Button.Name = "Administrador_Button";
             this.Administrador_Button.Normalcolor = System.Drawing.Color.Transparent;
             this.Administrador_Button.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(157)))), ((int)(((byte)(221)))), ((int)(((byte)(243)))));
@@ -486,7 +486,7 @@
             this.Min.Image = ((System.Drawing.Image)(resources.GetObject("Min.Image")));
             this.Min.ImageActive = null;
             this.Min.Location = new System.Drawing.Point(1040, 18);
-            this.Min.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Min.Margin = new System.Windows.Forms.Padding(2);
             this.Min.Name = "Min";
             this.Min.Size = new System.Drawing.Size(17, 15);
             this.Min.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -501,7 +501,7 @@
             this.Closer.Image = ((System.Drawing.Image)(resources.GetObject("Closer.Image")));
             this.Closer.ImageActive = null;
             this.Closer.Location = new System.Drawing.Point(1082, 18);
-            this.Closer.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Closer.Margin = new System.Windows.Forms.Padding(2);
             this.Closer.Name = "Closer";
             this.Closer.Size = new System.Drawing.Size(17, 15);
             this.Closer.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -904,6 +904,7 @@
             this.Controls.Add(this.pictureBox4);
             this.Controls.Add(this.pictureBox5);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Condiciones";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Condiciones";

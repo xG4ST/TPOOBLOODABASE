@@ -101,7 +101,7 @@
             this.bunifuFlatButton1.IconZoom = 90D;
             this.bunifuFlatButton1.IsTab = false;
             this.bunifuFlatButton1.Location = new System.Drawing.Point(5, 163);
-            this.bunifuFlatButton1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuFlatButton1.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuFlatButton1.Name = "bunifuFlatButton1";
             this.bunifuFlatButton1.Normalcolor = System.Drawing.Color.Transparent;
             this.bunifuFlatButton1.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(157)))), ((int)(((byte)(221)))), ((int)(((byte)(243)))));
@@ -138,7 +138,7 @@
             this.bunifuFlatButton7.IconZoom = 90D;
             this.bunifuFlatButton7.IsTab = false;
             this.bunifuFlatButton7.Location = new System.Drawing.Point(5, 464);
-            this.bunifuFlatButton7.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuFlatButton7.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuFlatButton7.Name = "bunifuFlatButton7";
             this.bunifuFlatButton7.Normalcolor = System.Drawing.Color.Transparent;
             this.bunifuFlatButton7.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(157)))), ((int)(((byte)(221)))), ((int)(((byte)(243)))));
@@ -175,7 +175,7 @@
             this.bunifuFlatButton6.IconZoom = 90D;
             this.bunifuFlatButton6.IsTab = false;
             this.bunifuFlatButton6.Location = new System.Drawing.Point(5, 421);
-            this.bunifuFlatButton6.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuFlatButton6.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuFlatButton6.Name = "bunifuFlatButton6";
             this.bunifuFlatButton6.Normalcolor = System.Drawing.Color.Transparent;
             this.bunifuFlatButton6.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(157)))), ((int)(((byte)(221)))), ((int)(((byte)(243)))));
@@ -212,7 +212,7 @@
             this.bunifuFlatButton5.IconZoom = 90D;
             this.bunifuFlatButton5.IsTab = false;
             this.bunifuFlatButton5.Location = new System.Drawing.Point(5, 335);
-            this.bunifuFlatButton5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuFlatButton5.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuFlatButton5.Name = "bunifuFlatButton5";
             this.bunifuFlatButton5.Normalcolor = System.Drawing.Color.Transparent;
             this.bunifuFlatButton5.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(157)))), ((int)(((byte)(221)))), ((int)(((byte)(243)))));
@@ -249,7 +249,7 @@
             this.bunifuFlatButton4.IconZoom = 90D;
             this.bunifuFlatButton4.IsTab = false;
             this.bunifuFlatButton4.Location = new System.Drawing.Point(5, 378);
-            this.bunifuFlatButton4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuFlatButton4.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuFlatButton4.Name = "bunifuFlatButton4";
             this.bunifuFlatButton4.Normalcolor = System.Drawing.Color.Transparent;
             this.bunifuFlatButton4.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(157)))), ((int)(((byte)(221)))), ((int)(((byte)(243)))));
@@ -286,7 +286,7 @@
             this.bunifuFlatButton2.IconZoom = 90D;
             this.bunifuFlatButton2.IsTab = false;
             this.bunifuFlatButton2.Location = new System.Drawing.Point(5, 249);
-            this.bunifuFlatButton2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuFlatButton2.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuFlatButton2.Name = "bunifuFlatButton2";
             this.bunifuFlatButton2.Normalcolor = System.Drawing.Color.Transparent;
             this.bunifuFlatButton2.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(157)))), ((int)(((byte)(221)))), ((int)(((byte)(243)))));
@@ -306,7 +306,7 @@
             this.Min_Nav.Image = ((System.Drawing.Image)(resources.GetObject("Min_Nav.Image")));
             this.Min_Nav.ImageActive = null;
             this.Min_Nav.Location = new System.Drawing.Point(1306, 11);
-            this.Min_Nav.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Min_Nav.Margin = new System.Windows.Forms.Padding(2);
             this.Min_Nav.Name = "Min_Nav";
             this.Min_Nav.Size = new System.Drawing.Size(24, 23);
             this.Min_Nav.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -320,7 +320,7 @@
             this.Max_Nav.Image = ((System.Drawing.Image)(resources.GetObject("Max_Nav.Image")));
             this.Max_Nav.ImageActive = null;
             this.Max_Nav.Location = new System.Drawing.Point(1335, 11);
-            this.Max_Nav.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Max_Nav.Margin = new System.Windows.Forms.Padding(2);
             this.Max_Nav.Name = "Max_Nav";
             this.Max_Nav.Size = new System.Drawing.Size(18, 23);
             this.Max_Nav.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -334,7 +334,7 @@
             this.Close_Nav.Image = ((System.Drawing.Image)(resources.GetObject("Close_Nav.Image")));
             this.Close_Nav.ImageActive = null;
             this.Close_Nav.Location = new System.Drawing.Point(1357, 11);
-            this.Close_Nav.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Close_Nav.Margin = new System.Windows.Forms.Padding(2);
             this.Close_Nav.Name = "Close_Nav";
             this.Close_Nav.Size = new System.Drawing.Size(15, 23);
             this.Close_Nav.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -365,7 +365,7 @@
             this.bunifuFlatButton3.IconZoom = 90D;
             this.bunifuFlatButton3.IsTab = false;
             this.bunifuFlatButton3.Location = new System.Drawing.Point(5, 292);
-            this.bunifuFlatButton3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuFlatButton3.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuFlatButton3.Name = "bunifuFlatButton3";
             this.bunifuFlatButton3.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(157)))), ((int)(((byte)(221)))), ((int)(((byte)(243)))));
             this.bunifuFlatButton3.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(157)))), ((int)(((byte)(221)))), ((int)(((byte)(243)))));
@@ -407,7 +407,7 @@
             this.Minimizar.Image = ((System.Drawing.Image)(resources.GetObject("Minimizar.Image")));
             this.Minimizar.ImageActive = null;
             this.Minimizar.Location = new System.Drawing.Point(1040, 18);
-            this.Minimizar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Minimizar.Margin = new System.Windows.Forms.Padding(2);
             this.Minimizar.Name = "Minimizar";
             this.Minimizar.Size = new System.Drawing.Size(17, 15);
             this.Minimizar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -422,7 +422,7 @@
             this.Cerrar.Image = ((System.Drawing.Image)(resources.GetObject("Cerrar.Image")));
             this.Cerrar.ImageActive = null;
             this.Cerrar.Location = new System.Drawing.Point(1082, 18);
-            this.Cerrar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Cerrar.Margin = new System.Windows.Forms.Padding(2);
             this.Cerrar.Name = "Cerrar";
             this.Cerrar.Size = new System.Drawing.Size(17, 15);
             this.Cerrar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -476,7 +476,7 @@
             this.Administrador_Button.IconZoom = 90D;
             this.Administrador_Button.IsTab = false;
             this.Administrador_Button.Location = new System.Drawing.Point(5, 206);
-            this.Administrador_Button.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Administrador_Button.Margin = new System.Windows.Forms.Padding(4);
             this.Administrador_Button.Name = "Administrador_Button";
             this.Administrador_Button.Normalcolor = System.Drawing.Color.Transparent;
             this.Administrador_Button.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(157)))), ((int)(((byte)(221)))), ((int)(((byte)(243)))));
@@ -515,7 +515,7 @@
             this.Teléfono_TextBox.LineMouseHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(194)))), ((int)(((byte)(233)))));
             this.Teléfono_TextBox.LineThickness = 1;
             this.Teléfono_TextBox.Location = new System.Drawing.Point(335, 308);
-            this.Teléfono_TextBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Teléfono_TextBox.Margin = new System.Windows.Forms.Padding(4);
             this.Teléfono_TextBox.Name = "Teléfono_TextBox";
             this.Teléfono_TextBox.Size = new System.Drawing.Size(454, 33);
             this.Teléfono_TextBox.TabIndex = 114;
@@ -535,7 +535,7 @@
             this.Edad_TextBox.LineMouseHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(194)))), ((int)(((byte)(233)))));
             this.Edad_TextBox.LineThickness = 1;
             this.Edad_TextBox.Location = new System.Drawing.Point(335, 232);
-            this.Edad_TextBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Edad_TextBox.Margin = new System.Windows.Forms.Padding(4);
             this.Edad_TextBox.Name = "Edad_TextBox";
             this.Edad_TextBox.Size = new System.Drawing.Size(454, 33);
             this.Edad_TextBox.TabIndex = 113;
@@ -555,7 +555,7 @@
             this.Nombre_TextBox.LineMouseHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(194)))), ((int)(((byte)(233)))));
             this.Nombre_TextBox.LineThickness = 1;
             this.Nombre_TextBox.Location = new System.Drawing.Point(337, 91);
-            this.Nombre_TextBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Nombre_TextBox.Margin = new System.Windows.Forms.Padding(4);
             this.Nombre_TextBox.Name = "Nombre_TextBox";
             this.Nombre_TextBox.Size = new System.Drawing.Size(452, 31);
             this.Nombre_TextBox.TabIndex = 111;
@@ -618,7 +618,7 @@
             this.Correo_TextBox.LineMouseHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(194)))), ((int)(((byte)(233)))));
             this.Correo_TextBox.LineThickness = 1;
             this.Correo_TextBox.Location = new System.Drawing.Point(335, 583);
-            this.Correo_TextBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Correo_TextBox.Margin = new System.Windows.Forms.Padding(4);
             this.Correo_TextBox.Name = "Correo_TextBox";
             this.Correo_TextBox.Size = new System.Drawing.Size(454, 33);
             this.Correo_TextBox.TabIndex = 122;
@@ -637,7 +637,7 @@
             this.Dirección_TextBox.LineMouseHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(194)))), ((int)(((byte)(233)))));
             this.Dirección_TextBox.LineThickness = 1;
             this.Dirección_TextBox.Location = new System.Drawing.Point(335, 514);
-            this.Dirección_TextBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Dirección_TextBox.Margin = new System.Windows.Forms.Padding(4);
             this.Dirección_TextBox.Name = "Dirección_TextBox";
             this.Dirección_TextBox.Size = new System.Drawing.Size(454, 33);
             this.Dirección_TextBox.TabIndex = 121;
@@ -843,6 +843,7 @@
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.pictureBox2);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Alta_Donante";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Dar_de_alta_donante";

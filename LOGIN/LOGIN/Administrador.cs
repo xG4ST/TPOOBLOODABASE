@@ -92,7 +92,7 @@ namespace LOGIN
 
                 if (String.IsNullOrWhiteSpace(Buscar_TextBox.Text))
                 {
-                    MessageBox.Show("Hay datos vacio");
+                    MessageBox.Show("No puede quedar el campo vacio", "Administrador", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
                 else
                 {
