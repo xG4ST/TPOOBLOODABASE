@@ -130,7 +130,6 @@
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox4.TabIndex = 82;
             this.pictureBox4.TabStop = false;
-            this.pictureBox4.Click += new System.EventHandler(this.pictureBox4_Click);
             // 
             // Banco_Sangre_Button
             // 
@@ -508,7 +507,6 @@
             this.Name = "Banco_Sangre";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Banco_Sangre";
-            this.Load += new System.EventHandler(this.Banco_Sangre_Load);
             ((System.ComponentModel.ISupportInitialize)(this.Min_Nav)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Close_Nav)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
