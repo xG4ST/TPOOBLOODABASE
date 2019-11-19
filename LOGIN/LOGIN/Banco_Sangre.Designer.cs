@@ -419,11 +419,11 @@
             // 
             this.Banco_de_Sangre.AutoSize = true;
             this.Banco_de_Sangre.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.Banco_de_Sangre.Font = new System.Drawing.Font("Arial Rounded MT Bold", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Banco_de_Sangre.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Banco_de_Sangre.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(90)))), ((int)(((byte)(42)))), ((int)(((byte)(128)))));
             this.Banco_de_Sangre.Location = new System.Drawing.Point(476, 54);
             this.Banco_de_Sangre.Name = "Banco_de_Sangre";
-            this.Banco_de_Sangre.Size = new System.Drawing.Size(183, 24);
+            this.Banco_de_Sangre.Size = new System.Drawing.Size(178, 25);
             this.Banco_de_Sangre.TabIndex = 88;
             this.Banco_de_Sangre.Text = "Banco de Sangre";
             // 
