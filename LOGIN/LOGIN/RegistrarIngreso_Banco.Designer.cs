@@ -32,7 +32,7 @@
             this.Banco_de_Sangre = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.TipoSangre_ComboBox = new System.Windows.Forms.ComboBox();
-            this.Edad_TextBox = new Bunifu.Framework.UI.BunifuMaterialTextbox();
+            this.CantidadDonada_TextBox = new Bunifu.Framework.UI.BunifuMaterialTextbox();
             this.button1 = new System.Windows.Forms.Button();
             this.label6 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
@@ -79,24 +79,24 @@
             this.TipoSangre_ComboBox.Size = new System.Drawing.Size(454, 21);
             this.TipoSangre_ComboBox.TabIndex = 128;
             // 
-            // Edad_TextBox
+            // CantidadDonada_TextBox
             // 
-            this.Edad_TextBox.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.Edad_TextBox.Font = new System.Drawing.Font("Century Gothic", 9.75F);
-            this.Edad_TextBox.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.Edad_TextBox.HintForeColor = System.Drawing.Color.Empty;
-            this.Edad_TextBox.HintText = "";
-            this.Edad_TextBox.isPassword = false;
-            this.Edad_TextBox.LineFocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(194)))), ((int)(((byte)(233)))));
-            this.Edad_TextBox.LineIdleColor = System.Drawing.Color.Gray;
-            this.Edad_TextBox.LineMouseHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(194)))), ((int)(((byte)(233)))));
-            this.Edad_TextBox.LineThickness = 1;
-            this.Edad_TextBox.Location = new System.Drawing.Point(172, 264);
-            this.Edad_TextBox.Margin = new System.Windows.Forms.Padding(4);
-            this.Edad_TextBox.Name = "Edad_TextBox";
-            this.Edad_TextBox.Size = new System.Drawing.Size(454, 33);
-            this.Edad_TextBox.TabIndex = 129;
-            this.Edad_TextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.CantidadDonada_TextBox.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.CantidadDonada_TextBox.Font = new System.Drawing.Font("Century Gothic", 9.75F);
+            this.CantidadDonada_TextBox.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.CantidadDonada_TextBox.HintForeColor = System.Drawing.Color.Empty;
+            this.CantidadDonada_TextBox.HintText = "";
+            this.CantidadDonada_TextBox.isPassword = false;
+            this.CantidadDonada_TextBox.LineFocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(194)))), ((int)(((byte)(233)))));
+            this.CantidadDonada_TextBox.LineIdleColor = System.Drawing.Color.Gray;
+            this.CantidadDonada_TextBox.LineMouseHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(194)))), ((int)(((byte)(233)))));
+            this.CantidadDonada_TextBox.LineThickness = 1;
+            this.CantidadDonada_TextBox.Location = new System.Drawing.Point(172, 264);
+            this.CantidadDonada_TextBox.Margin = new System.Windows.Forms.Padding(4);
+            this.CantidadDonada_TextBox.Name = "CantidadDonada_TextBox";
+            this.CantidadDonada_TextBox.Size = new System.Drawing.Size(454, 33);
+            this.CantidadDonada_TextBox.TabIndex = 129;
+            this.CantidadDonada_TextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             // 
             // button1
             // 
@@ -106,6 +106,7 @@
             this.button1.TabIndex = 130;
             this.button1.Text = "Registrar Ingreso";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // label6
             // 
@@ -138,7 +139,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.Edad_TextBox);
+            this.Controls.Add(this.CantidadDonada_TextBox);
             this.Controls.Add(this.TipoSangre_ComboBox);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.Banco_de_Sangre);
@@ -156,7 +157,7 @@
         private System.Windows.Forms.Label Banco_de_Sangre;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.ComboBox TipoSangre_ComboBox;
-        private Bunifu.Framework.UI.BunifuMaterialTextbox Edad_TextBox;
+        private Bunifu.Framework.UI.BunifuMaterialTextbox CantidadDonada_TextBox;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label1;
