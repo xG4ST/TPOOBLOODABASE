@@ -157,6 +157,9 @@
   <data name="Logo_BloodabaseVF4" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Logo_BloodabaseVF4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="description-24px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\description-24px1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Logo_BloodabaseVFBuenohd1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Logo_BloodabaseVFBuenohd1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -193,7 +196,7 @@
   <data name="house-24px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\house-24px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="description-24px" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\description-24px1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="description-24px1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\description-24px2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

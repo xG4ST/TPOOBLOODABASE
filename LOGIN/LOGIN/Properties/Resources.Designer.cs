@@ -133,6 +133,16 @@ namespace LOGIN.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap description_24px1 {
+            get {
+                object obj = ResourceManager.GetObject("description-24px1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap event_note_24px {
             get {
                 object obj = ResourceManager.GetObject("event_note-24px", resourceCulture);
