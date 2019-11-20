@@ -7,8 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using LOGIN.Mysql;
 using MySql.Data.MySqlClient;
+using LOGIN.Mysql;
 
 namespace LOGIN
 {
@@ -122,6 +122,31 @@ namespace LOGIN
 
         private void BunifuThinButton22_Click(object sender, EventArgs e)
         {
+            Departamentos nuevoDepartamento = new Departamentos();
+            nuevoDepartamento.nom_dep = AgregarDepartamento_TextBox.Text.Trim();
+
+
+            if (string.IsNullOrEmpty(AgregarDepartamento_TextBox.Text))
+            {
+                MessageBox.Show("Los campos no pueden quedar vacios", "Agregar Departamento", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            else
+            {
+                int resultado = RegistroDepartamento.agregar(nuevoDepartamento);
+                if (resultado > 0)
+                {
+                    MessageBox.Show("Departamento agregado con Exito!", "Agregar Departamento", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    Departamento Form1 = new Departamento();
+                    this.Hide();
+                    Form1.Show();
+                }
+                else
+                {
+                    MessageBox.Show("No se pudo agregar el Departamento", "Agregar Departamento", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+            }
+
+            /*
             MySqlConnection conexion = new MySqlConnection("server = 127.0.0.1; database = sistemabloodabase; Uid = root; pwd = olakasegus64;");
             conexion.Open();
 
@@ -135,6 +160,7 @@ namespace LOGIN
             registrodonante.ExecuteNonQuery();
             MessageBox.Show("Donante Registrado con Exito!", "Registro del Donante", MessageBoxButtons.OK, MessageBoxIcon.Information);
             conexion.Close();
+            */
         }
     }
 }
