@@ -83,5 +83,10 @@ namespace LOGIN
             this.Hide();
             Form11.Show();
         }
+
+        private void Label4_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
