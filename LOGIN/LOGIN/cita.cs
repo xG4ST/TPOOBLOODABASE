@@ -1,5 +1,7 @@
 ﻿using System;
 using System.Windows.Forms;
+using LOGIN.Mysql;
+using MySql.Data.MySqlClient;
 
 namespace LOGIN
 {
@@ -82,6 +84,34 @@ namespace LOGIN
             Administrador Form11 = new Administrador();
             this.Hide();
             Form11.Show();
+        }
+
+        private void Label4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void BunifuThinButton21_Click(object sender, EventArgs e)
+        {
+            MySqlConnection conexion = new MySqlConnection("server = 127.0.0.1; database = sistemabloodabase; Uid = root; pwd = 2000;");
+            conexion.Open();
+
+            string query = @"insert into Donados_has_Estudio1(Donador_iddon1, Estudio_tipo_est1, id_dcita, hora_dcita, nom_don, tel_don, correo_don) values(@IdDonador, @EstudioTipo, @IdCita, @HoraCita, @NombreDon, @TelefonoDon, @CorreoDon)";
+
+            //
+            MySqlCommand registrodonante = new MySqlCommand(query, conexion);
+            registrodonante.Parameters.AddWithValue("@IdDonador", IdDonador);
+            registrodonante.Parameters.AddWithValue("@EstudioTipo", EstudioTipo);
+            registrodonante.Parameters.AddWithValue("@IdCita", IdCita);
+            registrodonante.Parameters.AddWithValue("@HoraCita", HoraCita);
+            registrodonante.Parameters.AddWithValue("@TelefonoDon", TelefonoDon);
+            registrodonante.Parameters.AddWithValue("@NombreDon", NombreDon);
+            registrodonante.Parameters.AddWithValue("@Dirección", Dirección);
+            registrodonante.Parameters.AddWithValue("@CorreoDon", CorreoDon);
+
+            registrodonante.ExecuteNonQuery();
+            MessageBox.Show("Cita completa!", "Registro de cita", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            conexion.Close();
         }
     }
 }
