@@ -50,6 +50,7 @@ namespace LOGIN
             this.Buscar_TextBox = new Bunifu.Framework.UI.BunifuMaterialTextbox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
+            this.Mostrar = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.Min_Nav)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Close_Nav)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -64,10 +65,10 @@ namespace LOGIN
             this.Min_Nav.BackColor = System.Drawing.Color.White;
             this.Min_Nav.Image = ((System.Drawing.Image)(resources.GetObject("Min_Nav.Image")));
             this.Min_Nav.ImageActive = null;
-            this.Min_Nav.Location = new System.Drawing.Point(1040, 18);
-            this.Min_Nav.Margin = new System.Windows.Forms.Padding(2);
+            this.Min_Nav.Location = new System.Drawing.Point(1387, 22);
+            this.Min_Nav.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Min_Nav.Name = "Min_Nav";
-            this.Min_Nav.Size = new System.Drawing.Size(17, 15);
+            this.Min_Nav.Size = new System.Drawing.Size(23, 18);
             this.Min_Nav.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.Min_Nav.TabIndex = 100;
             this.Min_Nav.TabStop = false;
@@ -79,10 +80,10 @@ namespace LOGIN
             this.Close_Nav.BackColor = System.Drawing.Color.White;
             this.Close_Nav.Image = ((System.Drawing.Image)(resources.GetObject("Close_Nav.Image")));
             this.Close_Nav.ImageActive = null;
-            this.Close_Nav.Location = new System.Drawing.Point(1082, 18);
-            this.Close_Nav.Margin = new System.Windows.Forms.Padding(2);
+            this.Close_Nav.Location = new System.Drawing.Point(1443, 22);
+            this.Close_Nav.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Close_Nav.Name = "Close_Nav";
-            this.Close_Nav.Size = new System.Drawing.Size(17, 15);
+            this.Close_Nav.Size = new System.Drawing.Size(23, 18);
             this.Close_Nav.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.Close_Nav.TabIndex = 99;
             this.Close_Nav.TabStop = false;
@@ -93,9 +94,10 @@ namespace LOGIN
             // 
             this.pictureBox3.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(854, -11);
+            this.pictureBox3.Location = new System.Drawing.Point(1139, -14);
+            this.pictureBox3.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(285, 1009);
+            this.pictureBox3.Size = new System.Drawing.Size(380, 1242);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox3.TabIndex = 98;
             this.pictureBox3.TabStop = false;
@@ -123,14 +125,14 @@ namespace LOGIN
             this.Administrador_Button.IconVisible = true;
             this.Administrador_Button.IconZoom = 90D;
             this.Administrador_Button.IsTab = false;
-            this.Administrador_Button.Location = new System.Drawing.Point(5, 206);
-            this.Administrador_Button.Margin = new System.Windows.Forms.Padding(4);
+            this.Administrador_Button.Location = new System.Drawing.Point(7, 254);
+            this.Administrador_Button.Margin = new System.Windows.Forms.Padding(5);
             this.Administrador_Button.Name = "Administrador_Button";
             this.Administrador_Button.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(157)))), ((int)(((byte)(221)))), ((int)(((byte)(243)))));
             this.Administrador_Button.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(157)))), ((int)(((byte)(221)))), ((int)(((byte)(243)))));
             this.Administrador_Button.OnHoverTextColor = System.Drawing.Color.White;
             this.Administrador_Button.selected = false;
-            this.Administrador_Button.Size = new System.Drawing.Size(246, 37);
+            this.Administrador_Button.Size = new System.Drawing.Size(328, 46);
             this.Administrador_Button.TabIndex = 97;
             this.Administrador_Button.Text = "Administrador";
             this.Administrador_Button.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -141,9 +143,10 @@ namespace LOGIN
             // 
             this.pictureBox4.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
-            this.pictureBox4.Location = new System.Drawing.Point(5, 206);
+            this.pictureBox4.Location = new System.Drawing.Point(7, 254);
+            this.pictureBox4.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(246, 37);
+            this.pictureBox4.Size = new System.Drawing.Size(328, 46);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox4.TabIndex = 96;
             this.pictureBox4.TabStop = false;
@@ -170,14 +173,14 @@ namespace LOGIN
             this.Banco_Sangre_Button.IconVisible = true;
             this.Banco_Sangre_Button.IconZoom = 90D;
             this.Banco_Sangre_Button.IsTab = false;
-            this.Banco_Sangre_Button.Location = new System.Drawing.Point(5, 163);
-            this.Banco_Sangre_Button.Margin = new System.Windows.Forms.Padding(4);
+            this.Banco_Sangre_Button.Location = new System.Drawing.Point(7, 201);
+            this.Banco_Sangre_Button.Margin = new System.Windows.Forms.Padding(5);
             this.Banco_Sangre_Button.Name = "Banco_Sangre_Button";
             this.Banco_Sangre_Button.Normalcolor = System.Drawing.Color.Transparent;
             this.Banco_Sangre_Button.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(157)))), ((int)(((byte)(221)))), ((int)(((byte)(243)))));
             this.Banco_Sangre_Button.OnHoverTextColor = System.Drawing.Color.White;
             this.Banco_Sangre_Button.selected = false;
-            this.Banco_Sangre_Button.Size = new System.Drawing.Size(246, 37);
+            this.Banco_Sangre_Button.Size = new System.Drawing.Size(328, 46);
             this.Banco_Sangre_Button.TabIndex = 95;
             this.Banco_Sangre_Button.Text = "Banco de Sangre";
             this.Banco_Sangre_Button.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -207,14 +210,14 @@ namespace LOGIN
             this.Estadisticas_Button.IconVisible = true;
             this.Estadisticas_Button.IconZoom = 90D;
             this.Estadisticas_Button.IsTab = false;
-            this.Estadisticas_Button.Location = new System.Drawing.Point(5, 464);
-            this.Estadisticas_Button.Margin = new System.Windows.Forms.Padding(4);
+            this.Estadisticas_Button.Location = new System.Drawing.Point(7, 571);
+            this.Estadisticas_Button.Margin = new System.Windows.Forms.Padding(5);
             this.Estadisticas_Button.Name = "Estadisticas_Button";
             this.Estadisticas_Button.Normalcolor = System.Drawing.Color.Transparent;
             this.Estadisticas_Button.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(157)))), ((int)(((byte)(221)))), ((int)(((byte)(243)))));
             this.Estadisticas_Button.OnHoverTextColor = System.Drawing.Color.White;
             this.Estadisticas_Button.selected = false;
-            this.Estadisticas_Button.Size = new System.Drawing.Size(246, 37);
+            this.Estadisticas_Button.Size = new System.Drawing.Size(328, 46);
             this.Estadisticas_Button.TabIndex = 91;
             this.Estadisticas_Button.Text = "Estadísticas ";
             this.Estadisticas_Button.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -244,14 +247,14 @@ namespace LOGIN
             this.Departamento_Button.IconVisible = true;
             this.Departamento_Button.IconZoom = 90D;
             this.Departamento_Button.IsTab = false;
-            this.Departamento_Button.Location = new System.Drawing.Point(5, 421);
-            this.Departamento_Button.Margin = new System.Windows.Forms.Padding(4);
+            this.Departamento_Button.Location = new System.Drawing.Point(7, 518);
+            this.Departamento_Button.Margin = new System.Windows.Forms.Padding(5);
             this.Departamento_Button.Name = "Departamento_Button";
             this.Departamento_Button.Normalcolor = System.Drawing.Color.Transparent;
             this.Departamento_Button.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(157)))), ((int)(((byte)(221)))), ((int)(((byte)(243)))));
             this.Departamento_Button.OnHoverTextColor = System.Drawing.Color.White;
             this.Departamento_Button.selected = false;
-            this.Departamento_Button.Size = new System.Drawing.Size(246, 37);
+            this.Departamento_Button.Size = new System.Drawing.Size(328, 46);
             this.Departamento_Button.TabIndex = 90;
             this.Departamento_Button.Text = "Departamento ";
             this.Departamento_Button.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -281,14 +284,14 @@ namespace LOGIN
             this.Cita_Button.IconVisible = true;
             this.Cita_Button.IconZoom = 90D;
             this.Cita_Button.IsTab = false;
-            this.Cita_Button.Location = new System.Drawing.Point(5, 335);
-            this.Cita_Button.Margin = new System.Windows.Forms.Padding(4);
+            this.Cita_Button.Location = new System.Drawing.Point(7, 412);
+            this.Cita_Button.Margin = new System.Windows.Forms.Padding(5);
             this.Cita_Button.Name = "Cita_Button";
             this.Cita_Button.Normalcolor = System.Drawing.Color.Transparent;
             this.Cita_Button.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(157)))), ((int)(((byte)(221)))), ((int)(((byte)(243)))));
             this.Cita_Button.OnHoverTextColor = System.Drawing.Color.White;
             this.Cita_Button.selected = false;
-            this.Cita_Button.Size = new System.Drawing.Size(246, 37);
+            this.Cita_Button.Size = new System.Drawing.Size(328, 46);
             this.Cita_Button.TabIndex = 89;
             this.Cita_Button.Text = "Cita";
             this.Cita_Button.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -318,14 +321,14 @@ namespace LOGIN
             this.Examen_de_Sangre_Button.IconVisible = true;
             this.Examen_de_Sangre_Button.IconZoom = 90D;
             this.Examen_de_Sangre_Button.IsTab = false;
-            this.Examen_de_Sangre_Button.Location = new System.Drawing.Point(5, 378);
-            this.Examen_de_Sangre_Button.Margin = new System.Windows.Forms.Padding(4);
+            this.Examen_de_Sangre_Button.Location = new System.Drawing.Point(7, 465);
+            this.Examen_de_Sangre_Button.Margin = new System.Windows.Forms.Padding(5);
             this.Examen_de_Sangre_Button.Name = "Examen_de_Sangre_Button";
             this.Examen_de_Sangre_Button.Normalcolor = System.Drawing.Color.Transparent;
             this.Examen_de_Sangre_Button.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(157)))), ((int)(((byte)(221)))), ((int)(((byte)(243)))));
             this.Examen_de_Sangre_Button.OnHoverTextColor = System.Drawing.Color.White;
             this.Examen_de_Sangre_Button.selected = false;
-            this.Examen_de_Sangre_Button.Size = new System.Drawing.Size(246, 37);
+            this.Examen_de_Sangre_Button.Size = new System.Drawing.Size(328, 46);
             this.Examen_de_Sangre_Button.TabIndex = 88;
             this.Examen_de_Sangre_Button.Text = "Exámenes de Sangre";
             this.Examen_de_Sangre_Button.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -355,14 +358,14 @@ namespace LOGIN
             this.Alta_Donante_Button.IconVisible = true;
             this.Alta_Donante_Button.IconZoom = 90D;
             this.Alta_Donante_Button.IsTab = false;
-            this.Alta_Donante_Button.Location = new System.Drawing.Point(5, 292);
-            this.Alta_Donante_Button.Margin = new System.Windows.Forms.Padding(4);
+            this.Alta_Donante_Button.Location = new System.Drawing.Point(7, 359);
+            this.Alta_Donante_Button.Margin = new System.Windows.Forms.Padding(5);
             this.Alta_Donante_Button.Name = "Alta_Donante_Button";
             this.Alta_Donante_Button.Normalcolor = System.Drawing.Color.Transparent;
             this.Alta_Donante_Button.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(157)))), ((int)(((byte)(221)))), ((int)(((byte)(243)))));
             this.Alta_Donante_Button.OnHoverTextColor = System.Drawing.Color.White;
             this.Alta_Donante_Button.selected = false;
-            this.Alta_Donante_Button.Size = new System.Drawing.Size(246, 37);
+            this.Alta_Donante_Button.Size = new System.Drawing.Size(328, 46);
             this.Alta_Donante_Button.TabIndex = 87;
             this.Alta_Donante_Button.Text = "Dar de alta donante";
             this.Alta_Donante_Button.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -392,14 +395,14 @@ namespace LOGIN
             this.Condiciones_Button.IconVisible = true;
             this.Condiciones_Button.IconZoom = 90D;
             this.Condiciones_Button.IsTab = false;
-            this.Condiciones_Button.Location = new System.Drawing.Point(5, 249);
-            this.Condiciones_Button.Margin = new System.Windows.Forms.Padding(4);
+            this.Condiciones_Button.Location = new System.Drawing.Point(7, 306);
+            this.Condiciones_Button.Margin = new System.Windows.Forms.Padding(5);
             this.Condiciones_Button.Name = "Condiciones_Button";
             this.Condiciones_Button.Normalcolor = System.Drawing.Color.Transparent;
             this.Condiciones_Button.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(157)))), ((int)(((byte)(221)))), ((int)(((byte)(243)))));
             this.Condiciones_Button.OnHoverTextColor = System.Drawing.Color.White;
             this.Condiciones_Button.selected = false;
-            this.Condiciones_Button.Size = new System.Drawing.Size(246, 37);
+            this.Condiciones_Button.Size = new System.Drawing.Size(328, 46);
             this.Condiciones_Button.TabIndex = 86;
             this.Condiciones_Button.Text = "Condiciones";
             this.Condiciones_Button.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -411,9 +414,10 @@ namespace LOGIN
             // 
             this.pictureBox1.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(5, 32);
+            this.pictureBox1.Location = new System.Drawing.Point(7, 39);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(246, 102);
+            this.pictureBox1.Size = new System.Drawing.Size(328, 126);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 85;
             this.pictureBox1.TabStop = false;
@@ -422,9 +426,10 @@ namespace LOGIN
             // 
             this.pictureBox2.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(-18, -60);
+            this.pictureBox2.Location = new System.Drawing.Point(-24, -74);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(282, 1009);
+            this.pictureBox2.Size = new System.Drawing.Size(376, 1242);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox2.TabIndex = 84;
             this.pictureBox2.TabStop = false;
@@ -435,9 +440,10 @@ namespace LOGIN
             this.Banco_de_Sangre.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.Banco_de_Sangre.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Banco_de_Sangre.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(90)))), ((int)(((byte)(42)))), ((int)(((byte)(128)))));
-            this.Banco_de_Sangre.Location = new System.Drawing.Point(489, 54);
+            this.Banco_de_Sangre.Location = new System.Drawing.Point(652, 66);
+            this.Banco_de_Sangre.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Banco_de_Sangre.Name = "Banco_de_Sangre";
-            this.Banco_de_Sangre.Size = new System.Drawing.Size(144, 25);
+            this.Banco_de_Sangre.Size = new System.Drawing.Size(181, 31);
             this.Banco_de_Sangre.TabIndex = 101;
             this.Banco_de_Sangre.Text = "Administrador";
             // 
@@ -446,10 +452,11 @@ namespace LOGIN
             this.Buscar_DataGrid.AllowUserToAddRows = false;
             this.Buscar_DataGrid.BackgroundColor = System.Drawing.Color.White;
             this.Buscar_DataGrid.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.Buscar_DataGrid.Location = new System.Drawing.Point(311, 269);
+            this.Buscar_DataGrid.Location = new System.Drawing.Point(415, 331);
+            this.Buscar_DataGrid.Margin = new System.Windows.Forms.Padding(4);
             this.Buscar_DataGrid.Name = "Buscar_DataGrid";
             this.Buscar_DataGrid.RowHeadersWidth = 51;
-            this.Buscar_DataGrid.Size = new System.Drawing.Size(502, 352);
+            this.Buscar_DataGrid.Size = new System.Drawing.Size(669, 433);
             this.Buscar_DataGrid.TabIndex = 103;
             this.Buscar_DataGrid.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.Buscar_DataGrid_CellContentClick);
             // 
@@ -465,10 +472,10 @@ namespace LOGIN
             this.Buscar_TextBox.LineIdleColor = System.Drawing.Color.Gray;
             this.Buscar_TextBox.LineMouseHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(194)))), ((int)(((byte)(233)))));
             this.Buscar_TextBox.LineThickness = 1;
-            this.Buscar_TextBox.Location = new System.Drawing.Point(311, 169);
-            this.Buscar_TextBox.Margin = new System.Windows.Forms.Padding(4);
+            this.Buscar_TextBox.Location = new System.Drawing.Point(415, 208);
+            this.Buscar_TextBox.Margin = new System.Windows.Forms.Padding(5);
             this.Buscar_TextBox.Name = "Buscar_TextBox";
-            this.Buscar_TextBox.Size = new System.Drawing.Size(502, 31);
+            this.Buscar_TextBox.Size = new System.Drawing.Size(534, 38);
             this.Buscar_TextBox.TabIndex = 112;
             this.Buscar_TextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.Buscar_TextBox.OnValueChanged += new System.EventHandler(this.Buscar_TextBox_OnValueChanged);
@@ -480,9 +487,10 @@ namespace LOGIN
             this.label1.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(134)))), ((int)(((byte)(127)))), ((int)(((byte)(140)))));
-            this.label1.Location = new System.Drawing.Point(308, 225);
+            this.label1.Location = new System.Drawing.Point(411, 277);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(165, 20);
+            this.label1.Size = new System.Drawing.Size(201, 25);
             this.label1.TabIndex = 113;
             this.label1.Text = "Reporte de Donación:";
             // 
@@ -492,18 +500,30 @@ namespace LOGIN
             this.label2.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(134)))), ((int)(((byte)(127)))), ((int)(((byte)(140)))));
-            this.label2.Location = new System.Drawing.Point(308, 147);
+            this.label2.Location = new System.Drawing.Point(411, 181);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(129, 20);
+            this.label2.Size = new System.Drawing.Size(158, 25);
             this.label2.TabIndex = 114;
             this.label2.Text = "Buscar Donante:";
             // 
+            // Mostrar
+            // 
+            this.Mostrar.Location = new System.Drawing.Point(972, 224);
+            this.Mostrar.Name = "Mostrar";
+            this.Mostrar.Size = new System.Drawing.Size(112, 23);
+            this.Mostrar.TabIndex = 115;
+            this.Mostrar.Text = "Mostrar Todos";
+            this.Mostrar.UseVisualStyleBackColor = true;
+            this.Mostrar.Click += new System.EventHandler(this.button1_Click);
+            // 
             // Administrador
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.ClientSize = new System.Drawing.Size(1120, 707);
+            this.ClientSize = new System.Drawing.Size(1493, 870);
+            this.Controls.Add(this.Mostrar);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.Buscar_TextBox);
@@ -525,9 +545,11 @@ namespace LOGIN
             this.Controls.Add(this.pictureBox2);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Administrador";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Administrador";
+            this.Load += new System.EventHandler(this.Administrador_Load);
             ((System.ComponentModel.ISupportInitialize)(this.Min_Nav)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Close_Nav)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
@@ -565,5 +587,6 @@ namespace LOGIN
         private Bunifu.Framework.UI.BunifuMaterialTextbox Buscar_TextBox;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Button Mostrar;
     }
 }

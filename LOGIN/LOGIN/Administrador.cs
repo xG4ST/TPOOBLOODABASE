@@ -169,5 +169,28 @@ namespace LOGIN
         {
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            MySqlConnection conexion = new MySqlConnection("server = 127.0.0.1; database = sistemabloodabase; Uid = root; pwd = 2000;");
+            conexion.Open();
+
+            string query = "SELECT * FROM Donador";
+
+            MySqlCommand cmdBus = new MySqlCommand(query, conexion);
+
+            MySqlDataAdapter sda = new MySqlDataAdapter(cmdBus);
+            DataSet ds = new DataSet();
+            sda.Fill(ds);
+
+            Buscar_DataGrid.DataSource = ds.Tables[0];
+
+            conexion.Close();
+        }
+
+        private void Administrador_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
