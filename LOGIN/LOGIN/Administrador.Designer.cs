@@ -433,11 +433,11 @@ namespace LOGIN
             // 
             this.Banco_de_Sangre.AutoSize = true;
             this.Banco_de_Sangre.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.Banco_de_Sangre.Font = new System.Drawing.Font("Arial Rounded MT Bold", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Banco_de_Sangre.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Banco_de_Sangre.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(90)))), ((int)(((byte)(42)))), ((int)(((byte)(128)))));
             this.Banco_de_Sangre.Location = new System.Drawing.Point(489, 54);
             this.Banco_de_Sangre.Name = "Banco_de_Sangre";
-            this.Banco_de_Sangre.Size = new System.Drawing.Size(156, 24);
+            this.Banco_de_Sangre.Size = new System.Drawing.Size(144, 25);
             this.Banco_de_Sangre.TabIndex = 101;
             this.Banco_de_Sangre.Text = "Administrador";
             // 
@@ -451,11 +451,12 @@ namespace LOGIN
             this.Buscar_DataGrid.RowHeadersWidth = 51;
             this.Buscar_DataGrid.Size = new System.Drawing.Size(502, 352);
             this.Buscar_DataGrid.TabIndex = 103;
+            this.Buscar_DataGrid.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.Buscar_DataGrid_CellContentClick);
             // 
             // Buscar_TextBox
             // 
             this.Buscar_TextBox.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.Buscar_TextBox.Font = new System.Drawing.Font("Century Gothic", 9.75F);
+            this.Buscar_TextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F);
             this.Buscar_TextBox.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.Buscar_TextBox.HintForeColor = System.Drawing.Color.Empty;
             this.Buscar_TextBox.HintText = "";
@@ -470,17 +471,18 @@ namespace LOGIN
             this.Buscar_TextBox.Size = new System.Drawing.Size(502, 31);
             this.Buscar_TextBox.TabIndex = 112;
             this.Buscar_TextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.Buscar_TextBox.OnValueChanged += new System.EventHandler(this.Buscar_TextBox_OnValueChanged);
             this.Buscar_TextBox.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Buscar_TextBox_KeyPress);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label1.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(134)))), ((int)(((byte)(127)))), ((int)(((byte)(140)))));
             this.label1.Location = new System.Drawing.Point(308, 225);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(182, 18);
+            this.label1.Size = new System.Drawing.Size(165, 20);
             this.label1.TabIndex = 113;
             this.label1.Text = "Reporte de Donación:";
             // 
@@ -488,11 +490,11 @@ namespace LOGIN
             // 
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label2.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(134)))), ((int)(((byte)(127)))), ((int)(((byte)(140)))));
             this.label2.Location = new System.Drawing.Point(308, 147);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(143, 18);
+            this.label2.Size = new System.Drawing.Size(129, 20);
             this.label2.TabIndex = 114;
             this.label2.Text = "Buscar Donante:";
             // 
