@@ -46,6 +46,10 @@
             this.Banco_de_Sangre = new System.Windows.Forms.Label();
             this.RegistrarIngreso_Button = new Bunifu.Framework.UI.BunifuThinButton2();
             this.RegistrarSalida_Button = new Bunifu.Framework.UI.BunifuThinButton2();
+            this.bunifuCircleProgressbar1 = new Bunifu.Framework.UI.BunifuCircleProgressbar();
+            this.bunifuCircleProgressbar2 = new Bunifu.Framework.UI.BunifuCircleProgressbar();
+            this.bunifuCircleProgressbar3 = new Bunifu.Framework.UI.BunifuCircleProgressbar();
+            this.bunifuCircleProgressbar4 = new Bunifu.Framework.UI.BunifuCircleProgressbar();
             ((System.ComponentModel.ISupportInitialize)(this.Min_Nav)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Close_Nav)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
@@ -59,10 +63,10 @@
             this.Min_Nav.BackColor = System.Drawing.Color.White;
             this.Min_Nav.Image = ((System.Drawing.Image)(resources.GetObject("Min_Nav.Image")));
             this.Min_Nav.ImageActive = null;
-            this.Min_Nav.Location = new System.Drawing.Point(1040, 18);
-            this.Min_Nav.Margin = new System.Windows.Forms.Padding(2);
+            this.Min_Nav.Location = new System.Drawing.Point(1387, 22);
+            this.Min_Nav.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Min_Nav.Name = "Min_Nav";
-            this.Min_Nav.Size = new System.Drawing.Size(17, 15);
+            this.Min_Nav.Size = new System.Drawing.Size(23, 18);
             this.Min_Nav.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.Min_Nav.TabIndex = 87;
             this.Min_Nav.TabStop = false;
@@ -74,10 +78,10 @@
             this.Close_Nav.BackColor = System.Drawing.Color.White;
             this.Close_Nav.Image = ((System.Drawing.Image)(resources.GetObject("Close_Nav.Image")));
             this.Close_Nav.ImageActive = null;
-            this.Close_Nav.Location = new System.Drawing.Point(1082, 18);
-            this.Close_Nav.Margin = new System.Windows.Forms.Padding(2);
+            this.Close_Nav.Location = new System.Drawing.Point(1443, 22);
+            this.Close_Nav.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Close_Nav.Name = "Close_Nav";
-            this.Close_Nav.Size = new System.Drawing.Size(17, 15);
+            this.Close_Nav.Size = new System.Drawing.Size(23, 18);
             this.Close_Nav.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.Close_Nav.TabIndex = 84;
             this.Close_Nav.TabStop = false;
@@ -106,13 +110,14 @@
             this.Administrador_Button.IconVisible = true;
             this.Administrador_Button.IconZoom = 90D;
             this.Administrador_Button.IsTab = false;
-            this.Administrador_Button.Location = new System.Drawing.Point(5, 206);
+            this.Administrador_Button.Location = new System.Drawing.Point(7, 254);
+            this.Administrador_Button.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             this.Administrador_Button.Name = "Administrador_Button";
             this.Administrador_Button.Normalcolor = System.Drawing.Color.Transparent;
             this.Administrador_Button.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(157)))), ((int)(((byte)(221)))), ((int)(((byte)(243)))));
             this.Administrador_Button.OnHoverTextColor = System.Drawing.Color.White;
             this.Administrador_Button.selected = false;
-            this.Administrador_Button.Size = new System.Drawing.Size(246, 37);
+            this.Administrador_Button.Size = new System.Drawing.Size(328, 46);
             this.Administrador_Button.TabIndex = 83;
             this.Administrador_Button.Text = "Administrador";
             this.Administrador_Button.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -124,9 +129,10 @@
             // 
             this.pictureBox4.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
-            this.pictureBox4.Location = new System.Drawing.Point(854, -11);
+            this.pictureBox4.Location = new System.Drawing.Point(1139, -14);
+            this.pictureBox4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(285, 1009);
+            this.pictureBox4.Size = new System.Drawing.Size(380, 1242);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox4.TabIndex = 82;
             this.pictureBox4.TabStop = false;
@@ -153,13 +159,14 @@
             this.Banco_Sangre_Button.IconVisible = true;
             this.Banco_Sangre_Button.IconZoom = 90D;
             this.Banco_Sangre_Button.IsTab = false;
-            this.Banco_Sangre_Button.Location = new System.Drawing.Point(5, 163);
+            this.Banco_Sangre_Button.Location = new System.Drawing.Point(7, 201);
+            this.Banco_Sangre_Button.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             this.Banco_Sangre_Button.Name = "Banco_Sangre_Button";
             this.Banco_Sangre_Button.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(157)))), ((int)(((byte)(221)))), ((int)(((byte)(243)))));
             this.Banco_Sangre_Button.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(157)))), ((int)(((byte)(221)))), ((int)(((byte)(243)))));
             this.Banco_Sangre_Button.OnHoverTextColor = System.Drawing.Color.White;
             this.Banco_Sangre_Button.selected = false;
-            this.Banco_Sangre_Button.Size = new System.Drawing.Size(246, 37);
+            this.Banco_Sangre_Button.Size = new System.Drawing.Size(328, 46);
             this.Banco_Sangre_Button.TabIndex = 81;
             this.Banco_Sangre_Button.Text = "Banco de Sangre";
             this.Banco_Sangre_Button.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -171,9 +178,10 @@
             // 
             this.pictureBox3.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(5, 163);
+            this.pictureBox3.Location = new System.Drawing.Point(7, 201);
+            this.pictureBox3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(246, 37);
+            this.pictureBox3.Size = new System.Drawing.Size(328, 46);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox3.TabIndex = 80;
             this.pictureBox3.TabStop = false;
@@ -200,13 +208,14 @@
             this.Estadisticas_Button.IconVisible = true;
             this.Estadisticas_Button.IconZoom = 90D;
             this.Estadisticas_Button.IsTab = false;
-            this.Estadisticas_Button.Location = new System.Drawing.Point(5, 464);
+            this.Estadisticas_Button.Location = new System.Drawing.Point(7, 571);
+            this.Estadisticas_Button.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             this.Estadisticas_Button.Name = "Estadisticas_Button";
             this.Estadisticas_Button.Normalcolor = System.Drawing.Color.Transparent;
             this.Estadisticas_Button.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(157)))), ((int)(((byte)(221)))), ((int)(((byte)(243)))));
             this.Estadisticas_Button.OnHoverTextColor = System.Drawing.Color.White;
             this.Estadisticas_Button.selected = false;
-            this.Estadisticas_Button.Size = new System.Drawing.Size(246, 37);
+            this.Estadisticas_Button.Size = new System.Drawing.Size(328, 46);
             this.Estadisticas_Button.TabIndex = 79;
             this.Estadisticas_Button.Text = "Estadísticas ";
             this.Estadisticas_Button.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -236,13 +245,14 @@
             this.Departamento_Button.IconVisible = true;
             this.Departamento_Button.IconZoom = 90D;
             this.Departamento_Button.IsTab = false;
-            this.Departamento_Button.Location = new System.Drawing.Point(5, 421);
+            this.Departamento_Button.Location = new System.Drawing.Point(7, 518);
+            this.Departamento_Button.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             this.Departamento_Button.Name = "Departamento_Button";
             this.Departamento_Button.Normalcolor = System.Drawing.Color.Transparent;
             this.Departamento_Button.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(157)))), ((int)(((byte)(221)))), ((int)(((byte)(243)))));
             this.Departamento_Button.OnHoverTextColor = System.Drawing.Color.White;
             this.Departamento_Button.selected = false;
-            this.Departamento_Button.Size = new System.Drawing.Size(246, 37);
+            this.Departamento_Button.Size = new System.Drawing.Size(328, 46);
             this.Departamento_Button.TabIndex = 78;
             this.Departamento_Button.Text = "Departamento ";
             this.Departamento_Button.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -272,13 +282,14 @@
             this.Cita_Button.IconVisible = true;
             this.Cita_Button.IconZoom = 90D;
             this.Cita_Button.IsTab = false;
-            this.Cita_Button.Location = new System.Drawing.Point(5, 335);
+            this.Cita_Button.Location = new System.Drawing.Point(7, 412);
+            this.Cita_Button.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             this.Cita_Button.Name = "Cita_Button";
             this.Cita_Button.Normalcolor = System.Drawing.Color.Transparent;
             this.Cita_Button.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(157)))), ((int)(((byte)(221)))), ((int)(((byte)(243)))));
             this.Cita_Button.OnHoverTextColor = System.Drawing.Color.White;
             this.Cita_Button.selected = false;
-            this.Cita_Button.Size = new System.Drawing.Size(246, 37);
+            this.Cita_Button.Size = new System.Drawing.Size(328, 46);
             this.Cita_Button.TabIndex = 77;
             this.Cita_Button.Text = "Cita";
             this.Cita_Button.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -308,13 +319,14 @@
             this.Examen_de_Sangre_Button.IconVisible = true;
             this.Examen_de_Sangre_Button.IconZoom = 90D;
             this.Examen_de_Sangre_Button.IsTab = false;
-            this.Examen_de_Sangre_Button.Location = new System.Drawing.Point(5, 378);
+            this.Examen_de_Sangre_Button.Location = new System.Drawing.Point(7, 465);
+            this.Examen_de_Sangre_Button.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             this.Examen_de_Sangre_Button.Name = "Examen_de_Sangre_Button";
             this.Examen_de_Sangre_Button.Normalcolor = System.Drawing.Color.Transparent;
             this.Examen_de_Sangre_Button.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(157)))), ((int)(((byte)(221)))), ((int)(((byte)(243)))));
             this.Examen_de_Sangre_Button.OnHoverTextColor = System.Drawing.Color.White;
             this.Examen_de_Sangre_Button.selected = false;
-            this.Examen_de_Sangre_Button.Size = new System.Drawing.Size(246, 37);
+            this.Examen_de_Sangre_Button.Size = new System.Drawing.Size(328, 46);
             this.Examen_de_Sangre_Button.TabIndex = 76;
             this.Examen_de_Sangre_Button.Text = "Exámenes de Sangre";
             this.Examen_de_Sangre_Button.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -344,13 +356,14 @@
             this.Alta_Donante_Button.IconVisible = true;
             this.Alta_Donante_Button.IconZoom = 90D;
             this.Alta_Donante_Button.IsTab = false;
-            this.Alta_Donante_Button.Location = new System.Drawing.Point(5, 292);
+            this.Alta_Donante_Button.Location = new System.Drawing.Point(7, 359);
+            this.Alta_Donante_Button.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             this.Alta_Donante_Button.Name = "Alta_Donante_Button";
             this.Alta_Donante_Button.Normalcolor = System.Drawing.Color.Transparent;
             this.Alta_Donante_Button.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(157)))), ((int)(((byte)(221)))), ((int)(((byte)(243)))));
             this.Alta_Donante_Button.OnHoverTextColor = System.Drawing.Color.White;
             this.Alta_Donante_Button.selected = false;
-            this.Alta_Donante_Button.Size = new System.Drawing.Size(246, 37);
+            this.Alta_Donante_Button.Size = new System.Drawing.Size(328, 46);
             this.Alta_Donante_Button.TabIndex = 75;
             this.Alta_Donante_Button.Text = "Dar de alta donante";
             this.Alta_Donante_Button.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -380,13 +393,14 @@
             this.Condiciones_Button.IconVisible = true;
             this.Condiciones_Button.IconZoom = 90D;
             this.Condiciones_Button.IsTab = false;
-            this.Condiciones_Button.Location = new System.Drawing.Point(5, 249);
+            this.Condiciones_Button.Location = new System.Drawing.Point(7, 306);
+            this.Condiciones_Button.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             this.Condiciones_Button.Name = "Condiciones_Button";
             this.Condiciones_Button.Normalcolor = System.Drawing.Color.Transparent;
             this.Condiciones_Button.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(157)))), ((int)(((byte)(221)))), ((int)(((byte)(243)))));
             this.Condiciones_Button.OnHoverTextColor = System.Drawing.Color.White;
             this.Condiciones_Button.selected = false;
-            this.Condiciones_Button.Size = new System.Drawing.Size(246, 37);
+            this.Condiciones_Button.Size = new System.Drawing.Size(328, 46);
             this.Condiciones_Button.TabIndex = 73;
             this.Condiciones_Button.Text = "Condiciones";
             this.Condiciones_Button.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -398,9 +412,10 @@
             // 
             this.pictureBox1.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(5, 32);
+            this.pictureBox1.Location = new System.Drawing.Point(7, 39);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(246, 102);
+            this.pictureBox1.Size = new System.Drawing.Size(328, 126);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 68;
             this.pictureBox1.TabStop = false;
@@ -409,9 +424,10 @@
             // 
             this.pictureBox2.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(-18, -60);
+            this.pictureBox2.Location = new System.Drawing.Point(-24, -74);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(282, 1009);
+            this.pictureBox2.Size = new System.Drawing.Size(376, 1242);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox2.TabIndex = 67;
             this.pictureBox2.TabStop = false;
@@ -422,9 +438,10 @@
             this.Banco_de_Sangre.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.Banco_de_Sangre.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Banco_de_Sangre.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(90)))), ((int)(((byte)(42)))), ((int)(((byte)(128)))));
-            this.Banco_de_Sangre.Location = new System.Drawing.Point(476, 54);
+            this.Banco_de_Sangre.Location = new System.Drawing.Point(635, 66);
+            this.Banco_de_Sangre.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Banco_de_Sangre.Name = "Banco_de_Sangre";
-            this.Banco_de_Sangre.Size = new System.Drawing.Size(178, 25);
+            this.Banco_de_Sangre.Size = new System.Drawing.Size(222, 31);
             this.Banco_de_Sangre.TabIndex = 88;
             this.Banco_de_Sangre.Text = "Banco de Sangre";
             // 
@@ -446,10 +463,10 @@
             this.RegistrarIngreso_Button.IdleFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(87)))), ((int)(((byte)(255)))), ((int)(((byte)(205)))));
             this.RegistrarIngreso_Button.IdleForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(90)))), ((int)(((byte)(42)))), ((int)(((byte)(128)))));
             this.RegistrarIngreso_Button.IdleLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(87)))), ((int)(((byte)(255)))), ((int)(((byte)(205)))));
-            this.RegistrarIngreso_Button.Location = new System.Drawing.Point(355, 599);
-            this.RegistrarIngreso_Button.Margin = new System.Windows.Forms.Padding(5);
+            this.RegistrarIngreso_Button.Location = new System.Drawing.Point(473, 737);
+            this.RegistrarIngreso_Button.Margin = new System.Windows.Forms.Padding(7, 6, 7, 6);
             this.RegistrarIngreso_Button.Name = "RegistrarIngreso_Button";
-            this.RegistrarIngreso_Button.Size = new System.Drawing.Size(176, 41);
+            this.RegistrarIngreso_Button.Size = new System.Drawing.Size(235, 50);
             this.RegistrarIngreso_Button.TabIndex = 89;
             this.RegistrarIngreso_Button.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.RegistrarIngreso_Button.Click += new System.EventHandler(this.RegistrarIngreso_Button_Click);
@@ -472,20 +489,112 @@
             this.RegistrarSalida_Button.IdleFillColor = System.Drawing.Color.White;
             this.RegistrarSalida_Button.IdleForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(90)))), ((int)(((byte)(42)))), ((int)(((byte)(128)))));
             this.RegistrarSalida_Button.IdleLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(90)))), ((int)(((byte)(42)))), ((int)(((byte)(128)))));
-            this.RegistrarSalida_Button.Location = new System.Drawing.Point(600, 599);
-            this.RegistrarSalida_Button.Margin = new System.Windows.Forms.Padding(5);
+            this.RegistrarSalida_Button.Location = new System.Drawing.Point(800, 737);
+            this.RegistrarSalida_Button.Margin = new System.Windows.Forms.Padding(7, 6, 7, 6);
             this.RegistrarSalida_Button.Name = "RegistrarSalida_Button";
-            this.RegistrarSalida_Button.Size = new System.Drawing.Size(176, 41);
+            this.RegistrarSalida_Button.Size = new System.Drawing.Size(235, 50);
             this.RegistrarSalida_Button.TabIndex = 90;
             this.RegistrarSalida_Button.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.RegistrarSalida_Button.Click += new System.EventHandler(this.RegistrarSalida_Button_Click);
             // 
+            // bunifuCircleProgressbar1
+            // 
+            this.bunifuCircleProgressbar1.animated = false;
+            this.bunifuCircleProgressbar1.animationIterval = 5;
+            this.bunifuCircleProgressbar1.animationSpeed = 300;
+            this.bunifuCircleProgressbar1.BackColor = System.Drawing.Color.White;
+            this.bunifuCircleProgressbar1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuCircleProgressbar1.BackgroundImage")));
+            this.bunifuCircleProgressbar1.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F);
+            this.bunifuCircleProgressbar1.ForeColor = System.Drawing.Color.SeaGreen;
+            this.bunifuCircleProgressbar1.LabelVisible = true;
+            this.bunifuCircleProgressbar1.LineProgressThickness = 8;
+            this.bunifuCircleProgressbar1.LineThickness = 5;
+            this.bunifuCircleProgressbar1.Location = new System.Drawing.Point(520, 201);
+            this.bunifuCircleProgressbar1.Margin = new System.Windows.Forms.Padding(10, 9, 10, 9);
+            this.bunifuCircleProgressbar1.MaxValue = 100;
+            this.bunifuCircleProgressbar1.Name = "bunifuCircleProgressbar1";
+            this.bunifuCircleProgressbar1.ProgressBackColor = System.Drawing.Color.Gainsboro;
+            this.bunifuCircleProgressbar1.ProgressColor = System.Drawing.Color.SeaGreen;
+            this.bunifuCircleProgressbar1.Size = new System.Drawing.Size(201, 201);
+            this.bunifuCircleProgressbar1.TabIndex = 91;
+            this.bunifuCircleProgressbar1.Value = 0;
+            // 
+            // bunifuCircleProgressbar2
+            // 
+            this.bunifuCircleProgressbar2.animated = false;
+            this.bunifuCircleProgressbar2.animationIterval = 5;
+            this.bunifuCircleProgressbar2.animationSpeed = 300;
+            this.bunifuCircleProgressbar2.BackColor = System.Drawing.Color.White;
+            this.bunifuCircleProgressbar2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuCircleProgressbar2.BackgroundImage")));
+            this.bunifuCircleProgressbar2.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F);
+            this.bunifuCircleProgressbar2.ForeColor = System.Drawing.Color.SeaGreen;
+            this.bunifuCircleProgressbar2.LabelVisible = true;
+            this.bunifuCircleProgressbar2.LineProgressThickness = 8;
+            this.bunifuCircleProgressbar2.LineThickness = 5;
+            this.bunifuCircleProgressbar2.Location = new System.Drawing.Point(800, 201);
+            this.bunifuCircleProgressbar2.Margin = new System.Windows.Forms.Padding(10, 9, 10, 9);
+            this.bunifuCircleProgressbar2.MaxValue = 100;
+            this.bunifuCircleProgressbar2.Name = "bunifuCircleProgressbar2";
+            this.bunifuCircleProgressbar2.ProgressBackColor = System.Drawing.Color.Gainsboro;
+            this.bunifuCircleProgressbar2.ProgressColor = System.Drawing.Color.SeaGreen;
+            this.bunifuCircleProgressbar2.Size = new System.Drawing.Size(201, 201);
+            this.bunifuCircleProgressbar2.TabIndex = 92;
+            this.bunifuCircleProgressbar2.Value = 0;
+            // 
+            // bunifuCircleProgressbar3
+            // 
+            this.bunifuCircleProgressbar3.animated = false;
+            this.bunifuCircleProgressbar3.animationIterval = 5;
+            this.bunifuCircleProgressbar3.animationSpeed = 300;
+            this.bunifuCircleProgressbar3.BackColor = System.Drawing.Color.White;
+            this.bunifuCircleProgressbar3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuCircleProgressbar3.BackgroundImage")));
+            this.bunifuCircleProgressbar3.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F);
+            this.bunifuCircleProgressbar3.ForeColor = System.Drawing.Color.SeaGreen;
+            this.bunifuCircleProgressbar3.LabelVisible = true;
+            this.bunifuCircleProgressbar3.LineProgressThickness = 8;
+            this.bunifuCircleProgressbar3.LineThickness = 5;
+            this.bunifuCircleProgressbar3.Location = new System.Drawing.Point(520, 444);
+            this.bunifuCircleProgressbar3.Margin = new System.Windows.Forms.Padding(10, 9, 10, 9);
+            this.bunifuCircleProgressbar3.MaxValue = 100;
+            this.bunifuCircleProgressbar3.Name = "bunifuCircleProgressbar3";
+            this.bunifuCircleProgressbar3.ProgressBackColor = System.Drawing.Color.Gainsboro;
+            this.bunifuCircleProgressbar3.ProgressColor = System.Drawing.Color.SeaGreen;
+            this.bunifuCircleProgressbar3.Size = new System.Drawing.Size(201, 201);
+            this.bunifuCircleProgressbar3.TabIndex = 93;
+            this.bunifuCircleProgressbar3.Value = 0;
+            // 
+            // bunifuCircleProgressbar4
+            // 
+            this.bunifuCircleProgressbar4.animated = false;
+            this.bunifuCircleProgressbar4.animationIterval = 5;
+            this.bunifuCircleProgressbar4.animationSpeed = 300;
+            this.bunifuCircleProgressbar4.BackColor = System.Drawing.Color.White;
+            this.bunifuCircleProgressbar4.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuCircleProgressbar4.BackgroundImage")));
+            this.bunifuCircleProgressbar4.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F);
+            this.bunifuCircleProgressbar4.ForeColor = System.Drawing.Color.SeaGreen;
+            this.bunifuCircleProgressbar4.LabelVisible = true;
+            this.bunifuCircleProgressbar4.LineProgressThickness = 8;
+            this.bunifuCircleProgressbar4.LineThickness = 5;
+            this.bunifuCircleProgressbar4.Location = new System.Drawing.Point(800, 444);
+            this.bunifuCircleProgressbar4.Margin = new System.Windows.Forms.Padding(10, 9, 10, 9);
+            this.bunifuCircleProgressbar4.MaxValue = 100;
+            this.bunifuCircleProgressbar4.Name = "bunifuCircleProgressbar4";
+            this.bunifuCircleProgressbar4.ProgressBackColor = System.Drawing.Color.Gainsboro;
+            this.bunifuCircleProgressbar4.ProgressColor = System.Drawing.Color.SeaGreen;
+            this.bunifuCircleProgressbar4.Size = new System.Drawing.Size(201, 201);
+            this.bunifuCircleProgressbar4.TabIndex = 94;
+            this.bunifuCircleProgressbar4.Value = 0;
+            // 
             // Banco_Sangre
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.ClientSize = new System.Drawing.Size(1120, 707);
+            this.ClientSize = new System.Drawing.Size(1493, 870);
+            this.Controls.Add(this.bunifuCircleProgressbar4);
+            this.Controls.Add(this.bunifuCircleProgressbar3);
+            this.Controls.Add(this.bunifuCircleProgressbar2);
+            this.Controls.Add(this.bunifuCircleProgressbar1);
             this.Controls.Add(this.RegistrarSalida_Button);
             this.Controls.Add(this.RegistrarIngreso_Button);
             this.Controls.Add(this.Banco_de_Sangre);
@@ -505,6 +614,7 @@
             this.Controls.Add(this.pictureBox2);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Banco_Sangre";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Banco_Sangre";
@@ -538,5 +648,9 @@
         private System.Windows.Forms.Label Banco_de_Sangre;
         private Bunifu.Framework.UI.BunifuThinButton2 RegistrarIngreso_Button;
         private Bunifu.Framework.UI.BunifuThinButton2 RegistrarSalida_Button;
+        private Bunifu.Framework.UI.BunifuCircleProgressbar bunifuCircleProgressbar1;
+        private Bunifu.Framework.UI.BunifuCircleProgressbar bunifuCircleProgressbar2;
+        private Bunifu.Framework.UI.BunifuCircleProgressbar bunifuCircleProgressbar3;
+        private Bunifu.Framework.UI.BunifuCircleProgressbar bunifuCircleProgressbar4;
     }
 }

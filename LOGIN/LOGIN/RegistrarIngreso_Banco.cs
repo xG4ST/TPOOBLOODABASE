@@ -1,13 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
+﻿using LOGIN.Mysql;
+using MySql.Data.MySqlClient;
+using System;
 using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
-using LOGIN.Mysql;
 
 namespace LOGIN
 {
@@ -20,7 +15,7 @@ namespace LOGIN
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Sangre registroSangre  = new Sangre();
+            Sangre registroSangre = new Sangre();
             registroSangre.cap_ban = 1200;
             registroSangre.tipomlsangre_ban = CantidadDonada_TextBox.Text.Trim();
             //registroSangre.Departamento_id_dept = 0;
@@ -47,6 +42,34 @@ namespace LOGIN
                 }
             }
 
+        }
+
+        private void RegistrarIngreso_Banco_Load(object sender, EventArgs e)
+        {
+
+        }
+
+
+        //En construcción
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            MySqlConnection conexion = new MySqlConnection("server = 127.0.0.1; database = sistemabloodabase; Uid = root; pwd = 2000;");
+
+            string query = @"SELECT id_don, nom_don* FROM Donador";
+
+            MySqlCommand cmd = new MySqlCommand(query, conexion);
+            conexion.Open();
+
+            //SeleccionarDonador_ComboBox.Items.Add(leer[0]);
+            MySqlDataAdapter sda = new MySqlDataAdapter(cmd);
+            DataSet ds = new DataSet(); //
+            sda.Fill(ds, "Donador");
+
+            SeleccionarDonador_ComboBox.ValueMember = "id_don";
+            SeleccionarDonador_ComboBox.DisplayMember = "nom_don";
+            SeleccionarDonador_ComboBox.DataSource = ds.Tables[0];
+
+            conexion.Close();
         }
     }
 }
