@@ -616,7 +616,8 @@ namespace LOGIN
             "B+",
             "B-",
             "AB+",
-            "AB-"});
+            "AB-",
+            "aferfaef"});
             this.TipoSangre_ComboBox.Location = new System.Drawing.Point(440, 407);
             this.TipoSangre_ComboBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.TipoSangre_ComboBox.Name = "TipoSangre_ComboBox";
