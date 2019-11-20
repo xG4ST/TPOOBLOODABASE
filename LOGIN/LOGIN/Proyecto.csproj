@@ -132,6 +132,7 @@
     <Compile Include="Mysql\Conexion.cs" />
     <Compile Include="Mysql\CuentaMed.cs" />
     <Compile Include="Mysql\Departamentos.cs" />
+    <Compile Include="Mysql\HerenciaCita.cs" />
     <Compile Include="Mysql\RegistrarCuentaMed.cs" />
     <Compile Include="Mysql\RegistrarSangre.cs" />
     <Compile Include="Mysql\RegistroDepartamento.cs" />
