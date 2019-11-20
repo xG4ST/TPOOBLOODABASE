@@ -39,7 +39,7 @@
             this.label3 = new System.Windows.Forms.Label();
             this.SeleccionarDonador_ComboBox = new System.Windows.Forms.ComboBox();
             this.label4 = new System.Windows.Forms.Label();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.SuspendLayout();
             // 
             // Banco_de_Sangre
@@ -81,7 +81,7 @@
             "AB+",
             "AB-"});
             this.TipoSangre_ComboBox.Location = new System.Drawing.Point(228, 169);
-            this.TipoSangre_ComboBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.TipoSangre_ComboBox.Margin = new System.Windows.Forms.Padding(4);
             this.TipoSangre_ComboBox.Name = "TipoSangre_ComboBox";
             this.TipoSangre_ComboBox.Size = new System.Drawing.Size(604, 24);
             this.TipoSangre_ComboBox.TabIndex = 128;
@@ -99,7 +99,7 @@
             this.CantidadDonada_TextBox.LineMouseHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(194)))), ((int)(((byte)(233)))));
             this.CantidadDonada_TextBox.LineThickness = 1;
             this.CantidadDonada_TextBox.Location = new System.Drawing.Point(228, 385);
-            this.CantidadDonada_TextBox.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.CantidadDonada_TextBox.Margin = new System.Windows.Forms.Padding(5);
             this.CantidadDonada_TextBox.Name = "CantidadDonada_TextBox";
             this.CantidadDonada_TextBox.Size = new System.Drawing.Size(605, 41);
             this.CantidadDonada_TextBox.TabIndex = 129;
@@ -108,7 +108,7 @@
             // button1
             // 
             this.button1.Location = new System.Drawing.Point(481, 454);
-            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button1.Margin = new System.Windows.Forms.Padding(4);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(129, 28);
             this.button1.TabIndex = 130;
@@ -155,6 +155,29 @@
             // SeleccionarDonador_ComboBox
             // 
             this.SeleccionarDonador_ComboBox.FormattingEnabled = true;
+            this.SeleccionarDonador_ComboBox.Items.AddRange(new object[] {
+            "César Gabriel Rodríguez Acosta",
+            "Karen Patricia Padrón Rea",
+            "Aylin Isabeau Castillo Morales ",
+            "Daniela Cabello Reyes",
+            "Héctor Alfionso Cavazos Rodríguez",
+            "Edgar Vladimir Santana Cepeda",
+            "Erick Otoniel Vázquez Sandoval ",
+            "Gisela Luciana Alvarez Hernandez",
+            "Ernesto Manuel Arreola Rico",
+            "Iker Alessandro Castillo Morales",
+            "Miguel Angel García Roque ",
+            "Vania Janeli Vitela Rodríguez ",
+            "Omar Stiven Ovalle Guzmán ",
+            "Mauricio Alejandro Peña González ",
+            "Samuel Saul Vega Hernandez",
+            "Jay Bryan zapata Martínez ",
+            "Paulina Guadalupe Martínez Aguirre ",
+            "Norma Leticia Aguirre Durán ",
+            "Alfredo Martínez Chávez ",
+            "Norma Leticia Martínez Aguirre ",
+            "Ernesto de Jesús Hernández López ",
+            ""});
             this.SeleccionarDonador_ComboBox.Location = new System.Drawing.Point(228, 236);
             this.SeleccionarDonador_ComboBox.Margin = new System.Windows.Forms.Padding(4);
             this.SeleccionarDonador_ComboBox.Name = "SeleccionarDonador_ComboBox";
@@ -174,14 +197,33 @@
             this.label4.TabIndex = 135;
             this.label4.Text = "Departamento a la que va dirigida:";
             // 
-            // comboBox2
+            // comboBox1
             // 
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Location = new System.Drawing.Point(227, 309);
-            this.comboBox2.Margin = new System.Windows.Forms.Padding(4);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(604, 24);
-            this.comboBox2.TabIndex = 136;
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Items.AddRange(new object[] {
+            "Embriología",
+            "Fisiología",
+            "Genética",
+            "Patología",
+            "Cirugía",
+            "Pediatría",
+            "Emergencias",
+            "Cardiología",
+            "Dermatología",
+            "Endocrinología",
+            "Hematología",
+            "Neurocirugía",
+            "Oncología",
+            "Olftalmología",
+            "Reumatología",
+            "Transplantes de Organos y Tejidos",
+            "Urología",
+            "Microbiología"});
+            this.comboBox1.Location = new System.Drawing.Point(227, 309);
+            this.comboBox1.Margin = new System.Windows.Forms.Padding(4);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(605, 24);
+            this.comboBox1.TabIndex = 161;
             // 
             // RegistrarIngreso_Banco
             // 
@@ -189,7 +231,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1067, 554);
-            this.Controls.Add(this.comboBox2);
+            this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.SeleccionarDonador_ComboBox);
             this.Controls.Add(this.label3);
@@ -201,7 +243,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.Banco_de_Sangre);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "RegistrarIngreso_Banco";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Registrar Ingreso";
@@ -223,6 +265,6 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.ComboBox SeleccionarDonador_ComboBox;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.ComboBox comboBox2;
+        private System.Windows.Forms.ComboBox comboBox1;
     }
 }

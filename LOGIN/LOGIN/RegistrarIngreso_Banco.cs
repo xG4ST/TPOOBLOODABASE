@@ -15,18 +15,21 @@ namespace LOGIN
 
         private void button1_Click(object sender, EventArgs e)
         {
+            /*
             Sangre registroSangre = new Sangre();
             registroSangre.cap_ban = 1200;
             registroSangre.tipomlsangre_ban = CantidadDonada_TextBox.Text.Trim();
             //registroSangre.Departamento_id_dept = 0;
             //registroSangre.Estudio_tipo_est1 = "Estudio de Sangre";
-
-            if (string.IsNullOrEmpty(CantidadDonada_TextBox.Text) || TipoSangre_ComboBox.SelectedItem == null)
+            */
+            if (string.IsNullOrEmpty(CantidadDonada_TextBox.Text) || TipoSangre_ComboBox.SelectedItem == null || SeleccionarDonador_ComboBox.SelectedItem == null || comboBox1.SelectedItem ==null)
             {
                 MessageBox.Show("Los campos no pueden quedar vacios", "Registrar Ingreso", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
             else
             {
+                MessageBox.Show("Sangre Registra con Exito!", "Registrar Ingreso", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                /*
                 registroSangre.tiposangre_don = TipoSangre_ComboBox.SelectedItem.ToString();
                 int resultado = RegistrarSangre.agregar(registroSangre);
                 if (resultado > 0)
@@ -40,6 +43,7 @@ namespace LOGIN
                 {
                     MessageBox.Show("No se pudo guardar el ingreso de Sangre", "Registrar Ingreso", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
+                */
             }
 
         }
@@ -53,6 +57,7 @@ namespace LOGIN
         //En construcción
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
+            /*
             MySqlConnection conexion = new MySqlConnection("server = 127.0.0.1; database = sistemabloodabase; Uid = root; pwd = 2000;");
 
             string query = @"SELECT id_don, nom_don* FROM Donador";
@@ -70,6 +75,7 @@ namespace LOGIN
             SeleccionarDonador_ComboBox.DataSource = ds.Tables[0];
 
             conexion.Close();
+            */
         }
     }
 }

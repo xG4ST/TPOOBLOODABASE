@@ -16,5 +16,17 @@ namespace LOGIN
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            if (string.IsNullOrEmpty(Edad_TextBox.Text) || comboBox1.SelectedItem == null || TipoSangre_ComboBox.SelectedItem == null)
+            {
+                MessageBox.Show("Los campos no pueden quedar vacios", "Registrar Salida", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            else
+            {
+                MessageBox.Show("Salida de Sangre Registrada con Exito!", "Registrar Salida", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+        }
     }
 }
