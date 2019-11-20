@@ -425,7 +425,7 @@
             this.Banco_de_Sangre.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.Banco_de_Sangre.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Banco_de_Sangre.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(90)))), ((int)(((byte)(42)))), ((int)(((byte)(128)))));
-            this.Banco_de_Sangre.Location = new System.Drawing.Point(476, 54);
+            this.Banco_de_Sangre.Location = new System.Drawing.Point(615, 62);
             this.Banco_de_Sangre.Name = "Banco_de_Sangre";
             this.Banco_de_Sangre.Size = new System.Drawing.Size(178, 25);
             this.Banco_de_Sangre.TabIndex = 88;
@@ -449,7 +449,7 @@
             this.RegistrarIngreso_Button.IdleFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(87)))), ((int)(((byte)(255)))), ((int)(((byte)(205)))));
             this.RegistrarIngreso_Button.IdleForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(90)))), ((int)(((byte)(42)))), ((int)(((byte)(128)))));
             this.RegistrarIngreso_Button.IdleLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(87)))), ((int)(((byte)(255)))), ((int)(((byte)(205)))));
-            this.RegistrarIngreso_Button.Location = new System.Drawing.Point(355, 599);
+            this.RegistrarIngreso_Button.Location = new System.Drawing.Point(455, 599);
             this.RegistrarIngreso_Button.Margin = new System.Windows.Forms.Padding(5);
             this.RegistrarIngreso_Button.Name = "RegistrarIngreso_Button";
             this.RegistrarIngreso_Button.Size = new System.Drawing.Size(176, 41);
@@ -475,7 +475,7 @@
             this.RegistrarSalida_Button.IdleFillColor = System.Drawing.Color.White;
             this.RegistrarSalida_Button.IdleForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(90)))), ((int)(((byte)(42)))), ((int)(((byte)(128)))));
             this.RegistrarSalida_Button.IdleLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(90)))), ((int)(((byte)(42)))), ((int)(((byte)(128)))));
-            this.RegistrarSalida_Button.Location = new System.Drawing.Point(600, 599);
+            this.RegistrarSalida_Button.Location = new System.Drawing.Point(750, 599);
             this.RegistrarSalida_Button.Margin = new System.Windows.Forms.Padding(5);
             this.RegistrarSalida_Button.Name = "RegistrarSalida_Button";
             this.RegistrarSalida_Button.Size = new System.Drawing.Size(176, 41);
@@ -495,7 +495,7 @@
             this.bunifuCircleProgressbar1.LabelVisible = true;
             this.bunifuCircleProgressbar1.LineProgressThickness = 8;
             this.bunifuCircleProgressbar1.LineThickness = 5;
-            this.bunifuCircleProgressbar1.Location = new System.Drawing.Point(463, 137);
+            this.bunifuCircleProgressbar1.Location = new System.Drawing.Point(521, 138);
             this.bunifuCircleProgressbar1.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
             this.bunifuCircleProgressbar1.MaxValue = 100;
             this.bunifuCircleProgressbar1.Name = "bunifuCircleProgressbar1";
@@ -517,7 +517,7 @@
             this.bunifuCircleProgressbar2.LabelVisible = true;
             this.bunifuCircleProgressbar2.LineProgressThickness = 8;
             this.bunifuCircleProgressbar2.LineThickness = 5;
-            this.bunifuCircleProgressbar2.Location = new System.Drawing.Point(463, 314);
+            this.bunifuCircleProgressbar2.Location = new System.Drawing.Point(521, 315);
             this.bunifuCircleProgressbar2.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
             this.bunifuCircleProgressbar2.MaxValue = 100;
             this.bunifuCircleProgressbar2.Name = "bunifuCircleProgressbar2";
@@ -539,7 +539,7 @@
             this.bunifuCircleProgressbar3.LabelVisible = true;
             this.bunifuCircleProgressbar3.LineProgressThickness = 8;
             this.bunifuCircleProgressbar3.LineThickness = 5;
-            this.bunifuCircleProgressbar3.Location = new System.Drawing.Point(284, 137);
+            this.bunifuCircleProgressbar3.Location = new System.Drawing.Point(342, 138);
             this.bunifuCircleProgressbar3.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
             this.bunifuCircleProgressbar3.MaxValue = 100;
             this.bunifuCircleProgressbar3.Name = "bunifuCircleProgressbar3";
@@ -561,7 +561,7 @@
             this.bunifuCircleProgressbar4.LabelVisible = true;
             this.bunifuCircleProgressbar4.LineProgressThickness = 8;
             this.bunifuCircleProgressbar4.LineThickness = 5;
-            this.bunifuCircleProgressbar4.Location = new System.Drawing.Point(284, 314);
+            this.bunifuCircleProgressbar4.Location = new System.Drawing.Point(342, 315);
             this.bunifuCircleProgressbar4.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
             this.bunifuCircleProgressbar4.MaxValue = 100;
             this.bunifuCircleProgressbar4.Name = "bunifuCircleProgressbar4";
@@ -583,7 +583,7 @@
             this.bunifuCircleProgressbar5.LabelVisible = true;
             this.bunifuCircleProgressbar5.LineProgressThickness = 8;
             this.bunifuCircleProgressbar5.LineThickness = 5;
-            this.bunifuCircleProgressbar5.Location = new System.Drawing.Point(642, 137);
+            this.bunifuCircleProgressbar5.Location = new System.Drawing.Point(700, 138);
             this.bunifuCircleProgressbar5.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
             this.bunifuCircleProgressbar5.MaxValue = 100;
             this.bunifuCircleProgressbar5.Name = "bunifuCircleProgressbar5";
@@ -605,7 +605,7 @@
             this.bunifuCircleProgressbar6.LabelVisible = true;
             this.bunifuCircleProgressbar6.LineProgressThickness = 8;
             this.bunifuCircleProgressbar6.LineThickness = 5;
-            this.bunifuCircleProgressbar6.Location = new System.Drawing.Point(642, 314);
+            this.bunifuCircleProgressbar6.Location = new System.Drawing.Point(700, 315);
             this.bunifuCircleProgressbar6.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
             this.bunifuCircleProgressbar6.MaxValue = 100;
             this.bunifuCircleProgressbar6.Name = "bunifuCircleProgressbar6";
@@ -627,7 +627,7 @@
             this.bunifuCircleProgressbar7.LabelVisible = true;
             this.bunifuCircleProgressbar7.LineProgressThickness = 8;
             this.bunifuCircleProgressbar7.LineThickness = 5;
-            this.bunifuCircleProgressbar7.Location = new System.Drawing.Point(838, 314);
+            this.bunifuCircleProgressbar7.Location = new System.Drawing.Point(896, 315);
             this.bunifuCircleProgressbar7.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
             this.bunifuCircleProgressbar7.MaxValue = 100;
             this.bunifuCircleProgressbar7.Name = "bunifuCircleProgressbar7";
@@ -649,7 +649,7 @@
             this.bunifuCircleProgressbar8.LabelVisible = true;
             this.bunifuCircleProgressbar8.LineProgressThickness = 8;
             this.bunifuCircleProgressbar8.LineThickness = 5;
-            this.bunifuCircleProgressbar8.Location = new System.Drawing.Point(838, 137);
+            this.bunifuCircleProgressbar8.Location = new System.Drawing.Point(896, 138);
             this.bunifuCircleProgressbar8.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
             this.bunifuCircleProgressbar8.MaxValue = 100;
             this.bunifuCircleProgressbar8.Name = "bunifuCircleProgressbar8";

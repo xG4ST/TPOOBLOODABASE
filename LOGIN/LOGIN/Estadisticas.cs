@@ -97,7 +97,7 @@ namespace LOGIN
         {
             string[] Sangre = { "O+", "O-", "A+", "A-", "B+", "B-", "AB+", "AB-" };
             int[] Cantidad = { 89, 74, 49, 55, 42, 15, 34, 16 };
-            string[] Meses = { "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre" };
+            string[] Meses = { "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre" };
 
             //chart1.Palette = ChartColorPalette.Chocolate;
 
@@ -111,6 +111,11 @@ namespace LOGIN
 
                 sangre.Points.Add(Cantidad[i]);
             }
+        }
+
+        private void Chart1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -169,17 +169,17 @@
   </data>
   <data name="bunifuFlatButton4.Iconimage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
-        iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAIiSURBVGhD7ZnBURtBEEUVgkPgKOmkEAiBo6WLCYEMGCJwCBCCM8AZiAxMBiIDMb31Tdnj97GW
-        7YU58KreBfWf7q4VuxS7+KRXtsubb7t12VePM3irNvMQDZqGc3h7cVa+qGUe9eDSNJrTffoS21X5BY0m
-        u12Xh+3q+gk+239dljO1nw40yDKu7MYscahuNMI0moMzLTp/E1ej+Sw81Kt/MQwxBTg4y2GBIL73Zonj
-        blkuVfY28NAcXxYIhiVW5Q7qjvXn31U2Hjowyb8W+I1bovq2ZwUclCUuENQlrqA+rsT96NssHZSkXSCI
-        7z5kwnHPCjggy1cXCGrN9NtsE8z0vwsEtW6zW5XHJhse6gPvXGUeCGZ50gLBa7dZlXgolOTJCwS6zf5s
-        z9HHnjaQZdxRduub6/EO3/+XczSm58/iHtWYHgr1pMb0UKgnNaaHQj2pMT0U6kmN6aFQT2pMD4VIladB
-        PUiVeyhEqjwN6kGq3EMhUuVpUA9S5R4KkSpPg3qQKvdQiKXH/hSpx79qTA+FelJjeijUkxrTQ6Ge1Jge
-        CpHxt3qm1IPUmB4KkSpPg3qQKvdQiFR5GtSDVLmHQqTK06AepMo9FCJVngb1IFXuoRBZf/HuM6UepMb0
-        UKgnNaaHQj2pMT0U6kmN6aFQT2pMj/m/ZB/W2TSmpxa+52vWsZ7278la+KMJfrj1Vnun8U4jXjjYF3Hv
-        6DDD1Bd/n8zGYvEM948X67JtJmYAAAAASUVORK5CYII=
+        iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABGdBTUEAALGPC/xhBQAAAiJJREFUaEPt
+        mcFRG0EQRRWCQ+Ao6aQQCIGjpYsJgQwYInAIEIIzwBmIDEwGIgMxvfVN2eP3sZbthTnwqt4F9Z/urhW7
+        FLv4pFe2y5tvu3XZV48zeKs28xANmoZzeHtxVr6oZR714NI0mtN9+hLbVfkFjSa7XZeH7er6CT7bf12W
+        M7WfDjTIMq7sxixxqG40wjSagzMtOn8TV6P5LDzUq38xDDEFODjLYYEgvvdmieNuWS5V9jbw0BxfFgiG
+        JVblDuqO9effVTYeOjDJvxb4jVui+rZnBRyUJS4Q1CWuoD6uxP3o2ywdlKRdIIjvPmTCcc8KOCDLVxcI
+        as3022wTzPS/CwS1brNblccmGx7qA+9cZR4IZnnSAsFrt1mVeCiU5MkLBLrN/mzP0ceeNpBl3FF265vr
+        8Q7f/5dzNKbnz+Ie1ZgeCvWkxvRQqCc1podCPakxPRTqSY3poVBPakwPhUiVp0E9SJV7KESqPA3qQarc
+        QyFS5WlQD1LlHgqRKk+DepAq91CIpcf+FKnHv2pMD4V6UmN6KNSTGtNDoZ7UmB4KkfG3eqbUg9SYHgqR
+        Kk+DepAq91CIVHka1INUuYdCpMrToB6kyj0UIlWeBvUgVe6hEFl/8e4zpR6kxvRQqCc1podCPakxPRTq
+        SY3poVBPakyP+b9kH9bZNKanFr7na9axnvbvyVr4owl+uPVWe6fxTiNeONgXce/oMMPUF3+fzMZi8Qz3
+        jxfrsm0mZgAAAABJRU5ErkJggg==
 </value>
   </data>
   <data name="pictureBox4.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">

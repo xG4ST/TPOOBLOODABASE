@@ -172,7 +172,7 @@ namespace LOGIN
 
         private void button1_Click(object sender, EventArgs e)
         {
-            MySqlConnection conexion = new MySqlConnection("server = 127.0.0.1; database = sistemabloodabase; Uid = root; pwd = 2000;");
+            MySqlConnection conexion = new MySqlConnection("server = 127.0.0.1; database = sistemabloodabase; Uid = root; pwd = olakasegus64;");
             conexion.Open();
 
             string query = "SELECT * FROM Donador";
