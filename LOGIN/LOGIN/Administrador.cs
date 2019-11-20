@@ -159,5 +159,15 @@ namespace LOGIN
                 */
             }
         }
+
+        private void Buscar_DataGrid_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void Buscar_TextBox_OnValueChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
