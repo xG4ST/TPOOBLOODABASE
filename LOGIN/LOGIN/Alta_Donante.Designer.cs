@@ -494,18 +494,18 @@
             // 
             this.Registro_del_donante.AutoSize = true;
             this.Registro_del_donante.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.Registro_del_donante.Font = new System.Drawing.Font("Arial Rounded MT Bold", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Registro_del_donante.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Registro_del_donante.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(90)))), ((int)(((byte)(42)))), ((int)(((byte)(128)))));
             this.Registro_del_donante.Location = new System.Drawing.Point(451, 27);
             this.Registro_del_donante.Name = "Registro_del_donante";
-            this.Registro_del_donante.Size = new System.Drawing.Size(223, 24);
+            this.Registro_del_donante.Size = new System.Drawing.Size(214, 25);
             this.Registro_del_donante.TabIndex = 106;
             this.Registro_del_donante.Text = "Registro del Donante";
             // 
             // Teléfono_TextBox
             // 
             this.Teléfono_TextBox.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.Teléfono_TextBox.Font = new System.Drawing.Font("Century Gothic", 9.75F);
+            this.Teléfono_TextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F);
             this.Teléfono_TextBox.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.Teléfono_TextBox.HintForeColor = System.Drawing.Color.Empty;
             this.Teléfono_TextBox.HintText = "";
@@ -525,7 +525,7 @@
             // Edad_TextBox
             // 
             this.Edad_TextBox.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.Edad_TextBox.Font = new System.Drawing.Font("Century Gothic", 9.75F);
+            this.Edad_TextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F);
             this.Edad_TextBox.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.Edad_TextBox.HintForeColor = System.Drawing.Color.Empty;
             this.Edad_TextBox.HintText = "";
@@ -545,7 +545,7 @@
             // Nombre_TextBox
             // 
             this.Nombre_TextBox.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.Nombre_TextBox.Font = new System.Drawing.Font("Century Gothic", 9.75F);
+            this.Nombre_TextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F);
             this.Nombre_TextBox.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.Nombre_TextBox.HintForeColor = System.Drawing.Color.Empty;
             this.Nombre_TextBox.HintText = "";
@@ -560,6 +560,7 @@
             this.Nombre_TextBox.Size = new System.Drawing.Size(452, 31);
             this.Nombre_TextBox.TabIndex = 111;
             this.Nombre_TextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.Nombre_TextBox.OnValueChanged += new System.EventHandler(this.Nombre_TextBox_OnValueChanged);
             // 
             // label7
             // 
@@ -608,7 +609,7 @@
             // Correo_TextBox
             // 
             this.Correo_TextBox.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.Correo_TextBox.Font = new System.Drawing.Font("Century Gothic", 9.75F);
+            this.Correo_TextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F);
             this.Correo_TextBox.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.Correo_TextBox.HintForeColor = System.Drawing.Color.Empty;
             this.Correo_TextBox.HintText = "";
@@ -627,7 +628,7 @@
             // Dirección_TextBox
             // 
             this.Dirección_TextBox.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.Dirección_TextBox.Font = new System.Drawing.Font("Century Gothic", 9.75F);
+            this.Dirección_TextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F);
             this.Dirección_TextBox.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.Dirección_TextBox.HintForeColor = System.Drawing.Color.Empty;
             this.Dirección_TextBox.HintText = "";

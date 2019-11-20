@@ -216,5 +216,10 @@ namespace LOGIN
             this.Hide();
             Form3.Show();
         }
+
+        private void Nombre_TextBox_OnValueChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

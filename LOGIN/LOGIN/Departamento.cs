@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using LOGIN.Mysql;
+using MySql.Data.MySqlClient;
 
 namespace LOGIN
 {
@@ -96,6 +98,43 @@ namespace LOGIN
         private void BunifuImageButton2_Click(object sender, EventArgs e)
         {
             this.WindowState = FormWindowState.Minimized;
+        }
+
+        private void Label6_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Banco_de_Sangre_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void TipoSangre_ComboBox_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Teléfono_TextBox_OnValueChanged(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void BunifuThinButton22_Click(object sender, EventArgs e)
+        {
+            MySqlConnection conexion = new MySqlConnection("server = 127.0.0.1; database = sistemabloodabase; Uid = root; pwd = olakasegus64;");
+            conexion.Open();
+
+            string query = @"insert into Departamento(nom_dep, id_dep) values(@NombreDep, @IdDep)";
+
+            MySqlCommand registrodonante = new MySqlCommand(query, conexion);
+            registrodonante.Parameters.AddWithValue("@NombreDep", Nom_Dep);
+            registrodonante.Parameters.AddWithValue("@IdDep", Id);
+         
+
+            registrodonante.ExecuteNonQuery();
+            MessageBox.Show("Donante Registrado con Exito!", "Registro del Donante", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            conexion.Close();
         }
     }
 }

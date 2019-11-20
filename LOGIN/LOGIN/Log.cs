@@ -30,7 +30,7 @@ namespace LOGIN
             string Usuario = Usuario_TextBox.Text;
             string Contraseña = Contraseña_TextBox.Text;
 
-            MySqlConnection conexion = new MySqlConnection("server = 127.0.0.1; database = sistemabloodabase; Uid = root; pwd = 2000;");
+            MySqlConnection conexion = new MySqlConnection("server = 127.0.0.1; database = sistemabloodabase; Uid = root; pwd = olakasegus64;");
             conexion.Open();
 
             MySqlCommand login = new MySqlCommand();
