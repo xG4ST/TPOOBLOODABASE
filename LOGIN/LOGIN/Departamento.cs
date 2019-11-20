@@ -123,7 +123,7 @@ namespace LOGIN
         private void BunifuThinButton22_Click(object sender, EventArgs e)
         {
             Departamentos nuevoDepartamento = new Departamentos();
-            nuevoDepartamento.nom_dep = AgregarDepartamento_TextBox.Text.Trim();
+            nuevoDepartamento.nom_dep = AgregarDepartamento_TextBox.Text.Trim(); //comentario
 
 
             if (string.IsNullOrEmpty(AgregarDepartamento_TextBox.Text))
