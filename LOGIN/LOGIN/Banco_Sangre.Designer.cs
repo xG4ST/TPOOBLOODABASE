@@ -111,7 +111,7 @@
             this.Administrador_Button.IconZoom = 90D;
             this.Administrador_Button.IsTab = false;
             this.Administrador_Button.Location = new System.Drawing.Point(7, 254);
-            this.Administrador_Button.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.Administrador_Button.Margin = new System.Windows.Forms.Padding(5);
             this.Administrador_Button.Name = "Administrador_Button";
             this.Administrador_Button.Normalcolor = System.Drawing.Color.Transparent;
             this.Administrador_Button.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(157)))), ((int)(((byte)(221)))), ((int)(((byte)(243)))));
@@ -130,7 +130,7 @@
             this.pictureBox4.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
             this.pictureBox4.Location = new System.Drawing.Point(1139, -14);
-            this.pictureBox4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox4.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(380, 1242);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -160,7 +160,7 @@
             this.Banco_Sangre_Button.IconZoom = 90D;
             this.Banco_Sangre_Button.IsTab = false;
             this.Banco_Sangre_Button.Location = new System.Drawing.Point(7, 201);
-            this.Banco_Sangre_Button.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.Banco_Sangre_Button.Margin = new System.Windows.Forms.Padding(5);
             this.Banco_Sangre_Button.Name = "Banco_Sangre_Button";
             this.Banco_Sangre_Button.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(157)))), ((int)(((byte)(221)))), ((int)(((byte)(243)))));
             this.Banco_Sangre_Button.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(157)))), ((int)(((byte)(221)))), ((int)(((byte)(243)))));
@@ -179,7 +179,7 @@
             this.pictureBox3.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
             this.pictureBox3.Location = new System.Drawing.Point(7, 201);
-            this.pictureBox3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox3.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(328, 46);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -209,7 +209,7 @@
             this.Estadisticas_Button.IconZoom = 90D;
             this.Estadisticas_Button.IsTab = false;
             this.Estadisticas_Button.Location = new System.Drawing.Point(7, 571);
-            this.Estadisticas_Button.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.Estadisticas_Button.Margin = new System.Windows.Forms.Padding(5);
             this.Estadisticas_Button.Name = "Estadisticas_Button";
             this.Estadisticas_Button.Normalcolor = System.Drawing.Color.Transparent;
             this.Estadisticas_Button.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(157)))), ((int)(((byte)(221)))), ((int)(((byte)(243)))));
@@ -246,7 +246,7 @@
             this.Departamento_Button.IconZoom = 90D;
             this.Departamento_Button.IsTab = false;
             this.Departamento_Button.Location = new System.Drawing.Point(7, 518);
-            this.Departamento_Button.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.Departamento_Button.Margin = new System.Windows.Forms.Padding(5);
             this.Departamento_Button.Name = "Departamento_Button";
             this.Departamento_Button.Normalcolor = System.Drawing.Color.Transparent;
             this.Departamento_Button.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(157)))), ((int)(((byte)(221)))), ((int)(((byte)(243)))));
@@ -283,7 +283,7 @@
             this.Cita_Button.IconZoom = 90D;
             this.Cita_Button.IsTab = false;
             this.Cita_Button.Location = new System.Drawing.Point(7, 412);
-            this.Cita_Button.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.Cita_Button.Margin = new System.Windows.Forms.Padding(5);
             this.Cita_Button.Name = "Cita_Button";
             this.Cita_Button.Normalcolor = System.Drawing.Color.Transparent;
             this.Cita_Button.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(157)))), ((int)(((byte)(221)))), ((int)(((byte)(243)))));
@@ -320,7 +320,7 @@
             this.Examen_de_Sangre_Button.IconZoom = 90D;
             this.Examen_de_Sangre_Button.IsTab = false;
             this.Examen_de_Sangre_Button.Location = new System.Drawing.Point(7, 465);
-            this.Examen_de_Sangre_Button.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.Examen_de_Sangre_Button.Margin = new System.Windows.Forms.Padding(5);
             this.Examen_de_Sangre_Button.Name = "Examen_de_Sangre_Button";
             this.Examen_de_Sangre_Button.Normalcolor = System.Drawing.Color.Transparent;
             this.Examen_de_Sangre_Button.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(157)))), ((int)(((byte)(221)))), ((int)(((byte)(243)))));
@@ -357,7 +357,7 @@
             this.Alta_Donante_Button.IconZoom = 90D;
             this.Alta_Donante_Button.IsTab = false;
             this.Alta_Donante_Button.Location = new System.Drawing.Point(7, 359);
-            this.Alta_Donante_Button.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.Alta_Donante_Button.Margin = new System.Windows.Forms.Padding(5);
             this.Alta_Donante_Button.Name = "Alta_Donante_Button";
             this.Alta_Donante_Button.Normalcolor = System.Drawing.Color.Transparent;
             this.Alta_Donante_Button.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(157)))), ((int)(((byte)(221)))), ((int)(((byte)(243)))));
@@ -394,7 +394,7 @@
             this.Condiciones_Button.IconZoom = 90D;
             this.Condiciones_Button.IsTab = false;
             this.Condiciones_Button.Location = new System.Drawing.Point(7, 306);
-            this.Condiciones_Button.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.Condiciones_Button.Margin = new System.Windows.Forms.Padding(5);
             this.Condiciones_Button.Name = "Condiciones_Button";
             this.Condiciones_Button.Normalcolor = System.Drawing.Color.Transparent;
             this.Condiciones_Button.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(157)))), ((int)(((byte)(221)))), ((int)(((byte)(243)))));
@@ -413,7 +413,7 @@
             this.pictureBox1.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
             this.pictureBox1.Location = new System.Drawing.Point(7, 39);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(328, 126);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -425,7 +425,7 @@
             this.pictureBox2.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
             this.pictureBox2.Location = new System.Drawing.Point(-24, -74);
-            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(376, 1242);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -614,7 +614,7 @@
             this.Controls.Add(this.pictureBox2);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Banco_Sangre";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Banco_Sangre";
