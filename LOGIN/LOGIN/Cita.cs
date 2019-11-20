@@ -93,6 +93,7 @@ namespace LOGIN
 
         private void BunifuThinButton21_Click(object sender, EventArgs e)
         {
+            /*
             MySqlConnection conexion = new MySqlConnection("server = 127.0.0.1; database = sistemabloodabase; Uid = root; pwd = 2000;");
             conexion.Open();
 
@@ -111,6 +112,7 @@ namespace LOGIN
             registrodonante.ExecuteNonQuery();
             MessageBox.Show("Cita completa!", "Registro de cita", MessageBoxButtons.OK, MessageBoxIcon.Information);
             conexion.Close();
+            */
         }
     }
 }
