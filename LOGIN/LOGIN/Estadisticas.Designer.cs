@@ -329,10 +329,7 @@
             this.bunifuFlatButton1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.bunifuFlatButton1.Textcolor = System.Drawing.Color.FromArgb(((int)(((byte)(90)))), ((int)(((byte)(42)))), ((int)(((byte)(128)))));
             this.bunifuFlatButton1.TextFont = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-<<<<<<< HEAD
             this.bunifuFlatButton1.Click += new System.EventHandler(this.BunifuFlatButton1_Click_1);
-=======
->>>>>>> e87a0acf579b66cda1769c74c07870cab40c0a3c
             // 
             // bunifuFlatButton2
             // 
