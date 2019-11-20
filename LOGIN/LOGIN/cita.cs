@@ -93,12 +93,26 @@ namespace LOGIN
 
         private void BunifuThinButton21_Click(object sender, EventArgs e)
         {
+            if(string.IsNullOrEmpty(Buscar_TextBox.Text) || string.IsNullOrEmpty(bunifuMaterialTextbox1.Text) || string.IsNullOrEmpty(bunifuMaterialTextbox2.Text) || string.IsNullOrEmpty(bunifuMaterialTextbox3.Text))
+            {
+                MessageBox.Show("No puede haber campos vacios", "Registro de cita", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            else
+            {
+                MessageBox.Show("Cita completa!", "Registro de cita", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                Cita Form7 = new Cita();
+                this.Hide();
+                Form7.Show();
+            }
+            
+            
+            /*
             MySqlConnection conexion = new MySqlConnection("server = 127.0.0.1; database = sistemabloodabase; Uid = root; pwd = 2000;");
             conexion.Open();
 
             string query = @"insert into Donados_has_Estudio1(Donador_iddon1, Estudio_tipo_est1, id_dcita, hora_dcita, nom_don, tel_don, correo_don) values(@IdDonador, @EstudioTipo, @IdCita, @HoraCita, @NombreDon, @TelefonoDon, @CorreoDon)";
 
-            //
+            
             MySqlCommand registrodonante = new MySqlCommand(query, conexion);
             registrodonante.Parameters.AddWithValue("@IdDonador", IdDonador);
             registrodonante.Parameters.AddWithValue("@EstudioTipo", EstudioTipo);
@@ -110,8 +124,16 @@ namespace LOGIN
             registrodonante.Parameters.AddWithValue("@CorreoDon", CorreoDon);
 
             registrodonante.ExecuteNonQuery();
-            MessageBox.Show("Cita completa!", "Registro de cita", MessageBoxButtons.OK, MessageBoxIcon.Information);
             conexion.Close();
+            */
+        }
+
+        private void RegistrarSalida_Button_Click(object sender, EventArgs e)
+        {
+            Cita Form7 = new Cita();
+            this.Hide();
+            Form7.Show();
         }
     }
 }
+    
