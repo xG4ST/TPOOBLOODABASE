@@ -107,7 +107,7 @@ namespace LOGIN
             
             
             /*
-            MySqlConnection conexion = new MySqlConnection("server = 127.0.0.1; database = sistemabloodabase; Uid = root; pwd = 2000;");
+            MySqlConnection conexion = new MySqlConnection("server = 127.0.0.1; database = sistemabloodabase; Uid = root; pwd = olakasegus64;");
             conexion.Open();
 
             string query = @"insert into Donados_has_Estudio1(Donador_iddon1, Estudio_tipo_est1, id_dcita, hora_dcita, nom_don, tel_don, correo_don) values(@IdDonador, @EstudioTipo, @IdCita, @HoraCita, @NombreDon, @TelefonoDon, @CorreoDon)";
